@@ -1,16 +1,28 @@
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,12pt]{report}
 \usepackage[left=0.75in,right=0.75in,top=1.5in,bottom=1.5in,footskip=.25in]{geometry}
 \usepackage{graphicx}
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage{url}
-\usepackage[ruled]{algorithm2e}
+\usepackage[acronym]{glossaries}
 
-
-\newcommand{\ProjectName}{Deliverable 1}
+\newcommand{\TermName}{FALL 2019}
 \newcommand{\Title}{}
 \newcommand{\Course}{\textbf{SOEN-6481 \vspace{0.5cm} SOFTWARE SYSTEMS REQUIREMENTS SPECIFICATION}}
 \newcommand{\ProfessorName}{Dr. PANKAJ KAMTHAN}
+\setcounter{chapter}{1}
+
+
+%---------------------------------------------------------------------------------------
+%  GLOSSORY
+%---------------------------------------------------------------------------------------
+
+\newglossaryentry{igo}
+{
+	name=iGo,
+	description={The online Ticket Vending Machine Web Application integrating with STM system}
+}
+\makeglossaries
 
 \begin{document}
 
@@ -32,13 +44,13 @@
 %--------
 	
 \HRule \\[0.4cm]
-{ \huge \bfseries TICKET VENDING MACHINE \\ [5mm]  \ProjectName}\\[0.4cm] 
+{ \huge \bfseries TICKET VENDING MACHINE \\ [5mm]  (\TermName)}\\[0.4cm] 
 %{\large \textbf{DELIVERABLE 1 (D1)} }	
 \HRule \\[1.5cm]
 
 
 %---------
-%	TAIL SECTION
+%	TAIL SECTION OF TITLE PAGE
 %---------
 \vspace{4cm}
 
@@ -67,11 +79,59 @@
 \end{titlepage}
 
 
+%---------
+%	TABLE OF CONTENT PAGE
+%---------
+
 \newpage
 
+\tableofcontents
 
-	
 
+
+%---------
+%	NEW PAGE
+%---------
+
+\chapter*{\centering Deliverable - 1}
+
+\section{Problem 1}
+
+\subsection{iGo Description}
+The product \gls{igo} is a software solution for TVM (Ticket Vending Machine) which allows user to purchase tickets, recharge their OPUS card and get information about the different tickets STM(Société de transport de Montréal) offers. iGO products is designed to server people in Montreal, Quebec, Canada who use STM metros and buses. STM offers two ticketing methods: Rechargable OPUS Card and Non-rechargable limited use cards. With OPUS card user can make unlimited trips in STM buses and metros for a particular period, which is the recharge cycle of the card. \\
+
+
+User who wish recharge their OPUS card are first required to place their card in the card reader slot in TVM, they can then select the type of purchase they want to make and can select the mode of payment they wish to use. Currently, iGo supports cash and card payments. Users who want to purchase a Non-rechargable can select from a list of options based on the type of trip they wish to make. The purchase will be considered successfull only after the payment has been authenticated(in case of card payments) and is successfull. After a sucessfull purchase the user have the option to select the mode through which they wish to receive receipt. iGo supports 3 type of receipt delivery: Paper, email and SMS receipts. \\
+
+iGo will also internally generate a transaction when the user interacts with the system. The transaction is recorded irrespective of whether the purchase is successfull or not. These transactions helps track the purchase in case of any failure in the system. At bottom bar of the TVM display, a helpline number is displayed at all times in case user needs any kind of assistance.
+
+\subsection{Scope of Use}
+The product iGo at this moment is restricted to server in Montreal city only. iGo is a software system and does not include the development, maintenance or deployement of the physical devices needed to develop a TVM. iGo does not provide any online platform or device application to recharge OPUS card or purchase ticket.
+
+
+
+
+\section{Problem 2}
+\subsection{Context of Use Model}
+
+
+
+\section{Problem 3}
+\subsection{Domain Model}
+
+
+
+\section{Problem 4}
+\subsection{Use Case Model}
+
+
+
+
+
+
+
+
+\printglossaries
 
 \end{document}
 
