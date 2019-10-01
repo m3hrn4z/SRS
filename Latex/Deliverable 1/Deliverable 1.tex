@@ -22,6 +22,63 @@
 	name=iGo,
 	description={The online Ticket Vending Machine Web Application integrating with STM system}
 }
+\newglossaryentry{tvm}
+{
+	name=TVM,
+	description={The online Ticket Vending Machine Web Application integrating with STM system}
+}
+\newglossaryentry{stm}
+{
+	name=STM,
+	description={The online Ticket Vending Machine Web Application integrating with STM system}
+}
+\newglossaryentry{opus}
+{
+	name=OPUS,
+	description={The online Ticket Vending Machine Web Application integrating with STM system}
+}
+\newglossaryentry{rechargable_card}
+{
+	name=Rechargable Card,
+	description={The online Ticket Vending Machine Web Application integrating with STM system}
+}
+\newglossaryentry{non_rechargable_card}
+{
+	name=Non-Rechargable Card,
+	description={The online Ticket Vending Machine Web Application integrating with STM system}
+}
+\newglossaryentry{administrator}
+{
+	name=Administrator,
+	description={The online Ticket Vending Machine Web Application integrating with STM system}
+}
+\newglossaryentry{registration}
+{
+	name=Registration,
+	description={The online Ticket Vending Machine Web Application integrating with STM system}
+}
+\newglossaryentry{reduced_fare}
+{
+	name=Administrator,
+	description={The online Ticket Vending Machine Web Application integrating with STM system}
+}
+\newglossaryentry{regular_fare}
+{
+	name=Regular Fare,
+	description={The online Ticket Vending Machine Web Application integrating with STM system}
+}
+\newglossaryentry{transaction}
+{
+	name=Transaction,
+	description={The online Ticket Vending Machine Web Application integrating with STM system}
+}
+\newglossaryentry{authentication_gateway}
+{
+	name=Authentication Gateway,
+	description={The online Ticket Vending Machine Web Application integrating with STM system}
+}
+
+
 \makeglossaries
 
 \begin{document}
@@ -113,6 +170,105 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 \section{Problem 2}
 \subsection{Context of Use Model}
+
+
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}[H]{ |p{3cm}|p{12cm}| }
+	\hline
+	\textbf{Factor}  & \textbf{Description}  \\
+	\hline
+	\textbf{User} &   \\
+	\hline
+	Role &
+	User is the customer/passenger to purchase tickets
+	\\
+	\hline
+	Experience & 
+	The experience depends on the how frequent the user is using the TVM, System is designed keeping in mind of a new user without any system knowledge
+	\\
+	\hline
+	Education &
+	System is designed assuming that customer can atleast read English.
+	\\
+	\hline
+	Physical Characteristics    &
+	The physical TVM should be designed in such a way that even the physically challenged customer with wheel chair should also access the TVM.
+	\\
+	\hline
+	Cognitive Characteristics & 
+	The cognitive knowledge of a user should be counted as minimal, the system is designed keeping in mind of new user
+	\\
+	\hline
+	Location & 
+	The location of user must be inside Montreal city.
+	\\
+	\hline
+	Age & 
+	The system should offer reduced fares according to the user's age.
+	\\
+	\hline
+	Profession & 
+	The system should offer reduced fares for students.
+	\\
+	\hline
+	Special Variant Preferences in UI & 
+	For special need people with visual impairment system should offer voice messages.
+
+
+
+	\\
+	\hline
+	\textbf{Task} &  \\
+	\hline
+	Choice in system use &
+	Number of tasks in the system should be divided individually, so that the user can choose the options such as purchasing for a single trip, buying a monthly pass etc
+	\\
+	\hline
+	Complexity & 
+	Since the users can be with minimal knowledge on the TVM, tasks should be simple and straight forward
+	\\
+	\hline
+	Demands &
+	Available tasks should be able to satisfy user requirements with context of use. For example system should not issue more tickets that the number of passengers 
+	\\
+	\hline 
+\end{tabular}
+\\ 
+
+
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{ |p{3cm}|p{12cm}| }
+	\hline
+	Workflow Controllability & The workflow of each task in TVM machine should be easily controllable by the user. For example user should be able to navigate back to the main menu, user should be able to cancel the ticket selection or transaction etc.\\
+	\hline
+	Safety & 
+	The task payment should be made safer, in such a way that the card payment authentication is kept confidential. Even the user information if stored should be maintained confidential.\\
+	\hline
+	Criticality & 
+	Task criticality should be divided based on the how important the task is and how often it is used/reused.\\
+	\hline
+	Frequency & 
+	The TVM can be used any number of times by any number of users, so the TVM should be able to guide each user based on the current information available with respect to trains or buses.\\
+	\hline
+	Temporal Characteristics & 
+	According to user requests that are dependant to date, the system should validate the request based on current date. \\
+	
+	\hline
+	\textbf{Environment} & \\
+	\hline
+	Physical Environment & 
+	The TVM will be placed in metro stations, the passengers will be able to buy ticket/passes before there journey in train/bus. The factors like lights on the TVM machine for the visibility, space available to access the TVM, is the place allocated is too noisy should be taken care. \\
+	\hline
+	Technical Environment & 
+	The TVM will be connected to the data server where the user informations can be retrieved, it will be connected to the bank server to authenticate the credit/debit cards. \\
+	\hline
+	Social Environment & 
+	The TVM must support at least two languages including English and French since the official language of Quebec is French. \\
+	\hline
+\end{tabular}
+
 
 
 
