@@ -4,7 +4,7 @@
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage{url}
-\usepackage[acronym]{glossaries}
+\usepackage[toc,automake,acronym]{glossaries}
 
 \newcommand{\TermName}{FALL 2019}
 \newcommand{\Title}{}
@@ -17,6 +17,7 @@
 %  GLOSSORY
 %---------------------------------------------------------------------------------------
 
+
 \newglossaryentry{igo}
 {
 	name=iGo,
@@ -27,11 +28,8 @@
 	name=TVM,
 	description={The online Ticket Vending Machine Web Application integrating with STM system}
 }
-\newglossaryentry{stm}
-{
-	name=STM,
-	description={The online Ticket Vending Machine Web Application integrating with STM system}
-}
+
+
 \newglossaryentry{opus}
 {
 	name=OPUS,
@@ -40,46 +38,46 @@
 \newglossaryentry{rechargable_card}
 {
 	name=Rechargable Card,
-	description={The online Ticket Vending Machine Web Application integrating with STM system}
+	description={A card that can be recharged to be used monthly, weekly.}
 }
 \newglossaryentry{non_rechargable_card}
 {
 	name=Non-Rechargable Card,
-	description={The online Ticket Vending Machine Web Application integrating with STM system}
+	description={One time use and throw card.}
 }
 \newglossaryentry{administrator}
 {
 	name=Administrator,
-	description={The online Ticket Vending Machine Web Application integrating with STM system}
+	description={The account to manage and administor system.}
 }
 \newglossaryentry{registration}
 {
 	name=Registration,
-	description={The online Ticket Vending Machine Web Application integrating with STM system}
+	description={Creating a account for new/first time user.}
 }
 \newglossaryentry{reduced_fare}
 {
-	name=Administrator,
-	description={The online Ticket Vending Machine Web Application integrating with STM system}
+	name=Reduced Fare,
+	description={Fare offered at reduced rates that the normal prices for certain users that qualify for it.}
 }
 \newglossaryentry{regular_fare}
 {
 	name=Regular Fare,
-	description={The online Ticket Vending Machine Web Application integrating with STM system}
+	description={Normal Fare Prices.}
 }
 \newglossaryentry{transaction}
 {
 	name=Transaction,
-	description={The online Ticket Vending Machine Web Application integrating with STM system}
+	description={A digital record is generated when user interacts with the system.}
 }
 \newglossaryentry{authentication_gateway}
 {
 	name=Authentication Gateway,
-	description={The online Ticket Vending Machine Web Application integrating with STM system}
+	description={A third party authentication system to validate users Credit/Debit cards.}
 }
+\newacronym{stm}{STM}{Société de transport de Montréal}
 
-
-\makeglossaries
+\makeglossary
 
 \begin{document}
 
@@ -155,7 +153,7 @@
 \section{Problem 1}
 
 \subsection{iGo Description}
-The product \gls{igo} is a software solution for TVM (Ticket Vending Machine) which allows user to purchase tickets, recharge their OPUS card and get information about the different tickets STM(Société de transport de Montréal) offers. iGO products is designed to server people in Montreal, Quebec, Canada who use STM metros and buses. STM offers two ticketing methods: Rechargable OPUS Card and Non-rechargable limited use cards. With OPUS card user can make unlimited trips in STM buses and metros for a particular period, which is the recharge cycle of the card. \\
+The product \gls{igo} is a software solution for \gls{tvm} (Ticket Vending Machine) which allows user to purchase tickets, recharge their \gls{opus} card and get information about the different tickets \gls{stm}(Société de transport de Montréal) offers. iGO products is designed to server people in Montreal, Quebec, Canada who use STM metros and buses. STM offers two ticketing methods: \gls{rechargable_card} OPUS Card and \gls{non_rechargable_card} limited use cards. With OPUS card user can make unlimited trips in STM buses and metros for a particular period, which is the recharge cycle of the card. \\
 
 
 User who wish recharge their OPUS card are first required to place their card in the card reader slot in TVM, they can then select the type of purchase they want to make and can select the mode of payment they wish to use. Currently, iGo supports cash and card payments. Users who want to purchase a Non-rechargable can select from a list of options based on the type of trip they wish to make. The purchase will be considered successfull only after the payment has been authenticated(in case of card payments) and is successfull. After a sucessfull purchase the user have the option to select the mode through which they wish to receive receipt. iGo supports 3 type of receipt delivery: Paper, email and SMS receipts. \\
@@ -272,16 +270,15 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 
 
+
+
 \section{Problem 3}
 \subsection{Domain Model}
-
+\includegraphics[width=1\textwidth]{domain_model.png}
 
 
 \section{Problem 4}
 \subsection{Use Case Model}
-
-
-
 
 
 
