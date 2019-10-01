@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  30 SEP 2019 23:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  1 OCT 2019 02:06
 entering extended mode
 **"./Deliverable 1.tex"
 ("Deliverable 1.tex"
@@ -427,32 +427,42 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 Package: glossary-tree 2019/01/06 v4.42 (NLCT)
 \glstreeindent=\skip58
 ))
+
+Package glossaries Warning: Use of \makeglossary with glossaries.sty is 
+(glossaries)                deprecated. Use \makeglossaries instead. If you 
+(glossaries)                need the original definition of \makeglossary use 
+(glossaries)                the package options kernelglossredefs=false (to 
+(glossaries)                restore the former definition of \makeglossary) and
+ 
+(glossaries)                nomain (if the file extensions cause a conflict) on
+ input line 80.
+
 \glswrite=\write3
 \glo@main@file=\write4
 \openout4 = `"Deliverable 1.glo"'.
 
 Package glossaries Info: Writing glossary file "Deliverable 1".glo on input lin
-e 82.
+e 80.
 \glo@acronym@file=\write5
 \openout5 = `"Deliverable 1.acn"'.
 
 Package glossaries Info: Writing glossary file "Deliverable 1".acn on input lin
-e 82.
- ("Deliverable 1.aux")
+e 80.
+("Deliverable 1.aux")
 \openout1 = `"Deliverable 1.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -564,12 +574,12 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 <University_logo.jpg, id=1, 1724.4425pt x 530.98375pt>
 File: University_logo.jpg Graphic file (type jpg)
 <use University_logo.jpg>
-Package pdftex.def Info: University_logo.jpg  used on input line 96.
+Package pdftex.def Info: University_logo.jpg  used on input line 94.
 (pdftex.def)             Requested size: 172.45435pt x 53.10147pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 97.
+(Font)              using `OT1/cmr/bx/n' instead on input line 95.
 
 [1
 
@@ -583,93 +593,126 @@ niversity_logo.jpg>] ("Deliverable 1.toc")
  [1
 
 ]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-0.
 def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Overfull \hbox (24.54599pt too wide) in paragraph at lines 156--157
+[]\OT1/cmr/m/n/12 Soci[Pleaseinsert\PrerenderUnicode{}intopreamble]t[Pleaseinse
+rt\PrerenderUnicode{}intopreamble]
+ []
+
+
+Overfull \hbox (0.71983pt too wide) in paragraph at lines 156--157
+\OT1/cmr/m/n/12 de trans-port de Montr[Pleaseinsert\PrerenderUnicode{}intopream
+ble]al (STM)(Societe de trans-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
 []\OT1/cmr/m/n/12 Physical Char-
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 215--215
+Underfull \hbox (badness 4621) in paragraph at lines 213--213
 []\OT1/cmr/m/n/12 Special Vari-ant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--215
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
 \OT1/cmr/m/n/12 Pref-er-ences in
  []
 
 
-Overfull \hbox (9.68845pt too wide) in paragraph at lines 177--238
+Overfull \hbox (9.68845pt too wide) in paragraph at lines 175--236
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--238
+Underfull \hbox (badness 10000) in paragraph at lines 175--236
 
  []
 
 [2
 
 ]
-Underfull \hbox (badness 7704) in paragraph at lines 244--244
+Underfull \hbox (badness 7704) in paragraph at lines 242--242
 []\OT1/cmr/m/n/12 Workflow Con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
 []\OT1/cmr/m/n/12 Physical En-vi-
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 264--264
+Underfull \hbox (badness 2285) in paragraph at lines 262--262
 []\OT1/cmr/m/n/12 Technical En-vi-
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 267--267
+Underfull \hbox (badness 3713) in paragraph at lines 265--265
 []\OT1/cmr/m/n/12 Social En-vi-ron-
  []
 
 
-Overfull \hbox (27.31326pt too wide) in paragraph at lines 242--271
+Overfull \hbox (27.31326pt too wide) in paragraph at lines 240--269
 [][] 
  []
 
 [3]
-No file "Deliverable 1".gls.
-No file "Deliverable 1".acr.
-[4] ("Deliverable 1.aux")
+<domain_model.png, id=17, 154.176pt x 99.7326pt>
+File: domain_model.png Graphic file (type png)
+<use domain_model.png>
+Package pdftex.def Info: domain_model.png  used on input line 277.
+(pdftex.def)             Requested size: 489.10287pt x 316.42679pt.
+ [4] ("Deliverable 1.gls" [5 <./domain_model.png>]) ("Deliverable 1.acr"
+[6
+
+]) [7
+
+runsystem(makeindex -s "Deliverable 1".ist -t "Deliverable 1".glg -o "Deliverab
+le 1".gls "Deliverable 1".glo)...executed (allowed).
+
+runsystem(makeindex -s "Deliverable 1".ist -t "Deliverable 1".alg -o "Deliverab
+le 1".acr "Deliverable 1".acn)...executed (allowed).
+
+] ("Deliverable 1.aux")
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 10324 strings out of 492895
- 178845 string characters out of 3119998
- 307049 words of memory out of 3000000
- 14043 multiletter control sequences out of 15000+200000
+ 10334 strings out of 492895
+ 179150 string characters out of 3119998
+ 307556 words of memory out of 3000000
+ 14047 multiletter control sequences out of 15000+200000
  10083 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,8n,39p,1983b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "Deliverable 1.pdf" (5 pages, 118066 bytes).
+Output written on "Deliverable 1.pdf" (8 pages, 139297 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
