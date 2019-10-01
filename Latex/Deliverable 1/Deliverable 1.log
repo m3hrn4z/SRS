@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  25 SEP 2019 23:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  30 SEP 2019 23:45
 entering extended mode
 **"./Deliverable 1.tex"
 ("Deliverable 1.tex"
@@ -432,27 +432,27 @@ Package: glossary-tree 2019/01/06 v4.42 (NLCT)
 \openout4 = `"Deliverable 1.glo"'.
 
 Package glossaries Info: Writing glossary file "Deliverable 1".glo on input lin
-e 25.
+e 82.
 \glo@acronym@file=\write5
 \openout5 = `"Deliverable 1.acn"'.
 
 Package glossaries Info: Writing glossary file "Deliverable 1".acn on input lin
-e 25.
+e 82.
  ("Deliverable 1.aux")
 \openout1 = `"Deliverable 1.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -564,12 +564,12 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 <University_logo.jpg, id=1, 1724.4425pt x 530.98375pt>
 File: University_logo.jpg Graphic file (type jpg)
 <use University_logo.jpg>
-Package pdftex.def Info: University_logo.jpg  used on input line 39.
+Package pdftex.def Info: University_logo.jpg  used on input line 96.
 (pdftex.def)             Requested size: 172.45435pt x 53.10147pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 40.
+(Font)              using `OT1/cmr/bx/n' instead on input line 97.
 
 [1
 
@@ -587,38 +587,89 @@ niversity_logo.jpg>] ("Deliverable 1.toc")
 def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
-No file "Deliverable 1".gls.
-No file "Deliverable 1".acr.
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+[]\OT1/cmr/m/n/12 Physical Char-
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 215--215
+[]\OT1/cmr/m/n/12 Special Vari-ant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+\OT1/cmr/m/n/12 Pref-er-ences in
+ []
+
+
+Overfull \hbox (9.68845pt too wide) in paragraph at lines 177--238
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--238
+
+ []
+
 [2
 
-] [3] ("Deliverable 1.aux")
+]
+Underfull \hbox (badness 7704) in paragraph at lines 244--244
+[]\OT1/cmr/m/n/12 Workflow Con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+[]\OT1/cmr/m/n/12 Physical En-vi-
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 264--264
+[]\OT1/cmr/m/n/12 Technical En-vi-
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 267--267
+[]\OT1/cmr/m/n/12 Social En-vi-ron-
+ []
+
+
+Overfull \hbox (27.31326pt too wide) in paragraph at lines 242--271
+[][] 
+ []
+
+[3]
+No file "Deliverable 1".gls.
+No file "Deliverable 1".acr.
+[4] ("Deliverable 1.aux")
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 9994 strings out of 492895
- 171287 string characters out of 3119998
- 296651 words of memory out of 3000000
- 13713 multiletter control sequences out of 15000+200000
+ 10324 strings out of 492895
+ 178845 string characters out of 3119998
+ 307049 words of memory out of 3000000
+ 14043 multiletter control sequences out of 15000+200000
  10083 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,5n,39p,1983b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,8n,39p,1983b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "Deliverable 1.pdf" (4 pages, 112248 bytes).
+Output written on "Deliverable 1.pdf" (5 pages, 118066 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
+ 27 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
