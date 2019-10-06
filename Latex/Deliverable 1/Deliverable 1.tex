@@ -455,13 +455,13 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\hline
 	\textbf{Number} & \multicolumn{2}{c|}{4}  \\
 	\hline
-	\textbf{Name} & \multicolumn{2}{c|}{Make a payment: Make a Credit Card Payment, Make a cash Payment}  \\
+	\textbf{Name} & \multicolumn{2}{c|}{Make a Credit Card Payment, Make a cash Payment}  \\
 	\hline
-	\textbf{Summary} & \multicolumn{2}{c|}{Customer make payment to buy a metro ticket by card or cash using TVM}  \\
+	\textbf{Summary} & \multicolumn{2}{c|}{Customer make payment by card or cash using TVM}  \\
 	\hline
 	\textbf{Priority} & \multicolumn{2}{c|}{1}  \\
 	\hline
-	\textbf{Preconditions} & \multicolumn{2}{c|}{User has a valid credit card, valid currency (for cash payment).}  \\
+	\textbf{Preconditions} & \multicolumn{2}{c|}{User has a valid credit card, valid currency}  \\
 	\hline
 	\textbf{Postconditions} & \multicolumn{2}{c|}{Transaction successful, user should get the ticket.}  \\
 	\hline
@@ -505,8 +505,9 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\hline
 	&  16  & User removes card \\
 	\hline
-	&  16  & System displays welcome message. \\
+	&  17  & System displays welcome message. \\
 	\hline
+	
 	\textbf{Extensions} & \textbf{Step} & \textbf{Branching Action} \\
 	\hline
 	&  6a  & User insert card into card reader. \\
@@ -534,79 +535,62 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 
 \vspace{0.5cm}
-\textbf{\large Use Case: Buy Tickets}
+\textbf{\large Use Case: Reload Rechargeable Card}
 \\
 
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
 	\hline
-	\textbf{Number} & \multicolumn{2}{c|}{4}  \\
+	\textbf{Number} & \multicolumn{2}{c|}{5}  \\
 	\hline
-	\textbf{Name} & \multicolumn{2}{c|}{Make a payment: Make a Credit Card Payment, Make a cash Payment}  \\
+	\textbf{Name} & \multicolumn{2}{c|}{Reload Rechargeable Card}  \\
 	\hline
-	\textbf{Summary} & \multicolumn{2}{c|}{Customer make payment to buy a metro ticket by card or cash using TVM}  \\
+	\textbf{Summary} & \multicolumn{2}{c|}{Customer reloads the rechargeable card using TVM}  \\
 	\hline
-	\textbf{Priority} & \multicolumn{2}{c|}{1}  \\
+	\textbf{Priority} & \multicolumn{2}{c|}{5}  \\
 	\hline
-	\textbf{Preconditions} & \multicolumn{2}{c|}{User has a valid credit card, valid currency (for cash payment).}  \\
+	\textbf{Preconditions} & \multicolumn{2}{c|}{User has a Rechargeable card}  \\
 	\hline
-	\textbf{Postconditions} & \multicolumn{2}{c|}{Transaction successful, user should get the ticket.}  \\
+	\textbf{Postconditions} & \multicolumn{2}{c|}{User has recharged the card and received a receipt}  \\
 	\hline
-	\textbf{Primary Actor(s)} & \multicolumn{2}{c|}{TVM Customer / Bank Card Reader / Cash Receiver.}  \\
+	\textbf{Primary Actor(s)} & \multicolumn{2}{c|}{TVM Customer}  \\
 	\hline
-	\textbf{Secondary Actors(s)} & \multicolumn{2}{c|}{Payment Gateway.}  \\
+	\textbf{Secondary Actors(s)} & \multicolumn{2}{c|}{Data Store}  \\
 	\hline
-	\textbf{Trigger} & \multicolumn{2}{c|}{User has chosen to buy a metro ticket}  \\
+	\textbf{Trigger} & \multicolumn{2}{c|}{User has chosen to reload the card}  \\
 	\hline
 	\textbf{Main Success Scenarios} & \textbf{Step} & \textbf{Action} \\
 	\hline
-	& 1 & System displays ticket types \\ 
+	& 1 & User inserts the rechargeable card in the machine \\ 
 	\hline
-	&  2  & User chooses the type of ticket \\
+	&  2  & User selects the language \\
 	\hline
-	&  3  & System asks for payment method \\
+	&  3  & User select the option to recharge the card \\
 	\hline
-	&  4  & User select pay by cash or card \\
+	&  4  & System displays different recharge plans \\
 	\hline
-	&  5  & System asks user to insert his card or cash (to cash receiver). \\
+	&  5  & User chooses the recharge plan \\
 	\hline
-	&  6  & User insert his cash or card. \\
+	&  6  & System asks for the payment method \\
 	\hline
-	&  7  & System asks user to enter the PIN (in case of card payment) \\
+	&  7  & User choses the way of payment \\
 	\hline
-	&  8  & User enter the PIN \\
+	&  8  & User done with the payment \\
 	\hline
-	&  9  & System connects to the payment gateway and authentication the user details. \\
+	&  9  & System displays the message to retrieve the rechargeable card \\
 	\hline
-	&  10  & System create a transaction and records the transaction. \\
+	&  10  & User removes the card. \\
 	\hline
-	&  11  & System asks how user wants to receive the receipt \\
+	&  11  & System asks the user if he wants to print receipt \\
 	\hline
-	&  12  & User select paper receipt \\
+	&  12  & User select the option from Yes or No \\
 	\hline
-	&  13  & System prints and dispenses receipt and ticket \\
+	&  13  & System prints and dispenses receipt \\
 	\hline
-	&  14  & User takes out receipt and ticket. \\
+	&  14  & System displays welcome message \\
 	\hline
-	&  15  & System displays a message to remove the credit card \\
-	\hline
-	&  16  & User removes card \\
-	\hline
-	&  16  & System displays welcome message. \\
-	\hline
+	
 	\textbf{Extensions} & \textbf{Step} & \textbf{Branching Action} \\
-	\hline
-	&  6a  & User insert card into card reader. \\
-	\hline
-	&  6b  & User insert cash into the cash receiver. \\
-	\hline
-	&  7a  & No pin asked in case of cash payment. \\
-	\hline
-	&  9a  & System authenticated the cash denominations in case of cash payment. \\
-	\hline
-	&  11a  & If payment is not successful user will not receive the print receipt message. \\
-	\hline
-	&  15a  & No message displayed in case of cash payment. \\
 	\hline
 	\textbf{Open Issues} &    & NA \\
 	\hline
@@ -614,10 +598,185 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 \end{tabular}
 
 
-%\begin{figure}[!htb]
-%	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/BuyTicket.jpeg}
-%	\caption{\label{fig:Use Case Model : } Buy Ticket}	
+\begin{figure}[!htbp]
+	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/ReloadCard.jpeg}
+	\caption{\label{fig:Use Case Model : } Reload Rechargeable Card}	
+\end{figure}
+
+
+
+\vspace{0.5cm}
+\textbf{\large Use Case: Update Ticket Specification}
+\\
+
+\begin{tabular}{ | c | p{2cm} | p{7cm} |}
+	
+	\hline
+	\textbf{Number} & \multicolumn{2}{c|}{6}  \\
+	\hline
+	\textbf{Name} & \multicolumn{2}{c|}{Update Ticket Specification}  \\
+	\hline
+	\textbf{Summary} & \multicolumn{2}{c|}{Administrator to update an existing ticket specifications}  \\
+	\hline
+	\textbf{Priority} & \multicolumn{2}{c|}{2}  \\
+	\hline
+	\textbf{Preconditions} & \multicolumn{2}{c|}{Administrator should have a valid account}  \\
+			  &  \multicolumn{2	}{c|}{Administrator should be logged into the application} \\
+	\hline
+	\textbf{Postconditions} & \multicolumn{2}{c|}{Administrator is able to edit an exiting ticket plan.}  \\
+	\hline
+	\textbf{Primary Actor(s)} & \multicolumn{2}{c|}{TVM Administrator}  \\
+	\hline
+	\textbf{Secondary Actors(s)} & \multicolumn{2}{c|}{TVM and Customer}  \\
+	\hline
+	\textbf{Trigger} & \multicolumn{2}{c|}{The Administrator has selected to update}  \\
+     	&  \multicolumn{2	}{c|}{ ticket specifications on the system.}} \\
+	\hline
+	\textbf{Main Success Scenarios} & \textbf{Step} & \textbf{Action} \\
+	\hline
+	& 1 & Admin selects the tickets to be modified. \\ 
+	\hline
+	&  2  & Admin change the ticket specification. \\
+	\hline
+	&  3  & Admin saves the new ticket specifications. \\
+	\hline
+	&  4  & Admin updates the system with updated ticket plans. \\
+	\hline
+	
+	\textbf{Extensions} & \textbf{Step} & \textbf{Branching Action} \\
+	\hline
+	&  3a  & Admin does not have the admin access to the system.  \\
+	\hline
+	&  4a  &  The system gives an error. \\
+	\hline
+	\textbf{Open Issues} &    & NA \\
+	\hline
+	
+\end{tabular}
+
+
+%\begin{figure}[!htbp]
+%	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/ReloadCard.jpeg}
+%	\caption{\label{fig:Use Case Model : } Reload Rechargeable Card}	
 %\end{figure}
+
+
+\vspace{0.5cm}
+\textbf{\large Use Case: Customer Registration}
+\\
+
+\begin{tabular}{ | c | p{2cm} | p{7cm} |}
+	
+	\hline
+	\textbf{Number} & \multicolumn{2}{c|}{7}  \\
+	\hline
+	\textbf{Name} & \multicolumn{2}{c|}{Customer Registration}  \\
+	\hline
+	\textbf{Summary} & \multicolumn{2}{c|}{Customer register with his personal information to get the card}  \\
+	\hline
+	\textbf{Priority} & \multicolumn{2}{c|}{2}  \\
+	\hline
+	\textbf{Preconditions} & \multicolumn{2}{c|}{N/A}  \\
+	\hline
+	\textbf{Postconditions} & \multicolumn{2}{c|}{User is registered}  \\
+	\hline
+	\textbf{Primary Actor(s)} & \multicolumn{2}{c|}{TVM Customer}  \\
+	\hline
+	\textbf{Secondary Actors(s)} & \multicolumn{2}{c|}{Data Store}  \\
+	\hline
+	\textbf{Trigger} & \multicolumn{2}{c|}{User has chosen to register himself for the STM} \\
+	\hline
+	\textbf{Main Success Scenarios} & \textbf{Step} & \textbf{Action} \\
+	\hline
+	& 1 & User selects the register option \\ 
+	\hline
+	&  2  & System asks for his personal identification information \\
+	\hline
+	&  3  & User fills all the information and submit it \\
+	\hline
+	&  4  & System asks for the username and password \\
+	\hline
+	&  5  & User creates a username and password \\
+	\hline
+	&  6  & System checks for the validity of the user \\
+	\hline
+	&  7  & System registers the user and shows a registered user message \\
+	\hline
+
+	\textbf{Extensions} & \textbf{Step} & \textbf{Branching Action} \\
+	\hline
+	\textbf{Open Issues} &    & NA \\
+	\hline
+
+\end{tabular}
+
+
+\begin{figure}[!htbp]
+	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/CustomerRegistration.jpeg}
+	\caption{\label{fig:Use Case Model : } Customer Registration}	
+\end{figure}
+
+
+
+
+\vspace{0.5cm}
+\textbf{\large Use Case: False Login}
+\\
+
+\begin{tabular}{ | c | p{2cm} | p{7cm} |}
+	
+	\hline
+	\textbf{Number} & \multicolumn{2}{c|}{7}  \\
+	\hline
+	\textbf{Name} & \multicolumn{2}{c|}{False Login}  \\
+	\hline
+	\textbf{Summary} & \multicolumn{2}{c|}{Hacker try to login into someone else account.}  \\
+	\hline
+	\textbf{Priority} & \multicolumn{2}{c|}{1}  \\
+	\hline
+	\textbf{Preconditions} & \multicolumn{2}{c|}{N/A}  \\
+	\hline
+	\textbf{Postconditions} & \multicolumn{2}{c|}{Login should fail with appropriate error message.}  \\
+	\hline
+	\textbf{Primary Actor(s)} & \multicolumn{2}{c|}{Hacker / TVM.}  \\
+	\hline
+	\textbf{Secondary Actors(s)} & \multicolumn{2}{c|}{Data Store}  \\
+	\hline
+	\textbf{Trigger} & \multicolumn{2}{c|}{User account locked after 5 unsuccessful login attempts.} \\
+	\hline
+	\textbf{Main Success Scenarios} & \textbf{Step} & \textbf{Action} \\
+	\hline
+	& 1 & Hacker try to login into system. \\ 
+	\hline
+	&  2  & Hacker enters username and password. \\
+	\hline
+	&  3  & System will validate user details from database system. \\
+	\hline
+	&  4  & System decline unauthorized access. System should display appropriate error message. \\
+	\hline
+	&  5  & System should display appropriate error message. \\
+	\hline
+	&  6  & Hacker keeps on entering invalid credentials to try to login into someone account. \\
+	\hline
+	&  7  & System will lock user account after 5 unsuccessful login attempts. \\
+	\hline
+	& 8 & System should display account locked error message to user. \\
+	\hline
+	
+	\textbf{Extensions} & \textbf{Step} & \textbf{Branching Action} \\
+	\hline
+	\textbf{Open Issues} &    & NA \\
+	\hline
+	
+\end{tabular}
+
+
+%\begin{figure}[!htbp]
+%	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/CustomerRegistration.jpeg}
+%	\caption{\label{fig:Use Case Model : } Customer Registration}	
+%\end{figure}
+
+
 
 \printglossaries
 

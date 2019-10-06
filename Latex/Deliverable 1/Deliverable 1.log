@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  5 OCT 2019 23:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  6 OCT 2019 00:31
 entering extended mode
 **"./Deliverable 1.tex"
 ("Deliverable 1.tex"
@@ -452,17 +452,7 @@ e 82.
 
 Package glossaries Info: Writing glossary file "Deliverable 1".acn on input lin
 e 82.
-("Deliverable 1.aux"
-
-LaTeX Warning: Label `fig:Use Case Model : ' multiply defined.
-
-
-LaTeX Warning: Label `fig:Use Case Model : ' multiply defined.
-
-
-LaTeX Warning: Label `fig:Use Case Model : ' multiply defined.
-
-)
+("Deliverable 1.aux")
 \openout1 = `"Deliverable 1.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
@@ -750,40 +740,62 @@ File: Use_Case_Diagrams/BuyTicket.jpeg Graphic file (type jpg)
 Package pdftex.def Info: Use_Case_Diagrams/BuyTicket.jpeg  used on input line 4
 44.
 (pdftex.def)             Requested size: 489.10287pt x 342.44531pt.
-[7] ("Deliverable 1.gls" [8] [9 <./Use_Case_Diagrams/ChangeLanguage.JPG>]
-[10 <./Use_Case_Diagrams/ViewTicketPlan.jpeg>] [11 <./Use_Case_Diagrams/BuyTick
-et.jpeg>]) ("Deliverable 1.acr" [12
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 450--452
 
-]) [13
+ []
 
-runsystem(makeindex -s "Deliverable 1".ist -t "Deliverable 1".glg -o "Deliverab
-le 1".gls "Deliverable 1".glo)...executed (allowed).
-
-runsystem(makeindex -s "Deliverable 1".ist -t "Deliverable 1".alg -o "Deliverab
-le 1".acr "Deliverable 1".acn)...executed (allowed).
-
-] ("Deliverable 1.aux")
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+[8]
+Underfull \hbox (badness 7851) in paragraph at lines 494--495
+[]\OT1/cmr/m/n/12 System cre-ate a trans-ac-tion and
+ []
 
 
-LaTeX Warning: There were multiply-defined labels.
+Overfull \hbox (31.08566pt too wide) in paragraph at lines 453--529
+[][] 
+ []
 
- ) 
-Here is how much of TeX's memory you used:
- 10369 strings out of 492895
- 180133 string characters out of 3119998
- 310769 words of memory out of 3000000
- 14072 multiletter control sequences out of 15000+200000
- 10083 words of font info for 36 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 45i,8n,39p,2071b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb><C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "Deliverable 1.pdf" (14 pages, 727276 bytes).
-PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+[9]
+Overfull \vbox (300.91187pt too high) has occurred while \output is active []
 
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 538--540
+
+ []
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 570--571
+[]\OT1/cmr/m/n/12 System dis-plays dif-fer-ent recharge
+ []
+
+
+Overfull \hbox (31.08566pt too wide) in paragraph at lines 541--599
+[][] 
+ []
+
+<Use_Case_Diagrams/ReloadCard.jpeg, id=43, 641.5167pt x 469.755pt>
+File: Use_Case_Diagrams/ReloadCard.jpeg Graphic file (type jpg)
+<use Use_Case_Diagrams/ReloadCard.jpeg>
+Package pdftex.def Info: Use_Case_Diagrams/ReloadCard.jpeg  used on input line 
+602.
+(pdftex.def)             Requested size: 489.10287pt x 358.15721pt.
+[11]
+Overfull \vbox (14.5622pt too high) has occurred while \output is active []
+
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 609--611
+
+ []
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.633 ...}{ ticket specifications on the system.}}
+                                                   \\
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+\reserved@c ->\ifnum 0=`{\fi }\cr 
+  
