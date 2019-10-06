@@ -5,6 +5,7 @@
 \usepackage[utf8x]{inputenc}
 \usepackage{url}
 \usepackage[toc,automake,acronym]{glossaries}
+\usepackage[section]{placeins} %This package prevents images to shift to other sections.
 
 \newcommand{\TermName}{FALL 2019}
 \newcommand{\Title}{}
@@ -13,10 +14,11 @@
 \setcounter{chapter}{1}
 
 
+
+
 %---------------------------------------------------------------------------------------
 %  GLOSSORY
 %---------------------------------------------------------------------------------------
-
 
 \newglossaryentry{igo}
 {
@@ -271,18 +273,351 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 
 
-
+\newpage
 \section{Problem 3}
 \subsection{Domain Model}
-\includegraphics[width=1\textwidth]{domain_model.png}
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1\textwidth]{domain_model.png}
+	\caption{\label{fig:Use Case Model : } Change Language Use Case Model}	
+\end{figure}
 
 
+\newpage
 \section{Problem 4}
 \subsection{Use Case Model}
 
+\vspace{0.5cm}
+\textbf{\large Use Case: Change Language} 
+\\ 
+
+\begin{tabular}{ | c | p{2cm} | p{7cm} |}
+	
+	\hline
+	\textbf{Number} & \multicolumn{2}{c|}{1}  \\
+	\hline
+	\textbf{Name} & \multicolumn{2}{c|}{Change Language}  \\
+	\hline
+	\textbf{Summary} & \multicolumn{2}{c|}{User wants to change to desired language }  \\
+	\hline
+	\textbf{Priority} & \multicolumn{2}{c|}{4}  \\
+	\hline
+	\textbf{Preconditions} & \multicolumn{2}{c|}{N/A}  \\
+	\hline
+	\textbf{Postconditions} & \multicolumn{2}{c|}{User is able to change to desired language}  \\
+	\hline
+	\textbf{Primary Actor(s)} & \multicolumn{2}{c|}{TVM Customer}  \\
+	\hline
+	\textbf{Secondary Actors(s)} & \multicolumn{2}{c|}{TVM and Administrator}  \\
+	\hline
+	\textbf{Trigger} & \multicolumn{2}{c|}{User has chosen to change language}  \\
+	\hline
+	\textbf{Main Success Scenarios} & \textbf{Step} & \textbf{Action} \\
+	\hline
+	  & 1 & User can select the desired language \\ 
+	\hline
+	  &  2  & The application is displayed in desired language \\
+	\hline
+	\textbf{Extensions} & \multicolumn{2}{c|}{N/A}  \\
+	\hline
+	\textbf{Open Issues} &  1  & Language available to be decided by the customer \\
+	\hline
+	
+\end{tabular}
+
+\begin{figure}[!htb]
+	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/ChangeLanguage.JPG}
+	\caption{\label{fig:Use Case Model : } Change Language Use Case Model}	
+\end{figure} 
+
+\vspace{0.5cm}
+\textbf{\large Use Case: View Ticket Plans}
+\\
+
+\begin{tabular}{ | c | p{2cm} | p{7cm} |}
+	
+	\hline
+	\textbf{Number} & \multicolumn{2}{c|}{2}  \\
+	\hline
+	\textbf{Name} & \multicolumn{2}{c|}{View Ticket Plans}  \\
+	\hline
+	\textbf{Summary} & \multicolumn{2}{c|}{User has viewed different ticket plans}  \\
+	\hline
+	\textbf{Priority} & \multicolumn{2}{c|}{1}  \\
+	\hline
+	\textbf{Preconditions} & \multicolumn{2}{c|}{N/A}  \\
+	\hline
+	\textbf{Postconditions} & \multicolumn{2}{c|}{User has viewed different ticket plans}  \\
+	\hline
+	\textbf{Primary Actor(s)} & \multicolumn{2}{c|}{TVM Customer}  \\
+	\hline
+	\textbf{Secondary Actors(s)} & \multicolumn{2}{c|}{Data Store}  \\
+	\hline
+	\textbf{Trigger} & \multicolumn{2}{c|}{User has chosen to view ticket plans}  \\
+	\hline
+	\textbf{Main Success Scenarios} & \textbf{Step} & \textbf{Action} \\
+	\hline
+	& 1 & User selects the language \\ 
+	\hline
+	&  2  & System asks the ticket type \\
+	\hline
+	&  3  & User selects the ticket type \\
+	\hline
+	&  2  & System displays ticket plans \\
+	\hline
+	\textbf{Extensions} & \multicolumn{2}{c|}{N/A}  \\
+	\hline
+	\textbf{Open Issues} &    & NA \\
+	\hline
+	
+\end{tabular}
+
+\begin{figure}[!htb]
+	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/ViewTicketPlan.jpeg}
+	\caption{\label{fig:Use Case Model : } View Ticket Plans}	
+\end{figure}
 
 
+\vspace{0.5cm}
+\textbf{\large Use Case: Buy Tickets}
+\\
 
+\begin{tabular}{ | c | p{2cm} | p{7cm} |}
+	
+	\hline
+	\textbf{Number} & \multicolumn{2}{c|}{3}  \\
+	\hline
+	\textbf{Name} & \multicolumn{2}{c|}{Buy Ticket}  \\
+	\hline
+	\textbf{Summary} & \multicolumn{2}{c|}{Customer buy a ticket using TVM}  \\
+	\hline
+	\textbf{Priority} & \multicolumn{2}{c|}{1}  \\
+	\hline
+	\textbf{Preconditions} & \multicolumn{2}{c|}{Customer has access to a valid payment method}  \\
+	\hline
+	\textbf{Postconditions} & \multicolumn{2}{c|}{Customer has received the ticket and the receipt}  \\
+	\hline
+	\textbf{Primary Actor(s)} & \multicolumn{2}{c|}{TVM Customer}  \\
+	\hline
+	\textbf{Secondary Actors(s)} & \multicolumn{2}{c|}{Payment Authentication, Bank Server, Data Store}  \\
+	\hline
+	\textbf{Trigger} & \multicolumn{2}{c|}{Customer has chosen to buy a ticket}  \\
+	\hline
+	\textbf{Main Success Scenarios} & \textbf{Step} & \textbf{Action} \\
+	\hline
+	& 1 & Customer selects the language \\ 
+	\hline
+	&  2  & System displays ticket plans \\
+	\hline
+	&  3  & Customer chooses a ticket plan \\
+	\hline
+	&  4  & System asks for payment method \\
+	\hline
+	&  5  & Customer selects a payment method \\
+	\hline
+	&  6  & Customer makes a payment \\
+	\hline
+	&  7  & System asks for type of receipt \\
+	\hline
+	&  8  & Customer selects the type of receipt \\
+	\hline
+	&  9  & System prints receipt and ticket \\
+	\hline
+	&  10  & Customer removes receipt and ticket \\
+	\hline
+	&  11  & System displays welcome message \\
+	\hline
+	\textbf{Extensions} & \textbf{Step} & \textbf{Branching Action} \\
+	\hline
+	&  6a  & The payment is not successful \\
+	\hline
+	&  6b  & System displays message that payment is not successful \\
+	\hline
+	&  6c  & System exits and displays welcome message \\
+	\hline
+	\textbf{Open Issues} &    & NA \\
+	\hline
+	
+\end{tabular}
+
+\begin{figure}[!htb]
+	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/BuyTicket.jpeg}
+	\caption{\label{fig:Use Case Model : } Buy Ticket}	
+\end{figure}
+
+
+\vspace{0.5cm}
+\textbf{\large Use Case: Make a payment}
+\\
+
+\begin{tabular}{ | c | p{2cm} | p{7cm} |}
+	
+	\hline
+	\textbf{Number} & \multicolumn{2}{c|}{4}  \\
+	\hline
+	\textbf{Name} & \multicolumn{2}{c|}{Make a payment: Make a Credit Card Payment, Make a cash Payment}  \\
+	\hline
+	\textbf{Summary} & \multicolumn{2}{c|}{Customer make payment to buy a metro ticket by card or cash using TVM}  \\
+	\hline
+	\textbf{Priority} & \multicolumn{2}{c|}{1}  \\
+	\hline
+	\textbf{Preconditions} & \multicolumn{2}{c|}{User has a valid credit card, valid currency (for cash payment).}  \\
+	\hline
+	\textbf{Postconditions} & \multicolumn{2}{c|}{Transaction successful, user should get the ticket.}  \\
+	\hline
+	\textbf{Primary Actor(s)} & \multicolumn{2}{c|}{TVM Customer / Bank Card Reader / Cash Receiver.}  \\
+	\hline
+	\textbf{Secondary Actors(s)} & \multicolumn{2}{c|}{Payment Gateway.}  \\
+	\hline
+	\textbf{Trigger} & \multicolumn{2}{c|}{User has chosen to buy a metro ticket}  \\
+	\hline
+	\textbf{Main Success Scenarios} & \textbf{Step} & \textbf{Action} \\
+	\hline
+	& 1 & System displays ticket types \\ 
+	\hline
+	&  2  & User chooses the type of ticket \\
+	\hline
+	&  3  & System asks for payment method \\
+	\hline
+	&  4  & User select pay by cash or card \\
+	\hline
+	&  5  & System asks user to insert his card or cash (to cash receiver). \\
+	\hline
+	&  6  & User insert his cash or card. \\
+	\hline
+	&  7  & System asks user to enter the PIN (in case of card payment) \\
+	\hline
+	&  8  & User enter the PIN \\
+	\hline
+	&  9  & System connects to the payment gateway and authentication the user details. \\
+	\hline
+	&  10  & System create a transaction and records the transaction. \\
+	\hline
+	&  11  & System asks how user wants to receive the receipt \\
+	\hline
+	&  12  & User select paper receipt \\
+	\hline
+	&  13  & System prints and dispenses receipt and ticket \\
+	\hline
+	&  14  & User takes out receipt and ticket. \\
+	\hline
+	&  15  & System displays a message to remove the credit card \\
+	\hline
+	&  16  & User removes card \\
+	\hline
+	&  16  & System displays welcome message. \\
+	\hline
+	\textbf{Extensions} & \textbf{Step} & \textbf{Branching Action} \\
+	\hline
+	&  6a  & User insert card into card reader. \\
+	\hline
+	&  6b  & User insert cash into the cash receiver. \\
+	\hline
+	&  7a  & No pin asked in case of cash payment. \\
+	\hline
+	&  9a  & System authenticated the cash denominations in case of cash payment. \\
+	\hline
+	&  11a  & If payment is not successful user will not receive the print receipt message. \\
+	\hline
+	&  15a  & No message displayed in case of cash payment. \\
+	\hline
+	\textbf{Open Issues} &    & NA \\
+	\hline
+	
+\end{tabular}
+
+
+%\begin{figure}[!htb]
+%	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/BuyTicket.jpeg}
+%	\caption{\label{fig:Use Case Model : } Buy Ticket}	
+%\end{figure}
+
+
+\vspace{0.5cm}
+\textbf{\large Use Case: Buy Tickets}
+\\
+
+\begin{tabular}{ | c | p{2cm} | p{7cm} |}
+	
+	\hline
+	\textbf{Number} & \multicolumn{2}{c|}{4}  \\
+	\hline
+	\textbf{Name} & \multicolumn{2}{c|}{Make a payment: Make a Credit Card Payment, Make a cash Payment}  \\
+	\hline
+	\textbf{Summary} & \multicolumn{2}{c|}{Customer make payment to buy a metro ticket by card or cash using TVM}  \\
+	\hline
+	\textbf{Priority} & \multicolumn{2}{c|}{1}  \\
+	\hline
+	\textbf{Preconditions} & \multicolumn{2}{c|}{User has a valid credit card, valid currency (for cash payment).}  \\
+	\hline
+	\textbf{Postconditions} & \multicolumn{2}{c|}{Transaction successful, user should get the ticket.}  \\
+	\hline
+	\textbf{Primary Actor(s)} & \multicolumn{2}{c|}{TVM Customer / Bank Card Reader / Cash Receiver.}  \\
+	\hline
+	\textbf{Secondary Actors(s)} & \multicolumn{2}{c|}{Payment Gateway.}  \\
+	\hline
+	\textbf{Trigger} & \multicolumn{2}{c|}{User has chosen to buy a metro ticket}  \\
+	\hline
+	\textbf{Main Success Scenarios} & \textbf{Step} & \textbf{Action} \\
+	\hline
+	& 1 & System displays ticket types \\ 
+	\hline
+	&  2  & User chooses the type of ticket \\
+	\hline
+	&  3  & System asks for payment method \\
+	\hline
+	&  4  & User select pay by cash or card \\
+	\hline
+	&  5  & System asks user to insert his card or cash (to cash receiver). \\
+	\hline
+	&  6  & User insert his cash or card. \\
+	\hline
+	&  7  & System asks user to enter the PIN (in case of card payment) \\
+	\hline
+	&  8  & User enter the PIN \\
+	\hline
+	&  9  & System connects to the payment gateway and authentication the user details. \\
+	\hline
+	&  10  & System create a transaction and records the transaction. \\
+	\hline
+	&  11  & System asks how user wants to receive the receipt \\
+	\hline
+	&  12  & User select paper receipt \\
+	\hline
+	&  13  & System prints and dispenses receipt and ticket \\
+	\hline
+	&  14  & User takes out receipt and ticket. \\
+	\hline
+	&  15  & System displays a message to remove the credit card \\
+	\hline
+	&  16  & User removes card \\
+	\hline
+	&  16  & System displays welcome message. \\
+	\hline
+	\textbf{Extensions} & \textbf{Step} & \textbf{Branching Action} \\
+	\hline
+	&  6a  & User insert card into card reader. \\
+	\hline
+	&  6b  & User insert cash into the cash receiver. \\
+	\hline
+	&  7a  & No pin asked in case of cash payment. \\
+	\hline
+	&  9a  & System authenticated the cash denominations in case of cash payment. \\
+	\hline
+	&  11a  & If payment is not successful user will not receive the print receipt message. \\
+	\hline
+	&  15a  & No message displayed in case of cash payment. \\
+	\hline
+	\textbf{Open Issues} &    & NA \\
+	\hline
+	
+\end{tabular}
+
+
+%\begin{figure}[!htb]
+%	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/BuyTicket.jpeg}
+%	\caption{\label{fig:Use Case Model : } Buy Ticket}	
+%\end{figure}
 
 \printglossaries
 
