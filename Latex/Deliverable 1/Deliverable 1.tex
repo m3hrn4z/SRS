@@ -30,8 +30,6 @@
 	name=TVM,
 	description={The online Ticket Vending Machine Web Application integrating with STM system}
 }
-
-
 \newglossaryentry{opus}
 {
 	name=OPUS,
@@ -160,7 +158,7 @@ The product \gls{igo} is a software solution for \gls{tvm} (Ticket Vending Machi
 
 User who wish recharge their OPUS card are first required to place their card in the card reader slot in TVM, they can then select the type of purchase they want to make and can select the mode of payment they wish to use. Currently, iGo supports cash and card payments. Users who want to purchase a Non-rechargable can select from a list of options based on the type of trip they wish to make. The purchase will be considered successfull only after the payment has been authenticated(in case of card payments) and is successfull. After a sucessfull purchase the user have the option to select the mode through which they wish to receive receipt. iGo supports 3 type of receipt delivery: Paper, email and SMS receipts. \\
 
-iGo will also internally generate a transaction when the user interacts with the system. The transaction is recorded irrespective of whether the purchase is successfull or not. These transactions helps track the purchase in case of any failure in the system. At bottom bar of the TVM display, a helpline number is displayed at all times in case user needs any kind of assistance.
+iGo will also internally generate a \gls{transaction} when the user interacts with the system. The transaction is recorded irrespective of whether the purchase is successfull or not. These transactions helps track the purchase in case of any failure in the system. At bottom bar of the TVM display, a helpline number is displayed at all times in case user needs any kind of assistance.
 
 \subsection{Scope of Use}
 The product iGo at this moment is restricted to server in Montreal city only. iGo is a software system and does not include the development, maintenance or deployement of the physical devices needed to develop a TVM. iGo does not provide any online platform or device application to recharge OPUS card or purchase ticket.
@@ -205,7 +203,7 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\\
 	\hline
 	Age & 
-	The system should offer reduced fares according to the user's age.
+	The system should offer \gls{reduced_fare} according to the user's age.
 	\\
 	\hline
 	Profession & 
@@ -272,13 +270,117 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 
 
-
-\newpage
 \section{Problem 3}
 \subsection{Domain Model}
+
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}[H]{ |p{3cm}|p{12cm}| }
+	\hline
+	\textbf{Concepts}  & \textbf{Description}  \\
+	\hline
+	TVM & It is a ticket vending machine to issue ticket or reload rechargeable card for bus and metro
+	\\
+	\hline
+\end{tabular}
+
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}[H]{ |p{3cm}|p{12cm}| }
+	\hline
+	User & Someone who uses TVM as a commuter, an administrator or a negative user as a crook
+	\\
+	\hline
+	Administrator & Someone who has privilege to manage ticket specification
+	\\
+	\hline
+	Crook & A negative user how tries to misuse the TVM like a hacker who is trying to steal bank car information
+	\\
+	\hline
+	Commuter & Someone who comes to TVM and wants to buy ticket or check different fares to travel
+	\\
+	\hline
+	Registered Commuter & Someone who has registered his/her information in the system and uses their Rechargeable Card to buy ticket
+	\\
+	\hline
+	Unregistered Commuter & Someone who has not registered his/her information in the system and uses the system anonymously and buy Non-Rechargeable Ticket
+	\\
+	\hline
+	Student & Someone who has the proof of being a student and is eligible to use reduced fare
+	\\
+	\hline
+	Regular & Someone who has registered in the system and use Rechargeable Card, but pay \gls{regular_fare}
+	
+	\\
+	\hline
+	Senior Citizen & Someone who is 65 years old or over and is eligible to use reduced fare
+	\\
+	\hline
+	Language & The display language of User Interface that can be either English or French
+	\\
+	\hline
+	Printer & Printer is the device that prints the receipt or provides the non-rechargeable ticket
+	\\
+	\hline 
+	Receipt & It has the confirmation of the transaction and this is the superclass of different kinds of receipt
+	\\
+	\hline
+	Paper Receipt & It is a subclass of receipt which is printed on paper
+	\\
+	\hline
+	Email & It is subclass of receipt electronically delivered to the user
+	\\
+	\hline
+	Ticket & It is either a rechargeable or non-rechargeable ticket which users pay for to use metro or bus
+	\\
+	\hline
+	Non-Rechargeable Ticket & It is a temporary ticket for limited use printed on the paper by printer
+	\\
+	\hline
+\end{tabular}
+	
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}[H]{ |p{3cm}|p{12cm}| }
+	\hline
+	Rechargable Card & A card which has an expiry date and can be recharged and used multiple times before the expiration date
+	\\
+	\hline
+	Fare & It includes the price of different plans to buy the ticket
+	\\
+	\hline
+	Regular & It is regular price of a specific plan
+	\\
+	\hline
+	Reduced & It is reduced price of a specific plan for special customers such as students or people with certain ages
+	\\
+	\hline
+	Payment & It is superclass for different modes of payment
+	\\
+	\hline
+	Bank Card & It is a payment method that uses bank card to pay for the ticket fare
+	\\
+	\hline
+	Cash & It is a payment method that uses cash to pay for the ticket fare
+	\\
+	\hline
+	Transaction & It debits customer bank card  
+	\\
+	\hline
+	Payment Authentication & It takes the details of the user’s bank card and verify the payment with the bank server
+	\\
+	\hline
+	Bank Server & It confirms user’s bank card information
+	\\
+	\hline
+\end{tabular}
+\\ 
+
+
+
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=1\textwidth]{domain_model.png}
+	\includegraphics[width=9cm,height=10.5cm]{domain_model.png}
 	\caption{\label{fig:Use Case Model : } Change Language Use Case Model}	
 \end{figure}
 
@@ -329,6 +431,7 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/ChangeLanguage.JPG}
 	\caption{\label{fig:Use Case Model : } Change Language Use Case Model}	
 \end{figure} 
+
 
 \vspace{0.5cm}
 \textbf{\large Use Case: View Ticket Plans}
@@ -497,6 +600,12 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\hline
 	&  12  & User select paper receipt \\
 	\hline
+	
+\end{tabular}
+
+
+\begin{tabular}{ | c | p{2cm} | p{7cm} |}
+	\hline
 	&  13  & System prints and dispenses receipt and ticket \\
 	\hline
 	&  14  & User takes out receipt and ticket. \\
@@ -528,10 +637,10 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 \end{tabular}
 
 
-%\begin{figure}[!htb]
-%	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/BuyTicket.jpeg}
-%	\caption{\label{fig:Use Case Model : } Buy Ticket}	
-%\end{figure}
+\begin{figure}[!htb]
+	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/MakePayment.JPG}
+	\caption{\label{fig:Use Case Model : } Make Payment}	
+\end{figure}
 
 
 \vspace{0.5cm}
@@ -630,7 +739,7 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\textbf{Secondary Actors(s)} & \multicolumn{2}{c|}{TVM and Customer}  \\
 	\hline
 	\textbf{Trigger} & \multicolumn{2}{c|}{The Administrator has selected to update}  \\
-     	&  \multicolumn{2	}{c|}{ ticket specifications on the system.}} \\
+     	&  \multicolumn{2}{c|}{ ticket specifications on the system.} \\
 	\hline
 	\textbf{Main Success Scenarios} & \textbf{Step} & \textbf{Action} \\
 	\hline
@@ -717,6 +826,64 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 \end{figure}
 
 
+
+
+\vspace{0.5cm}
+\textbf{\large Use Case: False Login}
+\\
+
+\begin{tabular}{ | c | p{2cm} | p{7cm} |}
+	
+	\hline
+	\textbf{Number} & \multicolumn{2}{c|}{7}  \\
+	\hline
+	\textbf{Name} & \multicolumn{2}{c|}{False Login}  \\
+	\hline
+	\textbf{Summary} & \multicolumn{2}{c|}{Hacker try to login into someone else account.}  \\
+	\hline
+	\textbf{Priority} & \multicolumn{2}{c|}{1}  \\
+	\hline
+	\textbf{Preconditions} & \multicolumn{2}{c|}{N/A}  \\
+	\hline
+	\textbf{Postconditions} & \multicolumn{2}{c|}{Login should fail with appropriate error message.}  \\
+	\hline
+	\textbf{Primary Actor(s)} & \multicolumn{2}{c|}{Hacker / TVM.}  \\
+	\hline
+	\textbf{Secondary Actors(s)} & \multicolumn{2}{c|}{Data Store}  \\
+	\hline
+	\textbf{Trigger} & \multicolumn{2}{c|}{User account locked after 5 unsuccessful login attempts.} \\
+	\hline
+	\textbf{Main Success Scenarios} & \textbf{Step} & \textbf{Action} \\
+	\hline
+	& 1 & Hacker try to login into system. \\ 
+	\hline
+	&  2  & Hacker enters username and password. \\
+	\hline
+	&  3  & System will validate user details from database system. \\
+	\hline
+	&  4  & System decline unauthorized access. System should display appropriate error message. \\
+	\hline
+	&  5  & System should display appropriate error message. \\
+	\hline
+	&  6  & Hacker keeps on entering invalid credentials to try to login into someone account. \\
+	\hline
+	&  7  & System will lock user account after 5 unsuccessful login attempts. \\
+	\hline
+	& 8 & System should display account locked error message to user. \\
+	\hline
+	
+	\textbf{Extensions} & \textbf{Step} & \textbf{Branching Action} \\
+	\hline
+	\textbf{Open Issues} &    & NA \\
+	\hline
+	
+\end{tabular}
+
+
+%\begin{figure}[!htbp]
+%	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/CustomerRegistration.jpeg}
+%	\caption{\label{fig:Use Case Model : } Customer Registration}	
+%\end{figure}
 
 
 \vspace{0.5cm}
