@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  7 OCT 2019 02:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  12 OCT 2019 22:42
 entering extended mode
 **"./Deliverable 1.tex"
 ("Deliverable 1.tex"
@@ -471,6 +471,9 @@ LaTeX Warning: Label `fig:Use Case Model : ' multiply defined.
 
 LaTeX Warning: Label `fig:Use Case Model : ' multiply defined.
 
+
+LaTeX Warning: Label `fig:Activity Diagram : ' multiply defined.
+
 )
 \openout1 = `"Deliverable 1.aux"'.
 
@@ -771,6 +774,14 @@ Package pdftex.def Info: Use_Case_Diagrams/ChangeLanguage.JPG  used on input li
 ne 431.
 (pdftex.def)             Requested size: 489.10287pt x 598.03755pt.
 
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 431--432
+[][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 0.03401pt on input line 433.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 437--439
 
  []
@@ -786,6 +797,11 @@ File: Use_Case_Diagrams/ViewTicketPlan.jpeg Graphic file (type jpg)
 Package pdftex.def Info: Use_Case_Diagrams/ViewTicketPlan.jpeg  used on input l
 ine 479.
 (pdftex.def)             Requested size: 489.10287pt x 277.90677pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 479--480
+[][] 
+ []
+
 [7]
 Underfull \hbox (badness 10000) in paragraph at lines 485--487
 
@@ -807,6 +823,11 @@ File: Use_Case_Diagrams/BuyTicket.jpeg Graphic file (type jpg)
 Package pdftex.def Info: Use_Case_Diagrams/BuyTicket.jpeg  used on input line 5
 47.
 (pdftex.def)             Requested size: 489.10287pt x 342.44531pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 547--548
+[][] 
+ []
+
 [8]
 Underfull \hbox (badness 10000) in paragraph at lines 553--555
 
@@ -828,6 +849,11 @@ File: Use_Case_Diagrams/MakePayment.JPG Graphic file (type jpg)
 Package pdftex.def Info: Use_Case_Diagrams/MakePayment.JPG  used on input line 
 641.
 (pdftex.def)             Requested size: 489.10287pt x 392.80098pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 641--642
+[][] 
+ []
+
 [10]
 Underfull \hbox (badness 10000) in paragraph at lines 647--649
 
@@ -849,6 +875,11 @@ File: Use_Case_Diagrams/ReloadCard.jpeg Graphic file (type jpg)
 Package pdftex.def Info: Use_Case_Diagrams/ReloadCard.jpeg  used on input line 
 711.
 (pdftex.def)             Requested size: 489.10287pt x 358.15721pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 711--712
+[][] 
+ []
+
 [11]
 Overfull \vbox (14.5622pt too high) has occurred while \output is active []
 
@@ -879,6 +910,11 @@ File: Use_Case_Diagrams/CustomerRegistration.jpeg Graphic file (type jpg)
 Package pdftex.def Info: Use_Case_Diagrams/CustomerRegistration.jpeg  used on i
 nput line 824.
 (pdftex.def)             Requested size: 489.10287pt x 326.75082pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 824--825
+[][] 
+ []
+
 [13]
 Underfull \hbox (badness 10000) in paragraph at lines 832--834
 
@@ -909,13 +945,44 @@ Overfull \hbox (31.08566pt too wide) in paragraph at lines 893--939
 [][] 
  []
 
-("Deliverable 1.gls" [15] [16] [17 <./Use_Case_Diagrams/ChangeLanguage.JPG>]
+<Use_Case_Diagrams/PasswordReset_AD.jpeg, id=59, 794.97pt x 614.295pt>
+File: Use_Case_Diagrams/PasswordReset_AD.jpeg Graphic file (type jpg)
+<use Use_Case_Diagrams/PasswordReset_AD.jpeg>
+Package pdftex.def Info: Use_Case_Diagrams/PasswordReset_AD.jpeg  used on input
+ line 948.
+(pdftex.def)             Requested size: 489.10287pt x 377.95322pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 948--949
+[][] 
+ []
+
+[15]
+<Use_Case_Diagrams/BuyTicket_seq.jpeg, id=63, 840.9819pt x 491.436pt>
+File: Use_Case_Diagrams/BuyTicket_seq.jpeg Graphic file (type jpg)
+<use Use_Case_Diagrams/BuyTicket_seq.jpeg>
+Package pdftex.def Info: Use_Case_Diagrams/BuyTicket_seq.jpeg  used on input li
+ne 955.
+(pdftex.def)             Requested size: 489.10287pt x 285.81294pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 955--956
+[][] 
+ []
+
+<Use_Case_Diagrams/BuyTicket_AD.jpeg, id=64, 469.755pt x 587.3142pt>
+File: Use_Case_Diagrams/BuyTicket_AD.jpeg Graphic file (type jpg)
+<use Use_Case_Diagrams/BuyTicket_AD.jpeg>
+Package pdftex.def Info: Use_Case_Diagrams/BuyTicket_AD.jpeg  used on input lin
+e 962.
+(pdftex.def)             Requested size: 440.18959pt x 550.34581pt.
+("Deliverable 1.gls" [16] [17 <./Use_Case_Diagrams/ChangeLanguage.JPG>]
 [18 <./Use_Case_Diagrams/ViewTicketPlan.jpeg>] [19 <./Use_Case_Diagrams/BuyTick
 et.jpeg>] [20 <./Use_Case_Diagrams/MakePayment.JPG>] [21 <./Use_Case_Diagrams/R
-eloadCard.jpeg>] [22 <./Use_Case_Diagrams/CustomerRegistration.jpeg>])
-("Deliverable 1.acr" [23
+eloadCard.jpeg>] [22 <./Use_Case_Diagrams/CustomerRegistration.jpeg>] [23 <./Us
+e_Case_Diagrams/PasswordReset_AD.jpeg>] [24 <./Use_Case_Diagrams/BuyTicket_seq.
+jpeg>] [25 <./Use_Case_Diagrams/BuyTicket_AD.jpeg>]) ("Deliverable 1.acr"
+[26
 
-]) [24
+]) [27
 
 runsystem(makeindex -s "Deliverable 1".ist -t "Deliverable 1".glg -o "Deliverab
 le 1".gls "Deliverable 1".glo)...executed (allowed).
@@ -932,19 +999,19 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10634 strings out of 492895
- 183575 string characters out of 3119998
- 311769 words of memory out of 3000000
- 14331 multiletter control sequences out of 15000+200000
+ 10651 strings out of 492895
+ 184175 string characters out of 3119998
+ 312792 words of memory out of 3000000
+ 14345 multiletter control sequences out of 15000+200000
  10083 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,8n,39p,2071b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "Deliverable 1.pdf" (25 pages, 1219821 bytes).
+Output written on "Deliverable 1.pdf" (28 pages, 1700997 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 111 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
