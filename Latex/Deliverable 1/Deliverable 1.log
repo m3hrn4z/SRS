@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  12 OCT 2019 22:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  14 OCT 2019 13:42
 entering extended mode
 **"./Deliverable 1.tex"
 ("Deliverable 1.tex"
@@ -452,29 +452,7 @@ e 80.
 
 Package glossaries Info: Writing glossary file "Deliverable 1".acn on input lin
 e 80.
-("Deliverable 1.aux"
-
-LaTeX Warning: Label `fig:Use Case Model : ' multiply defined.
-
-
-LaTeX Warning: Label `fig:Use Case Model : ' multiply defined.
-
-
-LaTeX Warning: Label `fig:Use Case Model : ' multiply defined.
-
-
-LaTeX Warning: Label `fig:Use Case Model : ' multiply defined.
-
-
-LaTeX Warning: Label `fig:Use Case Model : ' multiply defined.
-
-
-LaTeX Warning: Label `fig:Use Case Model : ' multiply defined.
-
-
-LaTeX Warning: Label `fig:Activity Diagram : ' multiply defined.
-
-)
+("Deliverable 1.aux")
 \openout1 = `"Deliverable 1.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
@@ -651,7 +629,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
+[2
 
+]
 Underfull \hbox (badness 10000) in paragraph at lines 193--193
 []\OT1/cmr/m/n/12 Physical Char-
  []
@@ -667,74 +647,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--213
  []
 
 
-Overfull \hbox (9.68845pt too wide) in paragraph at lines 175--236
+Overfull \hbox (9.68845pt too wide) in paragraph at lines 175--232
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--236
-
- []
-
-[2
-
-]
-Underfull \hbox (badness 7704) in paragraph at lines 242--242
+Underfull \hbox (badness 7704) in paragraph at lines 238--238
 []\OT1/cmr/m/n/12 Workflow Con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 []\OT1/cmr/m/n/12 Physical En-vi-
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 262--262
+Underfull \hbox (badness 2285) in paragraph at lines 257--257
 []\OT1/cmr/m/n/12 Technical En-vi-
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 265--265
+Underfull \hbox (badness 3713) in paragraph at lines 260--260
 []\OT1/cmr/m/n/12 Social En-vi-ron-
  []
 
 
-Overfull \hbox (27.31326pt too wide) in paragraph at lines 240--269
+Overfull \hbox (27.31326pt too wide) in paragraph at lines 236--264
 [][] 
  []
 
-[3]
-Overfull \hbox (9.68845pt too wide) in paragraph at lines 278--286
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+[3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
 []\OT1/cmr/m/n/12 Unregistered
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--337
+Overfull \hbox (9.68845pt too wide) in paragraph at lines 279--324
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
 []\OT1/cmr/m/n/12 Non-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--337
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
 \OT1/cmr/m/n/12 Rechargeable
  []
 
 
-Overfull \hbox (27.31326pt too wide) in paragraph at lines 289--341
-[][] 
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 346--346
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
 []\OT1/cmr/m/n/12 Rechargable
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--370
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
 []\OT1/cmr/m/n/12 Payment Au-
  []
 
@@ -743,246 +711,208 @@ Underfull \hbox (badness 10000) in paragraph at lines 370--370
 .def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Overfull \hbox (27.31326pt too wide) in paragraph at lines 344--378
+Overfull \hbox (27.31326pt too wide) in paragraph at lines 327--373
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--378
+Underfull \hbox (badness 10000) in paragraph at lines 327--373
 
  []
 
-<domain_model.png, id=20, 154.176pt x 99.7326pt>
-File: domain_model.png Graphic file (type png)
-<use domain_model.png>
-Package pdftex.def Info: domain_model.png  used on input line 383.
-(pdftex.def)             Requested size: 256.10614pt x 298.79375pt.
-[5] [6 <./domain_model.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 393--395
+[5] [6]
+<domain_model.jpeg, id=27, 1066.4643pt x 688.7331pt>
+File: domain_model.jpeg Graphic file (type jpg)
+<use domain_model.jpeg>
+Package pdftex.def Info: domain_model.jpeg  used on input line 379.
+(pdftex.def)             Requested size: 512.15742pt x 569.08408pt.
 
+Overfull \hbox (29.85454pt too wide) in paragraph at lines 379--380
+ [][] 
  []
 
-
-Overfull \hbox (31.08566pt too wide) in paragraph at lines 396--429
-[][] 
+[7 <./domain_model.jpeg>]
+Overfull \hbox (13.46085pt too wide) in paragraph at lines 395--428
+[] 
  []
 
-<Use_Case_Diagrams/ChangeLanguage.JPG, id=28, 530.73282pt x 648.92438pt>
+<Use_Case_Diagrams/ChangeLanguage.JPG, id=31, 530.73282pt x 648.92438pt>
 File: Use_Case_Diagrams/ChangeLanguage.JPG Graphic file (type jpg)
 <use Use_Case_Diagrams/ChangeLanguage.JPG>
 Package pdftex.def Info: Use_Case_Diagrams/ChangeLanguage.JPG  used on input li
-ne 431.
+ne 430.
 (pdftex.def)             Requested size: 489.10287pt x 598.03755pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 431--432
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 430--431
 [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 0.03401pt on input line 433.
+LaTeX Warning: Float too large for page by 0.03401pt on input line 432.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--439
-
+Overfull \hbox (13.46085pt too wide) in paragraph at lines 439--476
+[] 
  []
 
-
-Overfull \hbox (31.08566pt too wide) in paragraph at lines 440--477
-[][] 
- []
-
-<Use_Case_Diagrams/ViewTicketPlan.jpeg, id=29, 794.97pt x 451.6875pt>
+<Use_Case_Diagrams/ViewTicketPlan.jpeg, id=32, 794.97pt x 451.6875pt>
 File: Use_Case_Diagrams/ViewTicketPlan.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/ViewTicketPlan.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/ViewTicketPlan.jpeg  used on input l
-ine 479.
+ine 478.
 (pdftex.def)             Requested size: 489.10287pt x 277.90677pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 479--480
-[][] 
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 485--487
-
- []
-
-
-Underfull \hbox (badness 1755) in paragraph at lines 539--540
-[]\OT1/cmr/m/n/12 System ex-its and dis-plays wel-come
- []
-
-
-Overfull \hbox (31.08566pt too wide) in paragraph at lines 488--545
-[][] 
- []
-
-<Use_Case_Diagrams/BuyTicket.jpeg, id=33, 813.0375pt x 569.2467pt>
-File: Use_Case_Diagrams/BuyTicket.jpeg Graphic file (type jpg)
-<use Use_Case_Diagrams/BuyTicket.jpeg>
-Package pdftex.def Info: Use_Case_Diagrams/BuyTicket.jpeg  used on input line 5
-47.
-(pdftex.def)             Requested size: 489.10287pt x 342.44531pt.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 547--548
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 478--479
 [][] 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 553--555
+Underfull \hbox (badness 1755) in paragraph at lines 536--537
+[]\OT1/cmr/m/n/12 System ex-its and dis-plays wel-come
+ []
 
+
+Overfull \hbox (13.46085pt too wide) in paragraph at lines 485--542
+[] 
+ []
+
+<Use_Case_Diagrams/BuyTicket.jpeg, id=36, 813.0375pt x 569.2467pt>
+File: Use_Case_Diagrams/BuyTicket.jpeg Graphic file (type jpg)
+<use Use_Case_Diagrams/BuyTicket.jpeg>
+Package pdftex.def Info: Use_Case_Diagrams/BuyTicket.jpeg  used on input line 5
+44.
+(pdftex.def)             Requested size: 489.10287pt x 342.44531pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 544--545
+[][] 
  []
 
 [9]
-Underfull \hbox (badness 7851) in paragraph at lines 597--598
+Underfull \hbox (badness 7851) in paragraph at lines 592--593
 []\OT1/cmr/m/n/12 System cre-ate a trans-ac-tion and
  []
 
 
-Overfull \hbox (31.08566pt too wide) in paragraph at lines 556--605
-[][] 
- []
-
-<Use_Case_Diagrams/MakePayment.JPG, id=40, 680.5425pt x 546.54187pt>
-File: Use_Case_Diagrams/MakePayment.JPG Graphic file (type jpg)
-<use Use_Case_Diagrams/MakePayment.JPG>
-Package pdftex.def Info: Use_Case_Diagrams/MakePayment.JPG  used on input line 
-641.
-(pdftex.def)             Requested size: 489.10287pt x 392.80098pt.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 641--642
-[][] 
+Overfull \hbox (13.46085pt too wide) in paragraph at lines 551--600
+[] 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 647--649
+<Use_Case_Diagrams/MakePayment.JPG, id=43, 680.5425pt x 546.54187pt>
+File: Use_Case_Diagrams/MakePayment.JPG Graphic file (type jpg)
+<use Use_Case_Diagrams/MakePayment.JPG>
+Package pdftex.def Info: Use_Case_Diagrams/MakePayment.JPG  used on input line 
+636.
+(pdftex.def)             Requested size: 489.10287pt x 392.80098pt.
 
- []
-
-
-Underfull \hbox (badness 7397) in paragraph at lines 679--680
-[]\OT1/cmr/m/n/12 System dis-plays dif-fer-ent recharge
- []
-
-
-Overfull \hbox (31.08566pt too wide) in paragraph at lines 650--708
-[][] 
- []
-
-<Use_Case_Diagrams/ReloadCard.jpeg, id=44, 641.5167pt x 469.755pt>
-File: Use_Case_Diagrams/ReloadCard.jpeg Graphic file (type jpg)
-<use Use_Case_Diagrams/ReloadCard.jpeg>
-Package pdftex.def Info: Use_Case_Diagrams/ReloadCard.jpeg  used on input line 
-711.
-(pdftex.def)             Requested size: 489.10287pt x 358.15721pt.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 711--712
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 636--637
 [][] 
  []
 
 [11]
-Overfull \vbox (14.5622pt too high) has occurred while \output is active []
+Underfull \hbox (badness 7397) in paragraph at lines 670--671
+[]\OT1/cmr/m/n/12 System dis-plays dif-fer-ent recharge
+ []
 
+
+Overfull \hbox (13.46085pt too wide) in paragraph at lines 641--699
+[] 
+ []
+
+<Use_Case_Diagrams/ReloadCard.jpeg, id=47, 641.5167pt x 469.755pt>
+File: Use_Case_Diagrams/ReloadCard.jpeg Graphic file (type jpg)
+<use Use_Case_Diagrams/ReloadCard.jpeg>
+Package pdftex.def Info: Use_Case_Diagrams/ReloadCard.jpeg  used on input line 
+702.
+(pdftex.def)             Requested size: 489.10287pt x 358.15721pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 702--703
+[][] 
+ []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 718--720
+Overfull \vbox (38.11218pt too high) has occurred while \output is active []
 
+
+[13]
+Overfull \hbox (13.46085pt too wide) in paragraph at lines 708--752
+[] 
  []
 
 
-Overfull \hbox (31.08566pt too wide) in paragraph at lines 721--765
-[][] 
+Overfull \hbox (48.68544pt too wide) in paragraph at lines 761--805
+[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 774--776
-
- []
-
-
-Overfull \hbox (66.31026pt too wide) in paragraph at lines 777--821
-[][] 
- []
-
-<Use_Case_Diagrams/CustomerRegistration.jpeg, id=52, 523.9575pt x 350.0277pt>
+<Use_Case_Diagrams/CustomerRegistration.jpeg, id=55, 523.9575pt x 350.0277pt>
 File: Use_Case_Diagrams/CustomerRegistration.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/CustomerRegistration.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/CustomerRegistration.jpeg  used on i
-nput line 824.
+nput line 808.
 (pdftex.def)             Requested size: 489.10287pt x 326.75082pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 824--825
-[][] 
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 832--834
-
- []
-
-
-Underfull \hbox (badness 1325) in paragraph at lines 864--865
-[]\OT1/cmr/m/n/12 System de-cline unau-tho-rized ac-cess.
- []
-
-
-Overfull \hbox (31.08566pt too wide) in paragraph at lines 835--881
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 808--809
 [][] 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 890--892
-
- []
-
-
-Underfull \hbox (badness 1325) in paragraph at lines 922--923
+Underfull \hbox (badness 1325) in paragraph at lines 845--846
 []\OT1/cmr/m/n/12 System de-cline unau-tho-rized ac-cess.
  []
 
 
-Overfull \hbox (31.08566pt too wide) in paragraph at lines 893--939
-[][] 
- []
-
-<Use_Case_Diagrams/PasswordReset_AD.jpeg, id=59, 794.97pt x 614.295pt>
-File: Use_Case_Diagrams/PasswordReset_AD.jpeg Graphic file (type jpg)
-<use Use_Case_Diagrams/PasswordReset_AD.jpeg>
-Package pdftex.def Info: Use_Case_Diagrams/PasswordReset_AD.jpeg  used on input
- line 948.
-(pdftex.def)             Requested size: 489.10287pt x 377.95322pt.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 948--949
-[][] 
+Overfull \hbox (13.46085pt too wide) in paragraph at lines 816--862
+[] 
  []
 
 [15]
-<Use_Case_Diagrams/BuyTicket_seq.jpeg, id=63, 840.9819pt x 491.436pt>
-File: Use_Case_Diagrams/BuyTicket_seq.jpeg Graphic file (type jpg)
-<use Use_Case_Diagrams/BuyTicket_seq.jpeg>
-Package pdftex.def Info: Use_Case_Diagrams/BuyTicket_seq.jpeg  used on input li
-ne 955.
-(pdftex.def)             Requested size: 489.10287pt x 285.81294pt.
+Underfull \hbox (badness 1325) in paragraph at lines 899--900
+[]\OT1/cmr/m/n/12 System de-cline unau-tho-rized ac-cess.
+ []
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 955--956
+
+Overfull \hbox (13.46085pt too wide) in paragraph at lines 870--916
+[] 
+ []
+
+<Use_Case_Diagrams/PasswordReset_AD.jpeg, id=62, 794.97pt x 614.295pt>
+File: Use_Case_Diagrams/PasswordReset_AD.jpeg Graphic file (type jpg)
+<use Use_Case_Diagrams/PasswordReset_AD.jpeg>
+Package pdftex.def Info: Use_Case_Diagrams/PasswordReset_AD.jpeg  used on input
+ line 925.
+(pdftex.def)             Requested size: 489.10287pt x 377.95322pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 925--926
 [][] 
  []
 
-<Use_Case_Diagrams/BuyTicket_AD.jpeg, id=64, 469.755pt x 587.3142pt>
+[16]
+<Use_Case_Diagrams/BuyTicket_seq.jpeg, id=66, 840.9819pt x 491.436pt>
+File: Use_Case_Diagrams/BuyTicket_seq.jpeg Graphic file (type jpg)
+<use Use_Case_Diagrams/BuyTicket_seq.jpeg>
+Package pdftex.def Info: Use_Case_Diagrams/BuyTicket_seq.jpeg  used on input li
+ne 932.
+(pdftex.def)             Requested size: 489.10287pt x 285.81294pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 932--933
+[][] 
+ []
+
+<Use_Case_Diagrams/BuyTicket_AD.jpeg, id=67, 469.755pt x 587.3142pt>
 File: Use_Case_Diagrams/BuyTicket_AD.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/BuyTicket_AD.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/BuyTicket_AD.jpeg  used on input lin
-e 962.
+e 939.
 (pdftex.def)             Requested size: 440.18959pt x 550.34581pt.
-("Deliverable 1.gls" [16] [17 <./Use_Case_Diagrams/ChangeLanguage.JPG>]
-[18 <./Use_Case_Diagrams/ViewTicketPlan.jpeg>] [19 <./Use_Case_Diagrams/BuyTick
-et.jpeg>] [20 <./Use_Case_Diagrams/MakePayment.JPG>] [21 <./Use_Case_Diagrams/R
-eloadCard.jpeg>] [22 <./Use_Case_Diagrams/CustomerRegistration.jpeg>] [23 <./Us
-e_Case_Diagrams/PasswordReset_AD.jpeg>] [24 <./Use_Case_Diagrams/BuyTicket_seq.
-jpeg>] [25 <./Use_Case_Diagrams/BuyTicket_AD.jpeg>]) ("Deliverable 1.acr"
-[26
+("Deliverable 1.gls" [17] [18 <./Use_Case_Diagrams/ChangeLanguage.JPG>]
+[19 <./Use_Case_Diagrams/ViewTicketPlan.jpeg>] [20 <./Use_Case_Diagrams/BuyTick
+et.jpeg>] [21 <./Use_Case_Diagrams/MakePayment.JPG>] [22 <./Use_Case_Diagrams/R
+eloadCard.jpeg>] [23 <./Use_Case_Diagrams/CustomerRegistration.jpeg>] [24 <./Us
+e_Case_Diagrams/PasswordReset_AD.jpeg>] [25 <./Use_Case_Diagrams/BuyTicket_seq.
+jpeg>] [26 <./Use_Case_Diagrams/BuyTicket_AD.jpeg>]) ("Deliverable 1.acr"
+[27
 
-]) [27
+]) [28
 
 runsystem(makeindex -s "Deliverable 1".ist -t "Deliverable 1".glg -o "Deliverab
 le 1".gls "Deliverable 1".glo)...executed (allowed).
@@ -994,24 +924,21 @@ le 1".acr "Deliverable 1".acn)...executed (allowed).
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 10651 strings out of 492895
- 184175 string characters out of 3119998
- 312792 words of memory out of 3000000
- 14345 multiletter control sequences out of 15000+200000
+ 10657 strings out of 492895
+ 184357 string characters out of 3119998
+ 314829 words of memory out of 3000000
+ 14352 multiletter control sequences out of 15000+200000
  10083 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,8n,39p,2071b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "Deliverable 1.pdf" (28 pages, 1700997 bytes).
+Output written on "Deliverable 1.pdf" (29 pages, 2065559 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
+ 114 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

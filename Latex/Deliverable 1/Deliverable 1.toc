@@ -4,9 +4,17 @@
 \contentsline {subsection}{\numberline {1.1.2}Scope of Use}{2}% 
 \contentsline {section}{\numberline {1.2}Problem 2}{3}% 
 \contentsline {subsection}{\numberline {1.2.1}Context of Use Model}{3}% 
-\contentsline {section}{\numberline {1.3}Problem 3}{4}% 
-\contentsline {subsection}{\numberline {1.3.1}Domain Model}{4}% 
-\contentsline {section}{\numberline {1.4}Problem 4}{7}% 
-\contentsline {subsection}{\numberline {1.4.1}Use Case Model}{7}% 
-\contentsline {chapter}{Glossary}{26}% 
-\contentsline {chapter}{Acronyms}{27}% 
+\contentsline {section}{\numberline {1.3}Problem 3}{5}% 
+\contentsline {subsection}{\numberline {1.3.1}Domain Model}{5}% 
+\contentsline {section}{\numberline {1.4}Problem 4 - Use Case Model}{8}% 
+\contentsline {subsection}{\numberline {1.4.1}Use Case: Change Language}{8}% 
+\contentsline {subsection}{\numberline {1.4.2}Use Case: View Ticket Plans}{9}% 
+\contentsline {subsection}{\numberline {1.4.3}Use Case: Buy Tickets}{10}% 
+\contentsline {subsection}{\numberline {1.4.4}Use Case: Make a payment}{11}% 
+\contentsline {subsection}{\numberline {1.4.5}Use Case: Reload Rechargable Card}{13}% 
+\contentsline {subsection}{\numberline {1.4.6}Use Case: Update Ticket Specification}{14}% 
+\contentsline {subsection}{\numberline {1.4.7}Use Case: Customer Registration}{15}% 
+\contentsline {subsection}{\numberline {1.4.8}Use Case: False Login}{16}% 
+\contentsline {subsection}{\numberline {1.4.9}Use Case: False Login}{17}% 
+\contentsline {chapter}{Glossary}{27}% 
+\contentsline {chapter}{Acronyms}{28}% 
