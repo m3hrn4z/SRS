@@ -164,7 +164,7 @@ iGo will also internally generate a \gls{transaction} when the user interacts wi
 The product iGo at this moment is restricted to server in Montreal city only. iGo is a software system and does not include the development, maintenance or deployement of the physical devices needed to develop a TVM. iGo does not provide any online platform or device application to recharge OPUS card or purchase ticket.
 
 
-
+\newpage
 
 \section{Problem 2}
 \subsection{Context of Use Model}
@@ -212,9 +212,6 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\hline
 	Special Variant Preferences in UI & 
 	For special need people with visual impairment system should offer voice messages.
-
-
-
 	\\
 	\hline
 	\textbf{Task} &  \\
@@ -232,12 +229,11 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\\
 	\hline 
 \end{tabular}
-\\ 
 
 
 \setlength{\tabcolsep}{18pt}
 \renewcommand{\arraystretch}{1.5}
-\begin{tabular}{ |p{3cm}|p{12cm}| }
+\begin{tabular}[H]{ |p{3cm}|p{12cm}| }
 	\hline
 	Workflow Controllability & The workflow of each task in TVM machine should be easily controllable by the user. For example user should be able to navigate back to the main menu, user should be able to cancel the ticket selection or transaction etc.\\
 	\hline
@@ -252,7 +248,6 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\hline
 	Temporal Characteristics & 
 	According to user requests that are dependant to date, the system should validate the request based on current date. \\
-	
 	\hline
 	\textbf{Environment} & \\
 	\hline
@@ -268,11 +263,17 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 \end{tabular}
 
 
+%==============================================================
+%
+%				PROBLEM 3: DOMAIN MODEL
+%
+%==============================================================
+
+\newpage
 
 
 \section{Problem 3}
 \subsection{Domain Model}
-
 \setlength{\tabcolsep}{18pt}
 \renewcommand{\arraystretch}{1.5}
 \begin{tabular}[H]{ |p{3cm}|p{12cm}| }
@@ -281,12 +282,6 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\hline
 	TVM & It is a ticket vending machine to issue ticket or reload rechargeable card for bus and metro
 	\\
-	\hline
-\end{tabular}
-
-\setlength{\tabcolsep}{18pt}
-\renewcommand{\arraystretch}{1.5}
-\begin{tabular}[H]{ |p{3cm}|p{12cm}| }
 	\hline
 	User & Someone who uses TVM as a commuter, an administrator or a negative user as a crook
 	\\
@@ -325,6 +320,12 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	Receipt & It has the confirmation of the transaction and this is the superclass of different kinds of receipt
 	\\
 	\hline
+\end{tabular}
+	
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}[H]{ |p{3cm}|p{12cm}| }
+	\hline
 	Paper Receipt & It is a subclass of receipt which is printed on paper
 	\\
 	\hline
@@ -336,12 +337,6 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\hline
 	Non-Rechargeable Ticket & It is a temporary ticket for limited use printed on the paper by printer
 	\\
-	\hline
-\end{tabular}
-	
-\setlength{\tabcolsep}{18pt}
-\renewcommand{\arraystretch}{1.5}
-\begin{tabular}[H]{ |p{3cm}|p{12cm}| }
 	\hline
 	Rechargable Card & A card which has an expiry date and can be recharged and used multiple times before the expiration date
 	\\
@@ -377,22 +372,26 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 \\ 
 
 
+\newpage
 
 \begin{figure}[!htb]
 	\centering
-	\fbox{\includegraphics[width=9cm,height=10.5cm]{domain_model.png}}
-	\caption{\label{fig:Use Case Model : } Change Language Use Case Model}	
+	\fbox{\includegraphics[width=18cm,height=20cm]{domain_model.jpeg}}
+	\caption{\label{fig:Domain Model} Domain Model}	
 \end{figure}
 
 
+%==============================================================
+%
+%				PROBLEM 4: USE CASE MODEL
+%
+%==============================================================
+
 \newpage
-\section{Problem 4}
-\subsection{Use Case Model}
 
-\vspace{0.5cm}
-\textbf{\large Use Case: Change Language} 
-\\ 
-
+\section{Problem 4 - Use Case Model}
+\subsection{Use Case: Change Language}
+ 
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
 	\hline
@@ -429,13 +428,13 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 \begin{figure}[!htb]
 	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/ChangeLanguage.JPG}}
-	\caption{\label{fig:Use Case Model : } Change Language Use Case Model}	
+	\caption{\label{fig:uc_change_language : } Use Case: Change Language}	
 \end{figure} 
 
 
 \vspace{0.5cm}
-\textbf{\large Use Case: View Ticket Plans}
-\\
+
+\subsection{Use Case: View Ticket Plans}
 
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
@@ -477,13 +476,11 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 \begin{figure}[!htb]
 	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/ViewTicketPlan.jpeg}}
-	\caption{\label{fig:Use Case Model : } View Ticket Plans}	
+	\caption{\label{fig:uc_view_ticket_plans : }Use Case: View Ticket Plans}	
 \end{figure}
 
 
-\vspace{0.5cm}
-\textbf{\large Use Case: Buy Tickets}
-\\
+\subsection{Use Case: Buy Tickets}
 
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
@@ -545,14 +542,12 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 \begin{figure}[!htb]
 	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/BuyTicket.jpeg}}
-	\caption{\label{fig:Use Case Model : } Buy Ticket}	
+	\caption{\label{fig:uc_buy_ticket : }Use Case: Buy Ticket}	
 \end{figure}
 
 
-\vspace{0.5cm}
-\textbf{\large Use Case: Make a payment}
-\\
 
+\subsection{Use Case: Make a payment}
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
 	\hline
@@ -639,14 +634,10 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 \begin{figure}[!htb]
 	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/MakePayment.JPG}}
-	\caption{\label{fig:Use Case Model : } Make Payment}	
+	\caption{\label{fig:uc_make_payment : }Use Case: Make Payment}	
 \end{figure}
 
-
-\vspace{0.5cm}
-\textbf{\large Use Case: Reload Rechargeable Card}
-\\
-
+\subsection{Use Case: Reload Rechargable Card}
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
 	\hline
@@ -709,15 +700,11 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 \begin{figure}[!htbp]
 	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/ReloadCard.jpeg}}
-	\caption{\label{fig:Use Case Model : } Reload Rechargeable Card}	
+	\caption{\label{fig:uc_reload_rechargable_card : }Use Case: Reload Rechargeable Card}	
 \end{figure}
 
 
-
-\vspace{0.5cm}
-\textbf{\large Use Case: Update Ticket Specification}
-\\
-
+\subsection{Use Case: Update Ticket Specification}
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
 	\hline
@@ -770,10 +757,7 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 %\end{figure}
 
 
-\vspace{0.5cm}
-\textbf{\large Use Case: Customer Registration}
-\\
-
+\subsection{Use Case: Customer Registration}
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
 	\hline
@@ -822,15 +806,12 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 \begin{figure}[!htbp]
 	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/CustomerRegistration.jpeg}}
-	\caption{\label{fig:Use Case Model : } Customer Registration}	
+	\caption{\label{fig:uc_customer_registration }Use Case: Customer Registration}	
 \end{figure}
 
 
 
-
-\vspace{0.5cm}
-\textbf{\large Use Case: False Login}
-\\
+\subsection{Use Case: False Login}
 
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
@@ -885,11 +866,7 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 %	\caption{\label{fig:Use Case Model : } Customer Registration}	
 %\end{figure}
 
-
-\vspace{0.5cm}
-\textbf{\large Use Case: False Login}
-\\
-
+\subsection{Use Case: False Login}
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
 	\hline
@@ -939,28 +916,28 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 
 %\begin{figure}[!htbp]
-%	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/CustomerRegistration.jpeg}
+%	%\includegraphics[width=1\textwidth]{Use_Case_Diagrams/CustomerRegistration.jpeg}
 %	\caption{\label{fig:Use Case Model : } Customer Registration}	
 %\end{figure}
 
 
 \begin{figure}[!htbp]
 	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/PasswordReset_AD.jpeg}}
-	\caption{\label{fig:Activity Diagram : } Password Reset}	
+	\caption{\label{fig: act_password_reset } Activity Diagram: Password Reset}	
 \end{figure}
 
 
 
 \begin{figure}[!htbp]
 	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/BuyTicket_seq.jpeg}}
-	\caption{\label{fig:Sequence Diagram : } Buy Ticket}	
+	\caption{\label{fig:seq_buy_ticket} Sequence Diagram: Buy Ticket}	
 \end{figure}
 
 
 
 \begin{figure}[!htbp]
 	\fbox{\includegraphics[width=0.9\textwidth]{Use_Case_Diagrams/BuyTicket_AD.jpeg}}
-	\caption{\label{fig:Activity Diagram : } Buy Ticket}	
+	\caption{\label{fig:act_buy_ticket : } Activity Diagram: Buy Ticket}	
 \end{figure}
 
 \printglossaries
