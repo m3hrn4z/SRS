@@ -1,5 +1,6 @@
 \documentclass[a4paper,12pt]{report}
 \usepackage[left=0.75in,right=0.75in,top=1.5in,bottom=1.5in,footskip=.25in]{geometry}
+\usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
@@ -127,7 +128,11 @@
 
 \end{flushleft}
 
-\vspace{1.5cm}
+\centering \vspace{0.5cm}
+
+GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
+
+\vspace{0.1cm}
 {\large \today}\\[2cm]
 
 \vfill
@@ -150,8 +155,15 @@
 
 \chapter*{\centering Deliverable - 1}
 
-\section{Problem 1}
 
+
+%==============================================================
+%
+%				PROBLEM 1: Problem Description
+%
+%==============================================================
+
+\section{Problem 1}
 \subsection{iGo Description}
 The product \gls{igo} is a software solution for \gls{tvm} (Ticket Vending Machine) which allows user to purchase tickets, recharge their \gls{opus} card and get information about the different tickets \gls{stm}(Société de transport de Montréal) offers. iGO products is designed to server people in Montreal, Quebec, Canada who use STM metros and buses. STM offers two ticketing methods: \gls{rechargable_card} OPUS Card and \gls{non_rechargable_card} limited use cards. With OPUS card user can make unlimited trips in STM buses and metros for a particular period, which is the recharge cycle of the card. \\
 
@@ -164,8 +176,14 @@ iGo will also internally generate a \gls{transaction} when the user interacts wi
 The product iGo at this moment is restricted to server in Montreal city only. iGo is a software system and does not include the development, maintenance or deployement of the physical devices needed to develop a TVM. iGo does not provide any online platform or device application to recharge OPUS card or purchase ticket.
 
 
-\newpage
 
+%==============================================================
+%
+%				PROBLEM 2: Context of Use Model
+%
+%==============================================================
+
+\newpage
 \section{Problem 2}
 \subsection{Context of Use Model}
 
