@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  15 OCT 2019 14:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  15 OCT 2019 14:45
 entering extended mode
 **"./Deliverable 1.tex"
 ("Deliverable 1.tex"
@@ -1091,14 +1091,14 @@ Overfull \hbox (29.85454pt too wide) in paragraph at lines 518--519
  []
 
 [11 <./domain_model.jpeg>]
-<Use_Case_Diagrams/UseCaseModel.JPG, id=227, 536.0025pt x 564.60938pt>
-File: Use_Case_Diagrams/UseCaseModel.JPG Graphic file (type jpg)
-<use Use_Case_Diagrams/UseCaseModel.JPG>
-Package pdftex.def Info: Use_Case_Diagrams/UseCaseModel.JPG  used on input line
- 537.
-(pdftex.def)             Requested size: 512.14383pt x 512.18428pt.
+<Use_Case_Diagrams/UseCaseModel.jpeg, id=227, 536.75531pt x 549.55313pt>
+File: Use_Case_Diagrams/UseCaseModel.jpeg Graphic file (type jpg)
+<use Use_Case_Diagrams/UseCaseModel.jpeg>
+Package pdftex.def Info: Use_Case_Diagrams/UseCaseModel.jpeg  used on input lin
+e 537.
+(pdftex.def)             Requested size: 512.15057pt x 512.1944pt.
 
-Overfull \hbox (29.84094pt too wide) in paragraph at lines 537--538
+Overfull \hbox (29.84769pt too wide) in paragraph at lines 537--538
 [][] 
  []
 
@@ -1107,7 +1107,7 @@ Overfull \hbox (13.46085pt too wide) in paragraph at lines 545--577
 [] 
  []
 
-[12 <./Use_Case_Diagrams/UseCaseModel.JPG>]
+[12 <./Use_Case_Diagrams/UseCaseModel.jpeg>]
 Underfull \hbox (badness 10000) in paragraph at lines 583--584
 
  []
@@ -1387,7 +1387,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1214.
  ) 
 Here is how much of TeX's memory you used:
  19602 strings out of 492895
- 349721 string characters out of 3119998
+ 349725 string characters out of 3119998
  850670 words of memory out of 3000000
  23146 multiletter control sequences out of 15000+200000
  10599 words of font info for 38 fonts, out of 3000000 for 9000
@@ -1400,7 +1400,7 @@ cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Sanc
 hit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
 12.pfb><C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmtt12.pfb>
-Output written on "Deliverable 1.pdf" (39 pages, 2239322 bytes).
+Output written on "Deliverable 1.pdf" (39 pages, 2238689 bytes).
 PDF statistics:
  436 PDF objects out of 1000 (max. 8388607)
  102 named destinations out of 1000 (max. 500000)
