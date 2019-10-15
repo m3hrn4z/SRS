@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  14 OCT 2019 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  14 OCT 2019 23:10
 entering extended mode
 **"./Deliverable 1.tex"
 ("Deliverable 1.tex"
@@ -244,23 +244,6 @@ enc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
-
-("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\utf8x.
-def"
-File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
-))
-("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucs.st
-y"
-Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
-
-("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-gl
-obal.def"
-File: uni-global.def 2013/05/13 UCS: Unicode global data
-)
-\uc@secondtry=\count104
-\uc@combtoks=\toks18
-\uc@combtoksb=\toks19
-\uc@temptokena=\toks20
 )
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries
 /base\glossaries.sty"
@@ -278,10 +261,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 xkeyval.tex"
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\
 xkvutils.tex"
-\XKV@toks=\toks21
-\XKV@tempa@toks=\toks22
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
 )
-\XKV@depth=\count105
+\XKV@depth=\count104
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mfirstuc\m
@@ -291,10 +274,10 @@ Package: mfirstuc 2017/11/14 v2.06 (NLCT)
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\e
 toolbox.sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count106
+\etb@tempcnta=\count105
 )
-\@glsmfirst=\toks23
-\@glsmrest=\toks24
+\@glsmfirst=\toks20
+\@glsmrest=\toks21
 )
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/textcase\t
 extcase.sty"
@@ -322,7 +305,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\am
 sgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks25
+\@emptytoks=\toks22
 \ex@=\dimen118
 ))
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\am
@@ -334,13 +317,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 sopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count107
+\inf@bad=\count106
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count108
-\leftroot@=\count109
+\uproot@=\count107
+\leftroot@=\count108
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count110
-\DOTSCASE@=\count111
+\classnum@=\count109
+\DOTSCASE@=\count110
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
@@ -349,33 +332,33 @@ LaTeX Info: Redefining \cdots on input line 606.
 \big@size=\dimen120
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count112
-\c@MaxMatrixCols=\count113
+\macc@depth=\count111
+\c@MaxMatrixCols=\count112
 \dotsspace@=\muskip11
-\c@parentequation=\count114
-\dspbrk@lvl=\count115
-\tag@help=\toks26
-\row@=\count116
-\column@=\count117
-\maxfields@=\count118
-\andhelp@=\toks27
+\c@parentequation=\count113
+\dspbrk@lvl=\count114
+\tag@help=\toks23
+\row@=\count115
+\column@=\count116
+\maxfields@=\count117
+\andhelp@=\toks24
 \eqnshift@=\dimen121
 \alignsep@=\dimen122
 \tagshift@=\dimen123
 \tagwidth@=\dimen124
 \totwidth@=\dimen125
 \lineht@=\dimen126
-\@envbody=\toks28
+\@envbody=\toks25
 \multlinegap=\skip45
 \multlinetaggap=\skip46
-\mathdisplay@stack=\toks29
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/substr\sub
 str.sty"
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count119
+\c@su@anzahl=\count118
 )
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datatool\d
 atatool-fp.sty"
@@ -387,20 +370,20 @@ Package: fp 1995/04/02
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\defpatt
 ern.sty"
 Package: defpattern 1994/10/12
-\actioncount=\count120
+\actioncount=\count119
 )
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-basi
 c.sty"
 Package: fp-basic 1996/05/13
-\FP@xs=\count121
-\FP@xia=\count122
-\FP@xib=\count123
-\FP@xfa=\count124
-\FP@xfb=\count125
-\FP@rega=\count126
-\FP@regb=\count127
-\FP@regs=\count128
-\FP@times=\count129
+\FP@xs=\count120
+\FP@xia=\count121
+\FP@xib=\count122
+\FP@xfa=\count123
+\FP@xfb=\count124
+\FP@rega=\count125
+\FP@regb=\count126
+\FP@regs=\count127
+\FP@times=\count128
 )
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-addo
 ns.sty"
@@ -425,7 +408,7 @@ Package: fp-pas 1994/08/29
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-rand
 om.sty"
 Package: fp-random 1995/02/23
-\FPseed=\count130
+\FPseed=\count129
 )
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-eqn.
 sty"
@@ -439,15 +422,15 @@ Package: fp-upn 1996/10/21
 .sty"
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks30
-\@dtl@tmpcount=\count131
+\@dtl@toks=\toks27
+\@dtl@tmpcount=\count130
 \dtl@tmplength=\skip47
-\dtl@sortresult=\count132
-\@dtl@numgrpsepcount=\count133
-\@dtl@datatype=\count134
-\dtl@codeA=\count135
-\dtl@codeB=\count136
-\@dtl@foreach@level=\count137
+\dtl@sortresult=\count131
+\@dtl@numgrpsepcount=\count132
+\@dtl@datatype=\count133
+\dtl@codeA=\count134
+\dtl@codeB=\count135
+\@dtl@foreach@level=\count136
 )
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries
 /base\glossaries-compatible-307.sty"
@@ -467,13 +450,13 @@ Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 -english\glossaries-english.ldf"
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count138
-\@gls@tmpb=\toks31
+\gls@level=\count137
+\@gls@tmpb=\toks28
 \gls@tmplen=\skip48
-\glskeylisttok=\toks32
-\glslabeltok=\toks33
-\glsshorttok=\toks34
-\glslongtok=\toks35
+\glskeylisttok=\toks29
+\glslabeltok=\toks30
+\glsshorttok=\toks31
+\glslongtok=\toks32
 
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries
 /styles\glossary-hypernav.sty"
@@ -495,17 +478,17 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
 \LTright=\skip51
 \LTpre=\skip52
 \LTpost=\skip53
-\LTchunksize=\count139
+\LTchunksize=\count138
 \LTcapwidth=\dimen127
 \LT@head=\box29
 \LT@firsthead=\box30
 \LT@foot=\box31
 \LT@lastfoot=\box32
-\LT@cols=\count140
-\LT@rows=\count141
-\c@LT@tables=\count142
-\c@LT@chunks=\count143
-\LT@p@ftn=\toks36
+\LT@cols=\count139
+\LT@rows=\count140
+\c@LT@tables=\count141
+\c@LT@chunks=\count142
+\LT@p@ftn=\toks33
 )
 \glsdescwidth=\skip54
 \glspagelistwidth=\skip55
@@ -517,7 +500,7 @@ Package: glossary-super 2019/01/06 v4.42 (NLCT)
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/supertabul
 ar\supertabular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count144
+\c@tracingst=\count143
 \ST@wd=\dimen128
 \ST@rightskip=\skip56
 \ST@leftskip=\skip57
@@ -543,6 +526,225 @@ Package: glossary-tree 2019/01/06 v4.42 (NLCT)
 laceins.sty"
 Package: placeins 2005/04/18  v 2.2
 )
+("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\b
+iblatex.sty"
+Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
+
+("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\log
+req.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count144
+
+("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\log
+req.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count145
+\c@listtotal=\count146
+\c@listcount=\count147
+\c@liststart=\count148
+\c@liststop=\count149
+\c@citecount=\count150
+\c@citetotal=\count151
+\c@multicitecount=\count152
+\c@multicitetotal=\count153
+\c@instcount=\count154
+\c@maxnames=\count155
+\c@minnames=\count156
+\c@maxitems=\count157
+\c@minitems=\count158
+\c@citecounter=\count159
+\c@maxcitecounter=\count160
+\c@savedcitecounter=\count161
+\c@uniquelist=\count162
+\c@uniquename=\count163
+\c@refsection=\count164
+\c@refsegment=\count165
+\c@maxextratitle=\count166
+\c@maxextratitleyear=\count167
+\c@maxextraname=\count168
+\c@maxextradate=\count169
+\c@maxextraalpha=\count170
+\c@abbrvpenalty=\count171
+\c@highnamepenalty=\count172
+\c@lownamepenalty=\count173
+\c@maxparens=\count174
+\c@parenlevel=\count175
+\blx@tempcnta=\count176
+\blx@tempcntb=\count177
+\blx@tempcntc=\count178
+\blx@maxsection=\count179
+\blx@maxsegment@0=\count180
+\blx@notetype=\count181
+\blx@parenlevel@text=\count182
+\blx@parenlevel@foot=\count183
+\blx@sectionciteorder@0=\count184
+\blx@entrysetcounter=\count185
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\biblabelsep=\skip62
+\bibitemsep=\skip63
+\bibnamesep=\skip64
+\bibinitsep=\skip65
+\bibparsep=\skip66
+\bibhang=\skip67
+\blx@bcfin=\read1
+\blx@bcfout=\write3
+\c@mincomprange=\count186
+\c@maxcomprange=\count187
+\c@mincompwidth=\count188
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\b
+lx-dm.def"
+File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count189
+\c@savedafterword=\count190
+\c@annotator=\count191
+\c@savedannotator=\count192
+\c@author=\count193
+\c@savedauthor=\count194
+\c@bookauthor=\count195
+\c@savedbookauthor=\count196
+\c@commentator=\count197
+\c@savedcommentator=\count198
+\c@editor=\count199
+\c@savededitor=\count266
+\c@editora=\count267
+\c@savededitora=\count268
+\c@editorb=\count269
+\c@savededitorb=\count270
+\c@editorc=\count271
+\c@savededitorc=\count272
+\c@foreword=\count273
+\c@savedforeword=\count274
+\c@holder=\count275
+\c@savedholder=\count276
+\c@introduction=\count277
+\c@savedintroduction=\count278
+\c@namea=\count279
+\c@savednamea=\count280
+\c@nameb=\count281
+\c@savednameb=\count282
+\c@namec=\count283
+\c@savednamec=\count284
+\c@translator=\count285
+\c@savedtranslator=\count286
+\c@shortauthor=\count287
+\c@savedshortauthor=\count288
+\c@shorteditor=\count289
+\c@savedshorteditor=\count290
+\c@labelname=\count291
+\c@savedlabelname=\count292
+\c@institution=\count293
+\c@savedinstitution=\count294
+\c@lista=\count295
+\c@savedlista=\count296
+\c@listb=\count297
+\c@savedlistb=\count298
+\c@listc=\count299
+\c@savedlistc=\count300
+\c@listd=\count301
+\c@savedlistd=\count302
+\c@liste=\count303
+\c@savedliste=\count304
+\c@listf=\count305
+\c@savedlistf=\count306
+\c@location=\count307
+\c@savedlocation=\count308
+\c@organization=\count309
+\c@savedorganization=\count310
+\c@origlocation=\count311
+\c@savedoriglocation=\count312
+\c@origpublisher=\count313
+\c@savedorigpublisher=\count314
+\c@publisher=\count315
+\c@savedpublisher=\count316
+\c@language=\count317
+\c@savedlanguage=\count318
+\c@origlanguage=\count319
+\c@savedoriglanguage=\count320
+\c@pageref=\count321
+\c@savedpageref=\count322
+\shorthandwidth=\skip68
+\shortjournalwidth=\skip69
+\shortserieswidth=\skip70
+\shorttitlewidth=\skip71
+\shortauthorwidth=\skip72
+\shorteditorwidth=\skip73
+\locallabelnumberwidth=\skip74
+\locallabelalphawidth=\skip75
+\localshorthandwidth=\skip76
+\localshortjournalwidth=\skip77
+\localshortserieswidth=\skip78
+\localshorttitlewidth=\skip79
+\localshortauthorwidth=\skip80
+\localshorteditorwidth=\skip81
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\b
+lx-compat.def"
+File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\b
+iblatex.def"
+File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+\c@textcitecount=\count323
+\c@textcitetotal=\count324
+\c@textcitemaxnames=\count325
+\c@biburlnumpenalty=\count326
+\c@biburlucpenalty=\count327
+\c@biburllcpenalty=\count328
+\c@smartand=\count329
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/b
+bx\numeric.bbx"
+File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/b
+bx\standard.bbx"
+File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count330
+\c@bbx:relatedtotal=\count331
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/c
+bx\numeric.cbx"
+File: numeric.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\b
+iblatex.cfg"
+File: biblatex.cfg 
+))
 
 Package glossaries Warning: Use of \makeglossary with glossaries.sty is 
 (glossaries)                deprecated. Use \makeglossaries instead. If you 
@@ -551,36 +753,49 @@ Package glossaries Warning: Use of \makeglossary with glossaries.sty is
 (glossaries)                restore the former definition of \makeglossary) and
  
 (glossaries)                nomain (if the file extensions cause a conflict) on
- input line 81.
+ input line 82.
 
-\glswrite=\write3
-\glo@main@file=\write4
-\openout4 = `"Deliverable 1.glo"'.
+\glswrite=\write4
+\glo@main@file=\write5
+\openout5 = `"Deliverable 1.glo"'.
 
 Package glossaries Info: Writing glossary file "Deliverable 1".glo on input lin
-e 81.
-\glo@acronym@file=\write5
-\openout5 = `"Deliverable 1.acn"'.
+e 82.
+\glo@acronym@file=\write6
+\openout6 = `"Deliverable 1.acn"'.
 
 Package glossaries Info: Writing glossary file "Deliverable 1".acn on input lin
-e 81.
+e 82.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/l
+bx\english.lbx"
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count332
+\@quotereset=\count333
 ("Deliverable 1.aux")
 \openout1 = `"Deliverable 1.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -617,7 +832,7 @@ LaTeX Font Info:    ... okay on input line 83.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 84.
 
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\n
 ameref.sty"
@@ -627,30 +842,30 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 \gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count145
+\c@section@level=\count334
 )
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
+LaTeX Info: Redefining \ref on input line 84.
+LaTeX Info: Redefining \pageref on input line 84.
+LaTeX Info: Redefining \nameref on input line 84.
  ("Deliverable 1.out") ("Deliverable 1.out")
-\@outlinefile=\write6
-\openout6 = `"Deliverable 1.out"'.
+\@outlinefile=\write7
+\openout7 = `"Deliverable 1.out"'.
 
 
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mki
 i\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count146
+\scratchcounter=\count335
 \scratchdimen=\dimen139
 \scratchbox=\box35
-\nofMPsegments=\count147
-\nofMParguments=\count148
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count149
+\nofMPsegments=\count336
+\nofMParguments=\count337
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count338
 \MPscratchDim=\dimen140
-\MPnumerator=\count150
-\makeMPintoPDFobject=\count151
-\everyMPtoPDFconversion=\toks38
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
+\everyMPtoPDFconversion=\toks35
 )
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\e
 pstopdf-base.sty"
@@ -667,356 +882,492 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucsenc
-s.def"
-File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
-)
-<University_logo.jpg, id=79, 1724.4425pt x 530.98375pt>
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `"Deliverable 1.bcf"'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file '"Deliverable 1".bbl' found.
+ ("Deliverable 1.bbl")
+Package biblatex Info: Reference section=0 on input line 84.
+Package biblatex Info: Reference segment=0 on input line 84.
+<University_logo.jpg, id=91, 1724.4425pt x 530.98375pt>
 File: University_logo.jpg Graphic file (type jpg)
 <use University_logo.jpg>
-Package pdftex.def Info: University_logo.jpg  used on input line 95.
+Package pdftex.def Info: University_logo.jpg  used on input line 96.
 (pdftex.def)             Requested size: 172.45435pt x 53.10147pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 96.
+(Font)              using `OT1/cmr/bx/n' instead on input line 97.
 
 [1
 
-\openout3 = `"Deliverable 1.ist"'.
+\openout4 = `"Deliverable 1.ist"'.
 
 {C:/Users/Sanchit Kumar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./U
 niversity_logo.jpg>] ("Deliverable 1.toc")
-\tf@toc=\write7
-\openout7 = `"Deliverable 1.toc"'.
+\tf@toc=\write8
+\openout8 = `"Deliverable 1.toc"'.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.156 \chapter
+l.158 \chapter
               *{\centering Deliverable - 1} [1
 
 ]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-
-("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-0.
-def"
-File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-)
-Overfull \hbox (24.54599pt too wide) in paragraph at lines 168--169
-[][]\OT1/cmr/m/n/12 Soci[Pleaseinsert\PrerenderUnicode{}intopreamble]t[Pleasein
-sert\PrerenderUnicode{}intopreamble]
- []
-
-
-Overfull \hbox (0.71983pt too wide) in paragraph at lines 168--169
-\OT1/cmr/m/n/12 de trans-port de Montr[Pleaseinsert\PrerenderUnicode{}intopream
-ble]al (STM)[](Societe de trans-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 211--211
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\cite' on input line 190.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
 []\OT1/cmr/m/n/12 Physical Char-
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 231--231
+Underfull \hbox (badness 4621) in paragraph at lines 233--233
 []\OT1/cmr/m/n/12 Special Vari-ant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 \OT1/cmr/m/n/12 Pref-er-ences in
  []
 
 
-Overfull \hbox (9.68845pt too wide) in paragraph at lines 193--250
+Overfull \hbox (9.68845pt too wide) in paragraph at lines 195--252
 [] 
  []
 
 
-Underfull \hbox (badness 7704) in paragraph at lines 256--256
+Underfull \hbox (badness 7704) in paragraph at lines 258--258
 []\OT1/cmr/m/n/12 Workflow Con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 []\OT1/cmr/m/n/12 Physical En-vi-
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 275--275
+Underfull \hbox (badness 2285) in paragraph at lines 277--277
 []\OT1/cmr/m/n/12 Technical En-vi-
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 278--278
+Underfull \hbox (badness 3713) in paragraph at lines 280--280
 []\OT1/cmr/m/n/12 Social En-vi-ron-
  []
 
 
-Overfull \hbox (27.31326pt too wide) in paragraph at lines 254--282
+Overfull \hbox (27.31326pt too wide) in paragraph at lines 256--284
 [][] 
  []
 
-[3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]\OT1/cmr/m/n/12 Physical Char-
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 331--331
+[]\OT1/cmr/m/n/12 Special Vari-ant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+\OT1/cmr/m/n/12 Pref-er-ences in
+ []
+
+
+Overfull \hbox (9.68845pt too wide) in paragraph at lines 293--350
+[] 
+ []
+
+[4]
+Underfull \hbox (badness 7704) in paragraph at lines 356--356
+[]\OT1/cmr/m/n/12 Workflow Con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+[]\OT1/cmr/m/n/12 Physical En-vi-
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 376--376
+[]\OT1/cmr/m/n/12 Technical En-vi-
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 379--379
+[]\OT1/cmr/m/n/12 Social En-vi-ron-
+ []
+
+
+Overfull \hbox (27.31326pt too wide) in paragraph at lines 354--383
+[][] 
+ []
+
+[5]
+<Use_Case_Diagrams/MindMap_TVM.jpg, id=171, 753.81625pt x 733.74126pt>
+File: Use_Case_Diagrams/MindMap_TVM.jpg Graphic file (type jpg)
+<use Use_Case_Diagrams/MindMap_TVM.jpg>
+Package pdftex.def Info: Use_Case_Diagrams/MindMap_TVM.jpg  used on input line 
+391.
+(pdftex.def)             Requested size: 512.1397pt x 569.09145pt.
+
+Overfull \hbox (29.8368pt too wide) in paragraph at lines 391--392
+ [][] 
+ []
+
+[6]
+
+LaTeX Warning: Text page 7 contains only floats.
+
+[7 <./Use_Case_Diagrams/MindMap_TVM.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\cite' on input line 408.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 []\OT1/cmr/m/n/12 Unregistered
  []
 
 
-Overfull \hbox (9.68845pt too wide) in paragraph at lines 297--342
+Overfull \hbox (9.68845pt too wide) in paragraph at lines 411--455
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--356
+Underfull \hbox (badness 10000) in paragraph at lines 472--472
 []\OT1/cmr/m/n/12 Non-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--356
+Underfull \hbox (badness 10000) in paragraph at lines 472--472
 \OT1/cmr/m/n/12 Rechargeable
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--359
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
 []\OT1/cmr/m/n/12 Rechargable
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--383
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
 []\OT1/cmr/m/n/12 Payment Au-
  []
 
 
-("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-32
-.def"
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)
-Overfull \hbox (27.31326pt too wide) in paragraph at lines 345--391
+Overfull \hbox (27.31326pt too wide) in paragraph at lines 458--507
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--391
+Underfull \hbox (badness 10000) in paragraph at lines 458--507
 
  []
 
-[5] [6]
-<domain_model.jpeg, id=152, 1066.4643pt x 688.7331pt>
+[8] [9]
+<domain_model.jpeg, id=194, 1066.4643pt x 688.7331pt>
 File: domain_model.jpeg Graphic file (type jpg)
 <use domain_model.jpeg>
-Package pdftex.def Info: domain_model.jpeg  used on input line 397.
+Package pdftex.def Info: domain_model.jpeg  used on input line 513.
 (pdftex.def)             Requested size: 512.15742pt x 569.08408pt.
 
-Overfull \hbox (29.85454pt too wide) in paragraph at lines 397--398
+Overfull \hbox (29.85454pt too wide) in paragraph at lines 513--514
  [][] 
  []
 
-[7 <./domain_model.jpeg>]
-Overfull \hbox (13.46085pt too wide) in paragraph at lines 413--446
+[10 <./domain_model.jpeg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\cite' on input line 527.
+
+
+Overfull \hbox (13.46085pt too wide) in paragraph at lines 530--562
 [] 
  []
 
-<Use_Case_Diagrams/ChangeLanguage.JPG, id=158, 530.73282pt x 648.92438pt>
+<Use_Case_Diagrams/ChangeLanguage.JPG, id=201, 530.73282pt x 648.92438pt>
 File: Use_Case_Diagrams/ChangeLanguage.JPG Graphic file (type jpg)
 <use Use_Case_Diagrams/ChangeLanguage.JPG>
 Package pdftex.def Info: Use_Case_Diagrams/ChangeLanguage.JPG  used on input li
-ne 448.
+ne 564.
 (pdftex.def)             Requested size: 489.10287pt x 598.03755pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 448--449
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 564--565
 [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 0.03401pt on input line 450.
+LaTeX Warning: Float too large for page by 0.03401pt on input line 566.
 
+[11] [12 <./Use_Case_Diagrams/ChangeLanguage.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 573--574
 
-Overfull \hbox (13.46085pt too wide) in paragraph at lines 457--494
-[] 
  []
 
-<Use_Case_Diagrams/ViewTicketPlan.jpeg, id=159, 794.97pt x 451.6875pt>
+
+Overfull \hbox (31.08566pt too wide) in paragraph at lines 575--612
+[][] 
+ []
+
+<Use_Case_Diagrams/ViewTicketPlan.jpeg, id=213, 794.97pt x 397.485pt>
 File: Use_Case_Diagrams/ViewTicketPlan.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/ViewTicketPlan.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/ViewTicketPlan.jpeg  used on input l
-ine 496.
-(pdftex.def)             Requested size: 489.10287pt x 277.90677pt.
+ine 614.
+(pdftex.def)             Requested size: 512.1634pt x 455.26039pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 496--497
+Overfull \hbox (29.86052pt too wide) in paragraph at lines 614--615
 [][] 
  []
 
-[8]
-Underfull \hbox (badness 1755) in paragraph at lines 554--555
+[13
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 624--625
+
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 677--678
 []\OT1/cmr/m/n/12 System ex-its and dis-plays wel-come
  []
 
 
-Overfull \hbox (13.46085pt too wide) in paragraph at lines 503--560
-[] 
- []
-
-<Use_Case_Diagrams/BuyTicket.jpeg, id=164, 813.0375pt x 569.2467pt>
-File: Use_Case_Diagrams/BuyTicket.jpeg Graphic file (type jpg)
-<use Use_Case_Diagrams/BuyTicket.jpeg>
-Package pdftex.def Info: Use_Case_Diagrams/BuyTicket.jpeg  used on input line 5
-62.
-(pdftex.def)             Requested size: 489.10287pt x 342.44531pt.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 562--563
+Overfull \hbox (31.08566pt too wide) in paragraph at lines 626--683
 [][] 
  []
 
-[9]
-Underfull \hbox (badness 7851) in paragraph at lines 610--611
+[14 <./Use_Case_Diagrams/ViewTicketPlan.jpeg>] [15]
+<Use_Case_Diagrams/BuyTicket.jpeg, id=233, 813.0375pt x 515.0442pt>
+File: Use_Case_Diagrams/BuyTicket.jpeg Graphic file (type jpg)
+<use Use_Case_Diagrams/BuyTicket.jpeg>
+Package pdftex.def Info: Use_Case_Diagrams/BuyTicket.jpeg  used on input line 6
+88.
+(pdftex.def)             Requested size: 512.16672pt x 455.2522pt.
+
+Overfull \hbox (29.86383pt too wide) in paragraph at lines 688--689
+ [][] 
+ []
+
+[16 <./Use_Case_Diagrams/BuyTicket.jpeg>]
+<Use_Case_Diagrams/BuyTicket_AD.jpeg, id=238, 469.755pt x 587.3142pt>
+File: Use_Case_Diagrams/BuyTicket_AD.jpeg Graphic file (type jpg)
+<use Use_Case_Diagrams/BuyTicket_AD.jpeg>
+Package pdftex.def Info: Use_Case_Diagrams/BuyTicket_AD.jpeg  used on input lin
+e 696.
+(pdftex.def)             Requested size: 440.18959pt x 550.34581pt.
+ [17 <./Use_Case_Diagrams/BuyTicket_AD.jpeg>]
+<Use_Case_Diagrams/BuyTicket_seq.jpeg, id=243, 840.9819pt x 491.436pt>
+File: Use_Case_Diagrams/BuyTicket_seq.jpeg Graphic file (type jpg)
+<use Use_Case_Diagrams/BuyTicket_seq.jpeg>
+Package pdftex.def Info: Use_Case_Diagrams/BuyTicket_seq.jpeg  used on input li
+ne 704.
+(pdftex.def)             Requested size: 512.16412pt x 455.26855pt.
+
+Overfull \hbox (29.86124pt too wide) in paragraph at lines 704--705
+ [][] 
+ []
+
+
+Underfull \hbox (badness 7851) in paragraph at lines 757--758
 []\OT1/cmr/m/n/12 System cre-ate a trans-ac-tion and
  []
 
 
-Overfull \hbox (13.46085pt too wide) in paragraph at lines 569--618
-[] 
- []
-
-[10]
-<Use_Case_Diagrams/MakePayment.JPG, id=173, 680.5425pt x 546.54187pt>
-File: Use_Case_Diagrams/MakePayment.JPG Graphic file (type jpg)
-<use Use_Case_Diagrams/MakePayment.JPG>
-Package pdftex.def Info: Use_Case_Diagrams/MakePayment.JPG  used on input line 
-654.
-(pdftex.def)             Requested size: 489.10287pt x 392.80098pt.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 654--655
+Overfull \hbox (31.08566pt too wide) in paragraph at lines 716--765
 [][] 
  []
 
-[11]
-Underfull \hbox (badness 7397) in paragraph at lines 688--689
+[18 <./Use_Case_Diagrams/BuyTicket_seq.jpeg>]
+<Use_Case_Diagrams/MakePayment.JPG, id=251, 680.5425pt x 546.54187pt>
+File: Use_Case_Diagrams/MakePayment.JPG Graphic file (type jpg)
+<use Use_Case_Diagrams/MakePayment.JPG>
+Package pdftex.def Info: Use_Case_Diagrams/MakePayment.JPG  used on input line 
+801.
+(pdftex.def)             Requested size: 489.10287pt x 392.80098pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 801--802
+[][] 
+ []
+
+[19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 808--809
+
+ []
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 839--840
 []\OT1/cmr/m/n/12 System dis-plays dif-fer-ent recharge
  []
 
 
-Overfull \hbox (13.46085pt too wide) in paragraph at lines 659--717
-[] 
+Overfull \hbox (31.08566pt too wide) in paragraph at lines 810--868
+[][] 
  []
 
-<Use_Case_Diagrams/ReloadCard.jpeg, id=178, 641.5167pt x 469.755pt>
+<Use_Case_Diagrams/ReloadCard.jpeg, id=262, 650.43pt x 469.755pt>
 File: Use_Case_Diagrams/ReloadCard.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/ReloadCard.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/ReloadCard.jpeg  used on input line 
-720.
-(pdftex.def)             Requested size: 489.10287pt x 358.15721pt.
+871.
+(pdftex.def)             Requested size: 489.10287pt x 353.24721pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 720--721
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 871--872
 [][] 
  []
 
-[12] [13]
-Overfull \vbox (38.11218pt too high) has occurred while \output is active []
+[21 <./Use_Case_Diagrams/MakePayment.JPG>]
+Overfull \vbox (14.5622pt too high) has occurred while \output is active []
 
 
-[14]
-Overfull \hbox (13.46085pt too wide) in paragraph at lines 726--770
-[] 
+[22] [23 <./Use_Case_Diagrams/ReloadCard.jpeg>]
+<Use_Case_Diagrams/ReloadCard_AD.jpeg, id=277, 108.405pt x 469.755pt>
+File: Use_Case_Diagrams/ReloadCard_AD.jpeg Graphic file (type jpg)
+<use Use_Case_Diagrams/ReloadCard_AD.jpeg>
+Package pdftex.def Info: Use_Case_Diagrams/ReloadCard_AD.jpeg  used on input li
+ne 877.
+(pdftex.def)             Requested size: 341.52548pt x 597.5069pt.
+ [24 <./Use_Case_Diagrams/ReloadCard_AD.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 884--885
+
  []
 
 
-Overfull \hbox (48.68544pt too wide) in paragraph at lines 779--823
-[] 
+Overfull \hbox (31.08566pt too wide) in paragraph at lines 886--930
+[][] 
  []
 
-<Use_Case_Diagrams/CustomerRegistration.jpeg, id=192, 523.9575pt x 350.0277pt>
+<Use_Case_Diagrams/admin_system_seq.JPG, id=283, 436.12938pt x 359.3425pt>
+File: Use_Case_Diagrams/admin_system_seq.JPG Graphic file (type jpg)
+<use Use_Case_Diagrams/admin_system_seq.JPG>
+Package pdftex.def Info: Use_Case_Diagrams/admin_system_seq.JPG  used on input 
+line 934.
+(pdftex.def)             Requested size: 489.10287pt x 402.98723pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 934--935
+ [][] 
+ []
+
+[25
+
+] [26 <./Use_Case_Diagrams/admin_system_seq.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 941--942
+
+ []
+
+
+Overfull \hbox (31.08566pt too wide) in paragraph at lines 944--989
+[][] 
+ []
+
+<Use_Case_Diagrams/CustomerRegistration.jpeg, id=295, 523.9575pt x 350.0277pt>
 File: Use_Case_Diagrams/CustomerRegistration.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/CustomerRegistration.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/CustomerRegistration.jpeg  used on i
-nput line 826.
-(pdftex.def)             Requested size: 489.10287pt x 326.75082pt.
+nput line 992.
+(pdftex.def)             Requested size: 512.16368pt x 455.27629pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 826--827
+Overfull \hbox (29.8608pt too wide) in paragraph at lines 992--993
 [][] 
  []
 
-[15]
-Underfull \hbox (badness 1325) in paragraph at lines 863--864
+<Use_Case_Diagrams/Customer_Registration_AD.jpeg, id=296, 225.9642pt x 551.1792
+pt>
+File: Use_Case_Diagrams/Customer_Registration_AD.jpeg Graphic file (type jpg)
+<use Use_Case_Diagrams/Customer_Registration_AD.jpeg>
+Package pdftex.def Info: Use_Case_Diagrams/Customer_Registration_AD.jpeg  used 
+on input line 999.
+(pdftex.def)             Requested size: 341.46933pt x 569.10863pt.
+[27] [28 <./Use_Case_Diagrams/CustomerRegistration.jpeg>] [29 <./Use_Case_Diagr
+ams/Customer_Registration_AD.jpeg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\cite' on input line 1006.
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 1037--1038
 []\OT1/cmr/m/n/12 System de-cline unau-tho-rized ac-cess.
  []
 
 
-Overfull \hbox (13.46085pt too wide) in paragraph at lines 834--880
+Overfull \hbox (13.46085pt too wide) in paragraph at lines 1008--1054
 [] 
  []
 
-[16]
-Underfull \hbox (badness 1325) in paragraph at lines 917--918
-[]\OT1/cmr/m/n/12 System de-cline unau-tho-rized ac-cess.
+[30]
+<Use_Case_Diagrams/PasswordReset_UCD.jpeg, id=317, 736.25063pt x 404.26031pt>
+File: Use_Case_Diagrams/PasswordReset_UCD.jpeg Graphic file (type jpg)
+<use Use_Case_Diagrams/PasswordReset_UCD.jpeg>
+Package pdftex.def Info: Use_Case_Diagrams/PasswordReset_UCD.jpeg  used on inpu
+t line 1062.
+(pdftex.def)             Requested size: 489.10287pt x 268.56448pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1062--1063
+[][] 
  []
 
-
-Overfull \hbox (13.46085pt too wide) in paragraph at lines 888--934
-[] 
- []
-
-<Use_Case_Diagrams/PasswordReset_AD.jpeg, id=201, 794.97pt x 614.295pt>
+<Use_Case_Diagrams/PasswordReset_AD.jpeg, id=318, 308.65312pt x 404.26031pt>
 File: Use_Case_Diagrams/PasswordReset_AD.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/PasswordReset_AD.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/PasswordReset_AD.jpeg  used on input
- line 943.
-(pdftex.def)             Requested size: 489.10287pt x 377.95322pt.
+ line 1071.
+(pdftex.def)             Requested size: 489.10287pt x 640.66121pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 943--944
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1071--1072
 [][] 
  []
 
-[17]
-<Use_Case_Diagrams/BuyTicket_seq.jpeg, id=206, 840.9819pt x 491.436pt>
-File: Use_Case_Diagrams/BuyTicket_seq.jpeg Graphic file (type jpg)
-<use Use_Case_Diagrams/BuyTicket_seq.jpeg>
-Package pdftex.def Info: Use_Case_Diagrams/BuyTicket_seq.jpeg  used on input li
-ne 950.
-(pdftex.def)             Requested size: 489.10287pt x 285.81294pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 950--951
+LaTeX Warning: Float too large for page by 42.65767pt on input line 1073.
+
+[31 <./Use_Case_Diagrams/PasswordReset_UCD.jpeg>] [32 <./Use_Case_Diagrams/Pass
+wordReset_AD.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1078--1079
+
+ []
+
+<Use_Case_Diagrams/PaymentFraud_UCD.jpeg, id=331, 548.80031pt x 261.22594pt>
+File: Use_Case_Diagrams/PaymentFraud_UCD.jpeg Graphic file (type jpg)
+<use Use_Case_Diagrams/PaymentFraud_UCD.jpeg>
+Package pdftex.def Info: Use_Case_Diagrams/PaymentFraud_UCD.jpeg  used on input
+ line 1081.
+(pdftex.def)             Requested size: 489.10287pt x 232.81718pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1081--1082
 [][] 
  []
 
-<Use_Case_Diagrams/BuyTicket_AD.jpeg, id=207, 469.755pt x 587.3142pt>
-File: Use_Case_Diagrams/BuyTicket_AD.jpeg Graphic file (type jpg)
-<use Use_Case_Diagrams/BuyTicket_AD.jpeg>
-Package pdftex.def Info: Use_Case_Diagrams/BuyTicket_AD.jpeg  used on input lin
-e 957.
-(pdftex.def)             Requested size: 440.18959pt x 550.34581pt.
-("Deliverable 1.gls" [18] [19 <./Use_Case_Diagrams/ChangeLanguage.JPG>]
-[20 <./Use_Case_Diagrams/ViewTicketPlan.jpeg>] [21 <./Use_Case_Diagrams/BuyTick
-et.jpeg>] [22 <./Use_Case_Diagrams/MakePayment.JPG>] [23 <./Use_Case_Diagrams/R
-eloadCard.jpeg>] [24 <./Use_Case_Diagrams/CustomerRegistration.jpeg>] [25 <./Us
-e_Case_Diagrams/PasswordReset_AD.jpeg>] [26 <./Use_Case_Diagrams/BuyTicket_seq.
-jpeg>] [27 <./Use_Case_Diagrams/BuyTicket_AD.jpeg>]) ("Deliverable 1.acr"
-[28
+[33 <./Use_Case_Diagrams/PaymentFraud_UCD.jpeg>] ("Deliverable 1.gls" [34
+
+])
+("Deliverable 1.acr" [35
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 963.
- [29
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1098.
+ [36
 
 
 runsystem(makeindex -s "Deliverable 1".ist -t "Deliverable 1".glg -o "Deliverab
@@ -1026,32 +1377,39 @@ runsystem(makeindex -s "Deliverable 1".ist -t "Deliverable 1".alg -o "Deliverab
 le 1".acr "Deliverable 1".acn)...executed (allowed).
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 963.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1098.
  ("Deliverable 1.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 963.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 963.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1098.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1098.
+
 Package rerunfilecheck Info: File `"Deliverable 1".out' has not changed.
-(rerunfilecheck)             Checksum: BA8B68649986248D04C9697129E9DAA0;1306.
+(rerunfilecheck)             Checksum: A160391EC00D4ABC0D23F78722F2C894;1619.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 963.
+Package logreq Info: Writing requests to '"Deliverable 1".run.xml'.
+\openout1 = `"Deliverable 1.run.xml"'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1098.
  ) 
 Here is how much of TeX's memory you used:
- 14114 strings out of 492895
- 237192 string characters out of 3119998
- 392679 words of memory out of 3000000
- 17723 multiletter control sequences out of 15000+200000
- 10083 words of font info for 36 fonts, out of 3000000 for 9000
+ 19495 strings out of 492895
+ 348119 string characters out of 3119998
+ 848211 words of memory out of 3000000
+ 23049 multiletter control sequences out of 15000+200000
+ 10430 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,8n,39p,2071b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,8n,49p,2071b,2765s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "Deliverable 1.pdf" (30 pages, 2086840 bytes).
+9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Sanchit Kumar/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Sanc
+hit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
+12.pfb>
+Output written on "Deliverable 1.pdf" (37 pages, 2240350 bytes).
 PDF statistics:
- 303 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
- 208 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 401 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
+ 262 words of extra memory for PDF output out of 10000 (max. 10000000)
 
