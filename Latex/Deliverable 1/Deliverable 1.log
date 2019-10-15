@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  15 OCT 2019 14:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  15 OCT 2019 14:37
 entering extended mode
 **"./Deliverable 1.tex"
 ("Deliverable 1.tex"
@@ -1091,14 +1091,14 @@ Overfull \hbox (29.85454pt too wide) in paragraph at lines 518--519
  []
 
 [11 <./domain_model.jpeg>]
-<Use_Case_Diagrams/UseCaseModel.JPG, id=227, 530.73282pt x 648.92438pt>
+<Use_Case_Diagrams/UseCaseModel.JPG, id=227, 536.0025pt x 564.60938pt>
 File: Use_Case_Diagrams/UseCaseModel.JPG Graphic file (type jpg)
 <use Use_Case_Diagrams/UseCaseModel.JPG>
 Package pdftex.def Info: Use_Case_Diagrams/UseCaseModel.JPG  used on input line
  537.
-(pdftex.def)             Requested size: 512.18636pt x 512.17926pt.
+(pdftex.def)             Requested size: 512.14383pt x 512.18428pt.
 
-Overfull \hbox (29.88347pt too wide) in paragraph at lines 537--538
+Overfull \hbox (29.84094pt too wide) in paragraph at lines 537--538
 [][] 
  []
 
@@ -1400,7 +1400,7 @@ cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Sanc
 hit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
 12.pfb><C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmtt12.pfb>
-Output written on "Deliverable 1.pdf" (39 pages, 2259866 bytes).
+Output written on "Deliverable 1.pdf" (39 pages, 2239322 bytes).
 PDF statistics:
  436 PDF objects out of 1000 (max. 8388607)
  102 named destinations out of 1000 (max. 500000)
