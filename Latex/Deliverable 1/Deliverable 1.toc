@@ -23,36 +23,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}Problem 4}{12}{section.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Use Case: Change Language}{12}{subsection.1.4.1}% 
+\contentsline {subsection}{\numberline {1.4.1}Use Case Model}{12}{subsection.1.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}Use Case: View Ticket Plans}{14}{subsection.1.4.2}% 
+\contentsline {subsection}{\numberline {1.4.2}Use Case: Change Language}{13}{subsection.1.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}Use Case: Buy Tickets}{15}{subsection.1.4.3}% 
+\contentsline {subsection}{\numberline {1.4.3}Use Case: View Ticket Plans}{13}{subsection.1.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.4}Use Case: Make a payment}{19}{subsection.1.4.4}% 
+\contentsline {subsection}{\numberline {1.4.4}Use Case: Buy Tickets}{15}{subsection.1.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.5}Use Case: Reload Rechargable Card}{22}{subsection.1.4.5}% 
+\contentsline {subsection}{\numberline {1.4.5}Use Case: Make a payment}{19}{subsection.1.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.6}Use Case: Manage Ticket Specification}{26}{subsection.1.4.6}% 
+\contentsline {subsection}{\numberline {1.4.6}Use Case: Reload Rechargable Card}{22}{subsection.1.4.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.7}Use Case: Customer Registration}{28}{subsection.1.4.7}% 
+\contentsline {subsection}{\numberline {1.4.7}Use Case: Update Ticket Specification}{26}{subsection.1.4.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.8}Use Case: False Login}{31}{subsection.1.4.8}% 
+\contentsline {subsection}{\numberline {1.4.8}Use Case: Customer Registration}{31}{subsection.1.4.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.9}Use Case: Password Reset}{32}{subsection.1.4.9}% 
+\contentsline {subsection}{\numberline {1.4.9}Use Case: False Login}{34}{subsection.1.4.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Use Case Diagram}{32}{section*.3}% 
+\contentsline {subsection}{\numberline {1.4.10}Use Case: Password Reset}{35}{subsection.1.4.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Activity Diagram}{32}{section*.4}% 
+\contentsline {subsubsection}{Use Case Diagram}{35}{section*.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.10}Use Case: Payment Fraud}{34}{subsection.1.4.10}% 
+\contentsline {subsubsection}{Activity Diagram}{35}{section*.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Glossary}{34}{section*.6}% 
+\contentsline {subsection}{\numberline {1.4.11}Use Case: Payment Fraud}{37}{subsection.1.4.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Acronyms}{35}{section*.8}% 
+\contentsline {section}{Glossary}{37}{section*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Appendices}{35}{section*.9}% 
+\contentsline {section}{Acronyms}{38}{section*.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}Appendix}{35}{section.Alph0.1}% 
+\contentsline {section}{Appendices}{38}{section*.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1}Interviews}{35}{subsection.Alph0.1.1}% 
+\contentsline {section}{\numberline {A}Appendix}{38}{section.Alph0.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1}Interviews}{38}{subsection.Alph0.1.1}% 
