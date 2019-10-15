@@ -64,29 +64,6 @@
       \field{title}{Introduction to Domain Modeling}
       \field{year}{2019}
     \endentry
-    \entry{negativeusecasekamthan}{book}{}
-      \name{author}{1}{}{%
-        {{hash=68b280f0045863b3e369370ad1ccef44}{%
-           family={Kamthan},
-           familyi={K\bibinitperiod},
-           given={Pankaj},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{68b280f0045863b3e369370ad1ccef44}
-      \strng{fullhash}{68b280f0045863b3e369370ad1ccef44}
-      \strng{bibnamehash}{68b280f0045863b3e369370ad1ccef44}
-      \strng{authorbibnamehash}{68b280f0045863b3e369370ad1ccef44}
-      \strng{authornamehash}{68b280f0045863b3e369370ad1ccef44}
-      \strng{authorfullhash}{68b280f0045863b3e369370ad1ccef44}
-      \field{extraname}{3}
-      \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Negative Use Case Modeling}
-      \field{year}{2019}
-      \field{dateera}{ce}
-    \endentry
     \entry{contextofusecasekamthan}{book}{}
       \name{author}{1}{}{%
         {{hash=68b280f0045863b3e369370ad1ccef44}{%
@@ -101,7 +78,7 @@
       \strng{authorbibnamehash}{68b280f0045863b3e369370ad1ccef44}
       \strng{authornamehash}{68b280f0045863b3e369370ad1ccef44}
       \strng{authorfullhash}{68b280f0045863b3e369370ad1ccef44}
-      \field{extraname}{4}
+      \field{extraname}{3}
       \field{sortinit}{K}
       \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
       \field{labelnamesource}{author}
@@ -123,7 +100,7 @@
       \strng{authorbibnamehash}{68b280f0045863b3e369370ad1ccef44}
       \strng{authornamehash}{68b280f0045863b3e369370ad1ccef44}
       \strng{authorfullhash}{68b280f0045863b3e369370ad1ccef44}
-      \field{extraname}{5}
+      \field{extraname}{4}
       \field{sortinit}{K}
       \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
       \field{labelnamesource}{author}
@@ -131,6 +108,32 @@
       \field{title}{Use Case Modeling}
       \field{year}{2019}
       \field{dateera}{ce}
+    \endentry
+    \entry{stmonline}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0c2132b36166716de0d0220567fb911f}{%
+           family={STM},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c2132b36166716de0d0220567fb911f}
+      \strng{fullhash}{0c2132b36166716de0d0220567fb911f}
+      \strng{bibnamehash}{0c2132b36166716de0d0220567fb911f}
+      \strng{authorbibnamehash}{0c2132b36166716de0d0220567fb911f}
+      \strng{authornamehash}{0c2132b36166716de0d0220567fb911f}
+      \strng{authorfullhash}{0c2132b36166716de0d0220567fb911f}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{STM website}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://www.stm.info/en
+      \endverb
+      \verb{url}
+      \verb http://www.stm.info/en
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

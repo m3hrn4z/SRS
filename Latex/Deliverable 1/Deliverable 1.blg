@@ -1,15 +1,15 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'Deliverable 1.blg'
-[26] biber-MSWIN64:315> INFO - === 
-[53] Biber.pm:371> INFO - Reading 'Deliverable 1.bcf'
-[131] Biber.pm:889> INFO - Found 5 citekeys in bib section 0
-[143] Biber.pm:4093> INFO - Processing section 0
-[155] Biber.pm:4254> INFO - Looking for bibtex format file 'ref.bib' for section 0
-[157] bibtex.pm:1523> INFO - LaTeX decoding ...
-[163] bibtex.pm:1340> INFO - Found BibTeX data source 'ref.bib'
-[197] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[197] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[197] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[197] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[202] bbl.pm:636> INFO - Writing 'Deliverable 1.bbl' with encoding 'UTF-8'
-[203] bbl.pm:739> INFO - Output to Deliverable 1.bbl
+[43] biber-MSWIN64:315> INFO - === 
+[81] Biber.pm:371> INFO - Reading 'Deliverable 1.bcf'
+[177] Biber.pm:889> INFO - Found 5 citekeys in bib section 0
+[192] Biber.pm:4093> INFO - Processing section 0
+[205] Biber.pm:4254> INFO - Looking for bibtex format file 'ref.bib' for section 0
+[209] bibtex.pm:1523> INFO - LaTeX decoding ...
+[221] bibtex.pm:1340> INFO - Found BibTeX data source 'ref.bib'
+[268] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[268] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[269] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[269] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[277] bbl.pm:636> INFO - Writing 'Deliverable 1.bbl' with encoding 'UTF-8'
+[279] bbl.pm:739> INFO - Output to Deliverable 1.bbl

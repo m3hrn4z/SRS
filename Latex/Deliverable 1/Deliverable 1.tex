@@ -5,17 +5,16 @@
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{url}
-\usepackage[toc,automake,acronym]{glossaries}
+\usepackage[toc,automake,acronym,section]{glossaries}
 \usepackage[section]{placeins} %This package prevents images to shift to other sections.
 \usepackage{biblatex}
 \addbibresource{ref.bib}
+\usepackage[toc,page,header]{appendix}
 
 \newcommand{\TermName}{FALL 2019}
 \newcommand{\Course}{\textbf{SOEN-6481 \vspace{0.5cm} SOFTWARE SYSTEMS REQUIREMENTS SPECIFICATION}}
 \newcommand{\ProfessorName}{Dr. PANKAJ KAMTHAN}
 \setcounter{chapter}{1}
-
-
 
 
 %---------------------------------------------------------------------------------------
@@ -167,7 +166,7 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 
 \section{Problem 1}
 \subsection{iGo Description}
-The product \gls{igo} is a software solution for \gls{tvm} (Ticket Vending Machine) which allows user to purchase tickets, recharge their \gls{opus} card and get information about the different tickets \gls{stm}(Société de transport de Montréal) offers. iGO products is designed to server people in Montreal, Quebec, Canada who use STM metros and buses. STM offers two ticketing methods: \gls{rechargable_card} OPUS Card and \gls{non_rechargable_card} limited use cards. With OPUS card user can make unlimited trips in STM buses and metros for a particular period, which is the recharge cycle of the card. \\
+The product \gls{igo} is a software solution for \gls{tvm} (Ticket Vending Machine) which allows user to purchase tickets, recharge their \gls{opus} card and get information about the different tickets \gls{stm}(Société de transport de Montréal)\cite{stmonline} offers. iGO products is designed to server people in Montreal, Quebec, Canada who use STM metros and buses. STM offers two ticketing methods: \gls{rechargable_card} OPUS Card and \gls{non_rechargable_card} limited use cards. With OPUS card user can make unlimited trips in STM buses and metros for a particular period, which is the recharge cycle of the card. \\
 
 
 User who wish recharge their OPUS card are first required to place their card in the card reader slot in TVM, they can then select the type of purchase they want to make and can select the mode of payment they wish to use. Currently, iGo supports cash and card payments. Users who want to purchase a Non-rechargable can select from a list of options based on the type of trip they wish to make. The purchase will be considered successfull only after the payment has been authenticated(in case of card payments) and is successfull. After a sucessfull purchase the user have the option to select the mode through which they wish to receive receipt. iGo supports 3 type of receipt delivery: Paper, email and SMS receipts. \\
@@ -187,8 +186,24 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 \newpage
 \section{Problem 2}
-\subsection{Context of Use Model\cite{contextofusecasekamthan}: User}
 
+\subsection{User Requirements Elicitation}
+We interviewed different types of TVM users to elicit contextual information and user requirements directly from TVM users by asking questions and documenting the responses as audio files and text. The results of interviews are given in Appendix A. The information gathered from these interviews was used for constructing user models, context of use\cite{contextofusecasekamthan}, domain model\cite{domainkamthan} and use case diagrams\cite{usecasekamthan}.
+
+\vspace{1cm}
+
+\subsection{Mind Map for TVM}
+The mind map\cite{mindmapkamthan} in the figure~\ref{fig: mind_map}, is for the analysis of Metro TVM design. All the concepts which are required for the development have been mapped. The possible type of TVM users will give a high level idea of how the TVM should look like, and how can a TVM software designed to be operated. The Analysis is for the elicitation of requirements, which includes analysis of problem, action items, goals to achieve and solutions to the problems. The Design includes all level of designs during the TVM software development. Application of the TVM software designed will be for Metro transportation, requirement specific information should be acquired.
+
+\begin{figure}[!htb]
+	\centering
+	\fbox{\includegraphics[width=18cm,height=18cm]{Use_Case_Diagrams/MindMap_TVM.jpg}}
+	\caption{Mind Map}
+	\label{fig: mind_map}
+\end{figure}
+
+
+\subsection{Context of Use Model: User}
 
 \setlength{\tabcolsep}{18pt}
 \renewcommand{\arraystretch}{1.5}
@@ -207,7 +222,7 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\\
 	\hline
 	Education &
-	System is designed assuming that customer can atleast read English. \textbf{CONSTRAINT: } We wont be able to design a model for who cant read
+	System is designed assuming that customer can atleast read English. \textbf{constraint:} We wont be able to design a model for who cant read
 	\\
 	\hline
 	Physical Characteristics    &
@@ -297,7 +312,7 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\textbf{Admin} &   \\
 	\hline
 	Role &
-	ADMIN \textbf{CONSTRAINT: } Due to the data privacy, The admin of TVM real activities were not available
+	ADMIN \textbf{constraint:} Due to the data privacy, The admin of TVM real activities were not available
 	\\
 	\hline
 	Experience & 
@@ -305,7 +320,7 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\\
 	\hline
 	Education &
-	System is designed assuming that admin can atleast read English \textbf{CONSTRAINT: We wont be able to design a model for who cant read}
+	System is designed assuming that admin can atleast read English \textbf{constraint:} We wont be able to design a model for who cant read
 	\\
 	\hline
 	Physical Characteristics    &
@@ -382,16 +397,6 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 \end{tabular}
 
 
-\vspace{1cm}
-\subsection{Mind Map for TVM}
-The mind map\cite{mindmapkamthan} in the figure~\ref{fig: mind_map}, is for the analysis of Metro TVM design. All the concepts which are required for the development have been mapped. The possible type of TVM users will give a high level idea of how the TVM should look like, and how can a TVM software designed to be operated. The Analysis is for the elicitation of requirements, which includes analysis of problem, action items, goals to achieve and solutions to the problems. The Design includes all level of designs during the TVM software development. Application of the TVM software designed will be for Metro transportation, requirement specific information should be acquired.
-
-\begin{figure}[!htb]
-	\centering
-	\fbox{\includegraphics[width=18cm,height=20cm]{Use_Case_Diagrams/MindMap_TVM.jpg}}
-	\caption{Mind Map}
-	\label{fig: mind_map}
-\end{figure}
 
 
 
@@ -405,7 +410,7 @@ The mind map\cite{mindmapkamthan} in the figure~\ref{fig: mind_map}, is for the 
 
 
 \section{Problem 3}
-\subsection{Domain Model\cite{domainkamthan}}
+\subsection{Domain Model}
 \setlength{\tabcolsep}{18pt}
 \renewcommand{\arraystretch}{1.5}
 \begin{tabular}[H]{ |p{3cm}|p{12cm}| }
@@ -524,7 +529,7 @@ The mind map\cite{mindmapkamthan} in the figure~\ref{fig: mind_map}, is for the 
 \newpage
 
 \FloatBarrier
-\section{Problem 4 - Use Case Model\cite{usecasekamthan}}
+\section{Problem 4}
 \subsection{Use Case: Change Language}
  
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
@@ -1003,7 +1008,7 @@ Commuter(New User) use Ticket Vending Machine to register himself/herself with t
 
 
 \FloatBarrier
-\subsection{Use Case: False Login\cite{negativeusecasekamthan}}
+\subsection{Use Case: False Login}
 
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
@@ -1088,12 +1093,19 @@ The Payment Fraud use case diagram shows how the payment authentication use case
 %
 %==================================================================
 
-
-\newpage
-
-\printbibliography[title=References]
+\printbibliography[heading=subbibliography,title=References]
 
 \printglossaries
+
+\appendix
+\addcontentsline{toc}{section}{Appendices}
+\renewcommand{\thesection}{\Alph{section}}
+\section{Appendix}
+\subsection{Interviews}
+Users are Interviewed and the results are accessable at: \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
+
+
+
 
 \end{document}
 
