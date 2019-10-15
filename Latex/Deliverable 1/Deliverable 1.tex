@@ -1,15 +1,16 @@
 \documentclass[a4paper,12pt]{report}
 \usepackage[left=0.75in,right=0.75in,top=1.5in,bottom=1.5in,footskip=.25in]{geometry}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{graphicx}
 \usepackage[english]{babel}
-\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{url}
 \usepackage[toc,automake,acronym]{glossaries}
 \usepackage[section]{placeins} %This package prevents images to shift to other sections.
+\usepackage{biblatex}
+\addbibresource{ref.bib}
 
 \newcommand{\TermName}{FALL 2019}
-\newcommand{\Title}{}
 \newcommand{\Course}{\textbf{SOEN-6481 \vspace{0.5cm} SOFTWARE SYSTEMS REQUIREMENTS SPECIFICATION}}
 \newcommand{\ProfessorName}{Dr. PANKAJ KAMTHAN}
 \setcounter{chapter}{1}
@@ -93,22 +94,23 @@
 \centering
 \textbf{\LARGE  Concordia University} \\ [5mm] 
 \includegraphics[scale=.1]{University_logo.jpg}\\[1cm] 
-\textsc{\Large \Course} \\ [0.5cm]
+\textsc{\Large \Course (\TermName)} \\  [0.5cm]
 
 %--------
 %	TITLE
 %--------
 	
 \HRule \\[0.4cm]
-{ \huge \bfseries TICKET VENDING MACHINE \\ [5mm]  (\TermName)}\\[0.4cm] 
-%{\large \textbf{DELIVERABLE 1 (D1)} }	
+{ \huge \bfseries TICKET VENDING MACHINE}\\[0.4cm] 
+\HRule \\[0.5cm]
+
+{\large \textbf{DELIVERABLE 1 (D1)} }	
+
 \HRule \\[1.5cm]
-
-
 %---------
 %	TAIL SECTION OF TITLE PAGE
 %---------
-\vspace{4cm}
+\vspace{3cm}
 
 \begin{flushleft}
 
@@ -128,7 +130,7 @@
 
 \end{flushleft}
 
-\centering \vspace{0.5cm}
+\centering \vspace{1cm}
 
 GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 
@@ -185,7 +187,7 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 \newpage
 \section{Problem 2}
-\subsection{Context of Use Model}
+\subsection{Context of Use Model\cite{contextofusecasekamthan}: User}
 
 
 \setlength{\tabcolsep}{18pt}
@@ -205,7 +207,7 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\\
 	\hline
 	Education &
-	System is designed assuming that customer can atleast read English.
+	System is designed assuming that customer can atleast read English. \textbf{CONSTRAINT: } We wont be able to design a model for who cant read
 	\\
 	\hline
 	Physical Characteristics    &
@@ -281,6 +283,118 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 \end{tabular}
 
 
+
+
+
+\subsection{Context of Use Model: Admin}
+
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}[H]{ |p{3cm}|p{12cm}| }
+	\hline
+	\textbf{Factor}  & \textbf{Description}  \\
+	\hline
+	\textbf{Admin} &   \\
+	\hline
+	Role &
+	ADMIN \textbf{CONSTRAINT: } Due to the data privacy, The admin of TVM real activities were not available
+	\\
+	\hline
+	Experience & 
+	The experience depends on the how frequent the admin is using the TVM, System is designed keeping in mind of a new admin without any system knowledge
+	\\
+	\hline
+	Education &
+	System is designed assuming that admin can atleast read English \textbf{CONSTRAINT: We wont be able to design a model for who cant read}
+	\\
+	\hline
+	Physical Characteristics    &
+	The physical TVM should be designed in such a way that even the physically challenged admin with wheel chair should also access the TVM
+	\\
+	\hline
+	Cognitive Characteristics & 
+	The cognitive knowledge of a admin should be counted as minimal, the system is designed keeping in mind of a new admin
+	\\
+	\hline
+	Location & 
+	The location of admin must be inside Montreal city
+	\\
+	\hline
+	Age & 
+	Ranging from 25-Retirement age
+	\\
+	\hline
+	Profession & 
+	The Profession is Role of the admin
+	\\
+	\hline
+	Special Variant Preferences in UI & 
+	For special need people with visual impairment system should offer voice messages
+	\\
+	\hline
+	\textbf{Task} &  \\
+	\hline
+	Choice in system use &
+	Admin should be able to do all administrative activities such changing changing the ticket/monthly pass fares,changing discount offers. Or any User specific actions
+	\\
+	\hline
+	Complexity & 
+	Since the admins can be with minimal knowledge on the TVM, tasks should be simple and straight forward
+	\\
+	\hline
+	Demands &
+	Should provide the TVM features in such a way, it should be easy for an admin change any relevant activity 
+	\\
+	\hline 
+\end{tabular}
+
+
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}[H]{ |p{3cm}|p{12cm}| }
+	\hline
+	Workflow Controllability & 
+	The workflow of each task in TVM machine should be easily controllable by the admin. For example admin should be able to navigate back to the main menu, admin should be able to any discount option, any membership or any user sepefic options\\
+	\hline
+	Safety & 
+	It should be confidential about the admin features. It should be isolated from the normal user login\\
+	\hline
+	Criticality & 
+	Task criticality should be divided based on the how important the task is and how often it is used/reused.\\
+	\hline
+	Frequency & 
+	The TVM can be used any number of times by any number of users, so the TVM should be able to guide each user based on the current information available with respect to trains or buses.\\
+	\hline
+	Temporal Characteristics & 
+	According to admin requests that are dependant to date, the system should validate the request based on current date \\
+	\hline
+	\textbf{Environment} & \\
+	\hline
+	Physical Environment & 
+	The TVM will be placed in metro stations, the passengers will be able to buy ticket/passes before there journey in train/bus. The factors like lights on the TVM machine for the visibility, space available to access the TVM, is the place allocated is too noisy should be taken care \\
+	\hline
+	Technical Environment & 
+	The TVM will be connected to the data server where the admin informations can be retrieved, it will be connected to the bank server to authenticate the credit/debit cards. \\
+	\hline
+	Social Environment & 
+	The TVM must support at least two languages including English and French since the official language of Quebec is French \\
+	\hline
+\end{tabular}
+
+
+\vspace{1cm}
+\subsection{Mind Map for TVM}
+The mind map\cite{mindmapkamthan} in the figure~\ref{fig: mind_map}, is for the analysis of Metro TVM design. All the concepts which are required for the development have been mapped. The possible type of TVM users will give a high level idea of how the TVM should look like, and how can a TVM software designed to be operated. The Analysis is for the elicitation of requirements, which includes analysis of problem, action items, goals to achieve and solutions to the problems. The Design includes all level of designs during the TVM software development. Application of the TVM software designed will be for Metro transportation, requirement specific information should be acquired.
+
+\begin{figure}[!htb]
+	\centering
+	\fbox{\includegraphics[width=18cm,height=20cm]{Use_Case_Diagrams/MindMap_TVM.jpg}}
+	\caption{Mind Map}
+	\label{fig: mind_map}
+\end{figure}
+
+
+
 %==============================================================
 %
 %				PROBLEM 3: DOMAIN MODEL
@@ -291,7 +405,7 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 
 \section{Problem 3}
-\subsection{Domain Model}
+\subsection{Domain Model\cite{domainkamthan}}
 \setlength{\tabcolsep}{18pt}
 \renewcommand{\arraystretch}{1.5}
 \begin{tabular}[H]{ |p{3cm}|p{12cm}| }
@@ -323,7 +437,6 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\\
 	\hline
 	Regular & Someone who has registered in the system and use Rechargeable Card, but pay \gls{regular_fare}
-	
 	\\
 	\hline
 	Senior Citizen & Someone who is 65 years old or over and is eligible to use reduced fare
@@ -351,6 +464,9 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\\
 	\hline
 	Ticket & It is either a rechargeable or non-rechargeable ticket which users pay for to use metro or bus
+	\\
+	\hline
+	Ticket Type & It describes number of trips or the duration (e.g. monthly ticket) of the ticket
 	\\
 	\hline
 	Non-Rechargeable Ticket & It is a temporary ticket for limited use printed on the paper by printer
@@ -407,7 +523,8 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 \newpage
 
-\section{Problem 4 - Use Case Model}
+\FloatBarrier
+\section{Problem 4 - Use Case Model\cite{usecasekamthan}}
 \subsection{Use Case: Change Language}
  
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
@@ -441,18 +558,19 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\hline
 	\textbf{Open Issues} &  1  & Language available to be decided by the customer \\
 	\hline
-	
 \end{tabular}
 
 \begin{figure}[!htb]
 	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/ChangeLanguage.JPG}}
-	\caption{\label{fig:uc_change_language : } Use Case: Change Language}	
+	\caption{\label{fig:uc_change_language} Use Case: Change Language}	
 \end{figure} 
 
 
-\vspace{0.5cm}
+
+\FloatBarrier
 
 \subsection{Use Case: View Ticket Plans}
+Commuters use Ticket vending machine to view ticket plans. Commuter is the primary actor that initiate the use case by choosing to view ticket plans.Secondary actor includes Data Store that supports and responds to the requests. The result for a normal use case scenario is that the customer has viewed different ticket plans. Figure~\ref{fig:uc_view_ticket_plans} explain this use case. \\
 
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
@@ -493,12 +611,17 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 \end{tabular}
 
 \begin{figure}[!htb]
-	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/ViewTicketPlan.jpeg}}
-	\caption{\label{fig:uc_view_ticket_plans : }Use Case: View Ticket Plans}	
+	\fbox{\includegraphics[width=18cm, height=16cm]{Use_Case_Diagrams/ViewTicketPlan.jpeg}}
+	\caption{\label{fig:uc_view_ticket_plans}Use Case: View Ticket Plans}	
 \end{figure}
 
 
+
+
+
+\FloatBarrier
 \subsection{Use Case: Buy Tickets}
+Commuters use Ticket vending machine to buy tickets. Commuter is the primary actor that initiate the use case by choosing to buy a ticket. Secondary actors include Payment Authentication and Data Store that support and respond to the requests. The result for a normal use case scenario is that the customer has received the ticket and the receipt. Figure~\ref{fig:uc_buy_ticket} and~\ref{fig:act_buy_ticket} and~\ref{fig:seq_buy_ticket} explain this use case. \\ 
 
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
@@ -558,14 +681,38 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	
 \end{tabular}
 
+\newpage
+
 \begin{figure}[!htb]
-	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/BuyTicket.jpeg}}
-	\caption{\label{fig:uc_buy_ticket : }Use Case: Buy Ticket}	
+	\centering
+	\fbox{\includegraphics[width=18cm, height=16cm]{Use_Case_Diagrams/BuyTicket.jpeg}}
+	\caption{\label{fig:uc_buy_ticket}Use Case: Buy Ticket}	
+\end{figure}
+
+\newpage
+
+\begin{figure}[!htbp]
+	\centering
+	\fbox{\includegraphics[width=0.9\textwidth]{Use_Case_Diagrams/BuyTicket_AD.jpeg}}
+	\caption{\label{fig:act_buy_ticket} Activity Diagram: Buy Ticket}	
+\end{figure}
+
+\newpage 
+
+\begin{figure}[!htbp]
+	\centering
+	\fbox{\includegraphics[width=18cm, height=16cm]{Use_Case_Diagrams/BuyTicket_seq.jpeg}}
+	\caption{\label{fig:seq_buy_ticket} Sequence Diagram: Buy Ticket}	
 \end{figure}
 
 
 
+
+
+\FloatBarrier
 \subsection{Use Case: Make a payment}
+Commuters use Ticket vending machine to make payments. Commuter is the primary actor that initiate the use case by choosing ticket plan.Secondary actor includes Data Store that supports and responds to the requests. The result for a normal use case scenario is that the customer has paid for the ticket plan and got the confirmation of payment successfull or not. Figure~\ref{fig:uc_make_payment} explain this use case.
+
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
 	\hline
@@ -652,10 +799,14 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 \begin{figure}[!htb]
 	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/MakePayment.JPG}}
-	\caption{\label{fig:uc_make_payment : }Use Case: Make Payment}	
+	\caption{\label{fig:uc_make_payment}Use Case: Make Payment}	
 \end{figure}
 
+
+\FloatBarrier
 \subsection{Use Case: Reload Rechargable Card}
+Commuters use Ticket vending machine to recharge their rechargeable card. Commuter is the primary actor that initiate the use case by inserting his/her card. Secondary actors include Payment Authentication and Data Store that support and respond to the requests. The result for a normal use case scenario is that the customer has recharged his /her card and received the receipt. Figure~\ref{fig:uc_reload_rechargable_card} and~\ref{fig:act_reload_rechargable_card} explain this use case. \\
+
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
 	\hline
@@ -665,7 +816,7 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\hline
 	\textbf{Summary} & \multicolumn{2}{c|}{Customer reloads the rechargeable card using TVM}  \\
 	\hline
-	\textbf{Priority} & \multicolumn{2}{c|}{5}  \\
+	\textbf{Priority} & \multicolumn{2}{c|}{1}  \\
 	\hline
 	\textbf{Preconditions} & \multicolumn{2}{c|}{User has a Rechargeable card}  \\
 	\hline
@@ -718,17 +869,26 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 \begin{figure}[!htbp]
 	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/ReloadCard.jpeg}}
-	\caption{\label{fig:uc_reload_rechargable_card : }Use Case: Reload Rechargeable Card}	
+	\caption{\label{fig:uc_reload_rechargable_card}Use Case: Reload Rechargeable Card}	
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\fbox{\includegraphics[width=12cm, height=21cm]{Use_Case_Diagrams/ReloadCard_AD.jpeg}}
+	\caption{\label{fig:act_reload_rechargable_card}Activity Diagram: Reload Rechargeable Card}	
 \end{figure}
 
 
-\subsection{Use Case: Update Ticket Specification}
+\FloatBarrier
+\subsection{Use Case: Manage Ticket Specification}
+Administrator can manage the tickets exiting in the system. He is the primary actor responsible for the Ticket Vending Machine Management. Administrator of the Ticket Vending Machine has the access to create new tickets, modify the existing tickets, view the existing tickets and delete the existing tickets. \\ 
+
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
 	\hline
 	\textbf{Number} & \multicolumn{2}{c|}{6}  \\
 	\hline
-	\textbf{Name} & \multicolumn{2}{c|}{Update Ticket Specification}  \\
+	\textbf{Name} & \multicolumn{2}{c|}{Manage Ticket Specification}  \\
 	\hline
 	\textbf{Summary} & \multicolumn{2}{c|}{Administrator to update an existing ticket specifications}  \\
 	\hline
@@ -769,13 +929,18 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 \end{tabular}
 
 
-%\begin{figure}[!htbp]
-%	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/ReloadCard.jpeg}
-%	\caption{\label{fig:Use Case Model : } Reload Rechargeable Card}	
-%\end{figure}
+\begin{figure}[!htbp]
+	\centering
+	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/admin_system_seq.JPG}}
+	\caption{\label{fig:seq_admin_system} Sequence Diagram: Admin Sytem}	
+\end{figure}
 
 
+\FloatBarrier
 \subsection{Use Case: Customer Registration}
+Commuter(New User) use Ticket Vending Machine to register himself/herself with the STM. Commuter is the primary actor that initiate the use case by choosing the register option. Secondary actor includes Data Store that supports and responds to the requests. The result for a normal use case scenario is that the customer got registered with the STM. Figure~\ref{fig:uc_customer_registration} and~\ref{fig:act_customer_registration} explain this use case. \\ 
+
+
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
 	\hline
@@ -783,7 +948,8 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 	\hline
 	\textbf{Name} & \multicolumn{2}{c|}{Customer Registration}  \\
 	\hline
-	\textbf{Summary} & \multicolumn{2}{c|}{Customer register with his personal information to get the card}  \\
+	\textbf{Summary} & \multicolumn{2}{c|}{Customer register with his personal}\\
+					  & \multicolumn{2}{c|}{information to get the card}  \\
 	\hline
 	\textbf{Priority} & \multicolumn{2}{c|}{2}  \\
 	\hline
@@ -823,13 +989,21 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 
 
 \begin{figure}[!htbp]
-	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/CustomerRegistration.jpeg}}
-	\caption{\label{fig:uc_customer_registration }Use Case: Customer Registration}	
+	\fbox{\includegraphics[width=18cm, height=16cm]{Use_Case_Diagrams/CustomerRegistration.jpeg}}
+	\caption{\label{fig:uc_customer_registration}Use Case: Customer Registration}	
+\end{figure}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\fbox{\includegraphics[width=12cm,height=20cm]{Use_Case_Diagrams/Customer_Registration_AD.jpeg}}
+	\caption{\label{fig:act_customer_registration}Activity Diagram: Customer Registration}	
 \end{figure}
 
 
 
-\subsection{Use Case: False Login}
+\FloatBarrier
+\subsection{Use Case: False Login\cite{negativeusecasekamthan}}
 
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
@@ -879,65 +1053,19 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 \end{tabular}
 
 
-%\begin{figure}[!htbp]
-%	\includegraphics[width=1\textwidth]{Use_Case_Diagrams/CustomerRegistration.jpeg}
-%	\caption{\label{fig:Use Case Model : } Customer Registration}	
-%\end{figure}
+\FloatBarrier
+\subsection{Use Case: Password Reset}
+\subsubsection{Use Case Diagram}
+The password reset use case diagram explains how a customer will be able to reset the password of his/her account. The password reset will include another use case called authenticate. This can be either by security questions or by email.
 
-\subsection{Use Case: False Login}
-\begin{tabular}{ | c | p{2cm} | p{7cm} |}
-	
-	\hline
-	\textbf{Number} & \multicolumn{2}{c|}{7}  \\
-	\hline
-	\textbf{Name} & \multicolumn{2}{c|}{False Login}  \\
-	\hline
-	\textbf{Summary} & \multicolumn{2}{c|}{Hacker try to login into someone else account.}  \\
-	\hline
-	\textbf{Priority} & \multicolumn{2}{c|}{1}  \\
-	\hline
-	\textbf{Preconditions} & \multicolumn{2}{c|}{N/A}  \\
-	\hline
-	\textbf{Postconditions} & \multicolumn{2}{c|}{Login should fail with appropriate error message.}  \\
-	\hline
-	\textbf{Primary Actor(s)} & \multicolumn{2}{c|}{Hacker / TVM.}  \\
-	\hline
-	\textbf{Secondary Actors(s)} & \multicolumn{2}{c|}{Data Store}  \\
-	\hline
-	\textbf{Trigger} & \multicolumn{2}{c|}{User account locked after 5 unsuccessful login attempts.} \\
-	\hline
-	\textbf{Main Success Scenarios} & \textbf{Step} & \textbf{Action} \\
-	\hline
-	& 1 & Hacker try to login into system. \\ 
-	\hline
-	&  2  & Hacker enters username and password. \\
-	\hline
-	&  3  & System will validate user details from database system. \\
-	\hline
-	&  4  & System decline unauthorized access. System should display appropriate error message. \\
-	\hline
-	&  5  & System should display appropriate error message. \\
-	\hline
-	&  6  & Hacker keeps on entering invalid credentials to try to login into someone account. \\
-	\hline
-	&  7  & System will lock user account after 5 unsuccessful login attempts. \\
-	\hline
-	& 8 & System should display account locked error message to user. \\
-	\hline
-	
-	\textbf{Extensions} & \textbf{Step} & \textbf{Branching Action} \\
-	\hline
-	\textbf{Open Issues} &    & NA \\
-	\hline
-	
-\end{tabular}
+\begin{figure}[!htbp]
+	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/PasswordReset_UCD.jpeg}}
+	\caption{\label{fig: uc_password_reset } Use Case Diagram: Password Reset}	
+\end{figure}
 
 
-%\begin{figure}[!htbp]
-%	%\includegraphics[width=1\textwidth]{Use_Case_Diagrams/CustomerRegistration.jpeg}
-%	\caption{\label{fig:Use Case Model : } Customer Registration}	
-%\end{figure}
-
+\subsubsection{Activity Diagram}
+The activity diagram is for the Password reset. The sequential steps are as shown, and if the password change authentication fails, the process will be terminated.
 
 \begin{figure}[!htbp]
 	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/PasswordReset_AD.jpeg}}
@@ -945,18 +1073,25 @@ The product iGo at this moment is restricted to server in Montreal city only. iG
 \end{figure}
 
 
+\FloatBarrier
+\subsection{Use Case: Payment Fraud}
+The Payment Fraud use case diagram shows how the payment authentication use case can be threatened by the negative use case called Flood system and Steal card information. The name of the use cases explains the activity of negative use cases. \\
 
 \begin{figure}[!htbp]
-	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/BuyTicket_seq.jpeg}}
-	\caption{\label{fig:seq_buy_ticket} Sequence Diagram: Buy Ticket}	
+	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/PaymentFraud_UCD.jpeg}}
+	\caption{\label{fig: uc_payment_fraud } Use Case Diagram: Payment Fraud}	
 \end{figure}
 
+%=================================================================
+%
+%					APPENDIX PAGE
+%
+%==================================================================
 
 
-\begin{figure}[!htbp]
-	\fbox{\includegraphics[width=0.9\textwidth]{Use_Case_Diagrams/BuyTicket_AD.jpeg}}
-	\caption{\label{fig:act_buy_ticket : } Activity Diagram: Buy Ticket}	
-\end{figure}
+\newpage
+
+\printbibliography[title=References]
 
 \printglossaries
 
