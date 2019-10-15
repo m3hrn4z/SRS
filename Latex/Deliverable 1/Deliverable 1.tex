@@ -530,6 +530,16 @@ The mind map\cite{mindmapkamthan} in the figure~\ref{fig: mind_map}, is for the 
 
 \FloatBarrier
 \section{Problem 4}
+
+\FloatBarrier
+\subsection{Use Case Model}
+\begin{figure}[!htb]
+	\fbox{\includegraphics[width=18cm, height=18cm]{Use_Case_Diagrams/UseCaseModel.JPG}}
+	\caption{\label{fig:uc_use_case_model} Use Case Model}	
+\end{figure}
+
+
+\FloatBarrier
 \subsection{Use Case: Change Language}
  
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
@@ -564,11 +574,6 @@ The mind map\cite{mindmapkamthan} in the figure~\ref{fig: mind_map}, is for the 
 	\textbf{Open Issues} &  1  & Language available to be decided by the customer \\
 	\hline
 \end{tabular}
-
-\begin{figure}[!htb]
-	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/ChangeLanguage.JPG}}
-	\caption{\label{fig:uc_change_language} Use Case: Change Language}	
-\end{figure} 
 
 
 
@@ -885,31 +890,81 @@ Commuters use Ticket vending machine to recharge their rechargeable card. Commut
 
 
 \FloatBarrier
-\subsection{Use Case: Manage Ticket Specification}
+\subsection{Use Case: Update Ticket Specification}
 Administrator can manage the tickets exiting in the system. He is the primary actor responsible for the Ticket Vending Machine Management. Administrator of the Ticket Vending Machine has the access to create new tickets, modify the existing tickets, view the existing tickets and delete the existing tickets. \\ 
 
 \begin{tabular}{ | c | p{2cm} | p{7cm} |}
 	
 	\hline
-	\textbf{Number} & \multicolumn{2}{c|}{6}  \\
+	\textbf{Number} & \multicolumn{2}{c|}{6.1}  \\
 	\hline
-	\textbf{Name} & \multicolumn{2}{c|}{Manage Ticket Specification}  \\
+	\textbf{Name} & \multicolumn{2}{c|}{Create Ticket Specification}  \\
 	\hline
-	\textbf{Summary} & \multicolumn{2}{c|}{Administrator to update an existing ticket specifications}  \\
+	\textbf{Summary} & \multicolumn{2}{c|}{Allows administrator to Create new ticket specifications}  \\
 	\hline
 	\textbf{Priority} & \multicolumn{2}{c|}{2}  \\
 	\hline
-	\textbf{Preconditions} & \multicolumn{2}{c|}{Administrator should have a valid account}  \\
+	\textbf{Preconditions} & \multicolumn{2}{c|}{The Administrator should have a valid }  \\
+			  &  \multicolumn{2	}{c|}{account with valid username and password. The  } \\
 			  &  \multicolumn{2	}{c|}{Administrator should be logged into the application} \\
 	\hline
-	\textbf{Postconditions} & \multicolumn{2}{c|}{Administrator is able to edit an exiting ticket plan.}  \\
+	\textbf{Postconditions} & \multicolumn{2}{c|}{Administrator is able to add new ticket plans }  \\
+   	 			&  \multicolumn{2}{c|}{to the existing ticket plans. } \\
+	\hline
+	\textbf{Primary Actor(s)} & \multicolumn{2}{c|}{TVM Administrator}  \\
+	\hline
+	\textbf{Secondary Actors(s)} & \multicolumn{2}{c|}{TVM and Customer}  \\
+	\hline
+	\textbf{Trigger} & \multicolumn{2}{c|}{The Administrator has selected to add new}  \\
+     	&  \multicolumn{2}{c|}{ ticket specifications to the systems.} \\
+	\hline
+	\textbf{Main Success Scenarios} & \textbf{Step} & \textbf{Action} \\
+	\hline
+	& 1 & Admin is given admin access to the system. \\ 
+	\hline
+	&  2  & Admin creates new ticket plans. \\
+	\hline
+	&  3  & Ticket details are specified by the admin with new ticket name, expiration date and price. \\
+	\hline
+	&  4  & The Administrator has added new ticket specifications to the system. \\
+	\hline
+	
+	\textbf{Extensions} & \textbf{Step} & \textbf{Branching Action} \\
+	\hline
+	&  3a  & Admin does not have the admin access to the system.  \\
+	\hline
+	&  4a  &  The system gives an error. \\
+	\hline
+	\textbf{Open Issues} &    & NA \\
+	\hline
+	
+\end{tabular}
+
+\begin{tabular}{ | c | p{2cm} | p{7cm} |}
+	
+	\hline
+	\textbf{Number} & \multicolumn{2}{c|}{6.2}  \\
+	\hline
+	\textbf{Name} & \multicolumn{2}{c|}{Update Ticket Specification}  \\
+	\hline
+	\textbf{Summary} & \multicolumn{2}{c|}{Allows administrator to update an}  \\
+					&  \multicolumn{2}{c|}{ existing ticket specification. } \\
+	\hline
+	\textbf{Priority} & \multicolumn{2}{c|}{2}  \\
+	\hline
+	\textbf{Preconditions} & \multicolumn{2}{c|}{The Administrator should have a valid }  \\
+	&  \multicolumn{2	}{c|}{account with valid username and password. The  } \\
+	&  \multicolumn{2	}{c|}{Administrator should be logged into the application} \\
+	\hline
+	\textbf{Postconditions} & \multicolumn{2}{c|}{Administrator is able to edit ticket plans }  \\
+							&  \multicolumn{2}{c|}{to the existing ticket plans. } \\
 	\hline
 	\textbf{Primary Actor(s)} & \multicolumn{2}{c|}{TVM Administrator}  \\
 	\hline
 	\textbf{Secondary Actors(s)} & \multicolumn{2}{c|}{TVM and Customer}  \\
 	\hline
 	\textbf{Trigger} & \multicolumn{2}{c|}{The Administrator has selected to update}  \\
-     	&  \multicolumn{2}{c|}{ ticket specifications on the system.} \\
+	&  \multicolumn{2}{c|}{ ticket specifications on the systems.} \\
 	\hline
 	\textbf{Main Success Scenarios} & \textbf{Step} & \textbf{Action} \\
 	\hline
@@ -932,6 +987,55 @@ Administrator can manage the tickets exiting in the system. He is the primary ac
 	\hline
 	
 \end{tabular}
+
+\begin{tabular}{ | c | p{2cm} | p{7cm} |}
+	
+	\hline
+	\textbf{Number} & \multicolumn{2}{c|}{6.3}  \\
+	\hline
+	\textbf{Name} & \multicolumn{2}{c|}{Delete Ticket Specification}  \\
+	\hline
+	\textbf{Summary} & \multicolumn{2}{c|}{Allows administrator to delete }  \\
+					& \multicolumn{2}{c|}{existing ticket specifications}  \\
+	\hline
+	\textbf{Priority} & \multicolumn{2}{c|}{2}  \\
+	\hline
+	\textbf{Preconditions} & \multicolumn{2}{c|}{The Administrator should have a valid }  \\
+	&  \multicolumn{2	}{c|}{account with valid username and password. The  } \\
+	&  \multicolumn{2	}{c|}{Administrator should be logged into the application} \\
+	\hline
+	\textbf{Postconditions} & \multicolumn{2}{c|}{Administrator is able to delete ticket plan }  \\
+	&  \multicolumn{2}{c|}{from system. } \\
+	\hline
+	\textbf{Primary Actor(s)} & \multicolumn{2}{c|}{TVM Administrator}  \\
+	\hline
+	\textbf{Secondary Actors(s)} & \multicolumn{2}{c|}{TVM and Customer}  \\
+	\hline
+	\textbf{Trigger} & \multicolumn{2}{c|}{The Administrator has selected to delete}  \\
+	&  \multicolumn{2}{c|}{ ticket specifications on the systems.} \\
+	\hline
+	\textbf{Main Success Scenarios} & \textbf{Step} & \textbf{Action} \\
+	\hline
+	& 1 & Admin selects the tickets to be changed. \\ 
+	\hline
+	&  2  & Admin deletes the selected ticket specification. \\
+	\hline
+	&  3  & The system is updated after deleting. \\
+	\hline
+	&  4  & Application updates the list of new tickets available. \\
+	\hline
+	
+	\textbf{Extensions} & \textbf{Step} & \textbf{Branching Action} \\
+	\hline
+	&  3a  & Admin does not have the admin access to the system.  \\
+	\hline
+	&  4a  &  The system gives an error. \\
+	\hline
+	\textbf{Open Issues} &    & NA \\
+	\hline
+	
+\end{tabular}
+
 
 
 \begin{figure}[!htbp]
