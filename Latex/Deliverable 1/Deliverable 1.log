@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  14 OCT 2019 23:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  15 OCT 2019 01:51
 entering extended mode
 **"./Deliverable 1.tex"
 ("Deliverable 1.tex"
@@ -745,6 +745,13 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 iblatex.cfg"
 File: biblatex.cfg 
 ))
+("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/appendix\a
+ppendix.sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count332
+\c@@ppsavesec=\count333
+\c@@ppsaveapp=\count334
+)
 
 Package glossaries Warning: Use of \makeglossary with glossaries.sty is 
 (glossaries)                deprecated. Use \makeglossaries instead. If you 
@@ -753,19 +760,19 @@ Package glossaries Warning: Use of \makeglossary with glossaries.sty is
 (glossaries)                restore the former definition of \makeglossary) and
  
 (glossaries)                nomain (if the file extensions cause a conflict) on
- input line 82.
+ input line 81.
 
 \glswrite=\write4
 \glo@main@file=\write5
 \openout5 = `"Deliverable 1.glo"'.
 
 Package glossaries Info: Writing glossary file "Deliverable 1".glo on input lin
-e 82.
+e 81.
 \glo@acronym@file=\write6
 \openout6 = `"Deliverable 1.acn"'.
 
 Package glossaries Info: Writing glossary file "Deliverable 1".acn on input lin
-e 82.
+e 81.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -777,25 +784,25 @@ File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count332
-\@quotereset=\count333
+\@quotelevel=\count335
+\@quotereset=\count336
 ("Deliverable 1.aux")
 \openout1 = `"Deliverable 1.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -832,7 +839,7 @@ LaTeX Font Info:    ... okay on input line 84.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring OFF on input line 84.
+Package hyperref Info: Link coloring OFF on input line 83.
 
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\n
 ameref.sty"
@@ -842,11 +849,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 \gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count334
+\c@section@level=\count337
 )
-LaTeX Info: Redefining \ref on input line 84.
-LaTeX Info: Redefining \pageref on input line 84.
-LaTeX Info: Redefining \nameref on input line 84.
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
  ("Deliverable 1.out") ("Deliverable 1.out")
 \@outlinefile=\write7
 \openout7 = `"Deliverable 1.out"'.
@@ -855,16 +862,16 @@ LaTeX Info: Redefining \nameref on input line 84.
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mki
 i\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count335
+\scratchcounter=\count338
 \scratchdimen=\dimen139
 \scratchbox=\box35
-\nofMPsegments=\count336
-\nofMParguments=\count337
+\nofMPsegments=\count339
+\nofMParguments=\count340
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count338
+\MPscratchCnt=\count341
 \MPscratchDim=\dimen140
-\MPnumerator=\count339
-\makeMPintoPDFobject=\count340
+\MPnumerator=\count342
+\makeMPintoPDFobject=\count343
 \everyMPtoPDFconversion=\toks35
 )
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\e
@@ -890,17 +897,17 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"Deliverable 1".bbl' found.
  ("Deliverable 1.bbl")
-Package biblatex Info: Reference section=0 on input line 84.
-Package biblatex Info: Reference segment=0 on input line 84.
-<University_logo.jpg, id=91, 1724.4425pt x 530.98375pt>
+Package biblatex Info: Reference section=0 on input line 83.
+Package biblatex Info: Reference segment=0 on input line 83.
+<University_logo.jpg, id=106, 1724.4425pt x 530.98375pt>
 File: University_logo.jpg Graphic file (type jpg)
 <use University_logo.jpg>
-Package pdftex.def Info: University_logo.jpg  used on input line 96.
+Package pdftex.def Info: University_logo.jpg  used on input line 95.
 (pdftex.def)             Requested size: 172.45435pt x 53.10147pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 97.
+(Font)              using `OT1/cmr/bx/n' instead on input line 96.
 
 [1
 
@@ -915,461 +922,430 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.158 \chapter
+l.157 \chapter
               *{\centering Deliverable - 1} [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
 [2
 
 ]
+<Use_Case_Diagrams/MindMap_TVM.jpg, id=172, 764.8575pt x 875.27pt>
+File: Use_Case_Diagrams/MindMap_TVM.jpg Graphic file (type jpg)
+<use Use_Case_Diagrams/MindMap_TVM.jpg>
+Package pdftex.def Info: Use_Case_Diagrams/MindMap_TVM.jpg  used on input line 
+200.
+(pdftex.def)             Requested size: 512.17175pt x 512.15778pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cite' on input line 190.
+Overfull \hbox (29.86887pt too wide) in paragraph at lines 200--201
+ [][] 
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
 []\OT1/cmr/m/n/12 Physical Char-
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 233--233
+Underfull \hbox (badness 4621) in paragraph at lines 248--248
 []\OT1/cmr/m/n/12 Special Vari-ant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 \OT1/cmr/m/n/12 Pref-er-ences in
  []
 
 
-Overfull \hbox (9.68845pt too wide) in paragraph at lines 195--252
+Overfull \hbox (9.68845pt too wide) in paragraph at lines 210--267
 [] 
  []
 
-
-Underfull \hbox (badness 7704) in paragraph at lines 258--258
+[3] [4 <./Use_Case_Diagrams/MindMap_TVM.jpg>]
+Underfull \hbox (badness 7704) in paragraph at lines 273--273
 []\OT1/cmr/m/n/12 Workflow Con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
 []\OT1/cmr/m/n/12 Physical En-vi-
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 277--277
+Underfull \hbox (badness 2285) in paragraph at lines 292--292
 []\OT1/cmr/m/n/12 Technical En-vi-
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 280--280
+Underfull \hbox (badness 3713) in paragraph at lines 295--295
 []\OT1/cmr/m/n/12 Social En-vi-ron-
  []
 
 
-Overfull \hbox (27.31326pt too wide) in paragraph at lines 256--284
-[][] 
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
-[]\OT1/cmr/m/n/12 Physical Char-
- []
-
-
-Underfull \hbox (badness 4621) in paragraph at lines 331--331
-[]\OT1/cmr/m/n/12 Special Vari-ant
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
-\OT1/cmr/m/n/12 Pref-er-ences in
- []
-
-
-Overfull \hbox (9.68845pt too wide) in paragraph at lines 293--350
-[] 
- []
-
-[4]
-Underfull \hbox (badness 7704) in paragraph at lines 356--356
-[]\OT1/cmr/m/n/12 Workflow Con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 373--373
-[]\OT1/cmr/m/n/12 Physical En-vi-
- []
-
-
-Underfull \hbox (badness 2285) in paragraph at lines 376--376
-[]\OT1/cmr/m/n/12 Technical En-vi-
- []
-
-
-Underfull \hbox (badness 3713) in paragraph at lines 379--379
-[]\OT1/cmr/m/n/12 Social En-vi-ron-
- []
-
-
-Overfull \hbox (27.31326pt too wide) in paragraph at lines 354--383
+Overfull \hbox (27.31326pt too wide) in paragraph at lines 271--299
 [][] 
  []
 
 [5]
-<Use_Case_Diagrams/MindMap_TVM.jpg, id=171, 753.81625pt x 733.74126pt>
-File: Use_Case_Diagrams/MindMap_TVM.jpg Graphic file (type jpg)
-<use Use_Case_Diagrams/MindMap_TVM.jpg>
-Package pdftex.def Info: Use_Case_Diagrams/MindMap_TVM.jpg  used on input line 
-391.
-(pdftex.def)             Requested size: 512.1397pt x 569.09145pt.
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
+[]\OT1/cmr/m/n/12 Physical Char-
+ []
 
-Overfull \hbox (29.8368pt too wide) in paragraph at lines 391--392
- [][] 
+
+Underfull \hbox (badness 4621) in paragraph at lines 346--346
+[]\OT1/cmr/m/n/12 Special Vari-ant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+\OT1/cmr/m/n/12 Pref-er-ences in
+ []
+
+
+Overfull \hbox (9.68845pt too wide) in paragraph at lines 308--365
+[] 
  []
 
 [6]
-
-LaTeX Warning: Text page 7 contains only floats.
-
-[7 <./Use_Case_Diagrams/MindMap_TVM.jpg>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cite' on input line 408.
+Underfull \hbox (badness 7704) in paragraph at lines 371--371
+[]\OT1/cmr/m/n/12 Workflow Con-
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--433
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
+[]\OT1/cmr/m/n/12 Physical En-vi-
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 391--391
+[]\OT1/cmr/m/n/12 Technical En-vi-
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 394--394
+[]\OT1/cmr/m/n/12 Social En-vi-ron-
+ []
+
+
+Overfull \hbox (27.31326pt too wide) in paragraph at lines 369--398
+[][] 
+ []
+
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 438--438
 []\OT1/cmr/m/n/12 Unregistered
  []
 
 
-Overfull \hbox (9.68845pt too wide) in paragraph at lines 411--455
+Overfull \hbox (9.68845pt too wide) in paragraph at lines 416--460
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--472
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
 []\OT1/cmr/m/n/12 Non-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--472
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
 \OT1/cmr/m/n/12 Rechargeable
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--475
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
 []\OT1/cmr/m/n/12 Rechargable
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--499
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
 []\OT1/cmr/m/n/12 Payment Au-
  []
 
 
-Overfull \hbox (27.31326pt too wide) in paragraph at lines 458--507
+Overfull \hbox (27.31326pt too wide) in paragraph at lines 463--512
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--507
+Underfull \hbox (badness 10000) in paragraph at lines 463--512
 
  []
 
-[8] [9]
-<domain_model.jpeg, id=194, 1066.4643pt x 688.7331pt>
+[9] [10]
+<domain_model.jpeg, id=215, 1066.4643pt x 688.7331pt>
 File: domain_model.jpeg Graphic file (type jpg)
 <use domain_model.jpeg>
-Package pdftex.def Info: domain_model.jpeg  used on input line 513.
+Package pdftex.def Info: domain_model.jpeg  used on input line 518.
 (pdftex.def)             Requested size: 512.15742pt x 569.08408pt.
 
-Overfull \hbox (29.85454pt too wide) in paragraph at lines 513--514
+Overfull \hbox (29.85454pt too wide) in paragraph at lines 518--519
  [][] 
  []
 
-[10 <./domain_model.jpeg>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cite' on input line 527.
-
-
-Overfull \hbox (13.46085pt too wide) in paragraph at lines 530--562
+[11 <./domain_model.jpeg>]
+Overfull \hbox (13.46085pt too wide) in paragraph at lines 535--567
 [] 
  []
 
-<Use_Case_Diagrams/ChangeLanguage.JPG, id=201, 530.73282pt x 648.92438pt>
+<Use_Case_Diagrams/ChangeLanguage.JPG, id=221, 530.73282pt x 648.92438pt>
 File: Use_Case_Diagrams/ChangeLanguage.JPG Graphic file (type jpg)
 <use Use_Case_Diagrams/ChangeLanguage.JPG>
 Package pdftex.def Info: Use_Case_Diagrams/ChangeLanguage.JPG  used on input li
-ne 564.
+ne 569.
 (pdftex.def)             Requested size: 489.10287pt x 598.03755pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 564--565
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 569--570
 [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 0.03401pt on input line 566.
+LaTeX Warning: Float too large for page by 0.03401pt on input line 571.
 
-[11] [12 <./Use_Case_Diagrams/ChangeLanguage.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 573--574
+[12] [13 <./Use_Case_Diagrams/ChangeLanguage.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 578--579
 
  []
 
 
-Overfull \hbox (31.08566pt too wide) in paragraph at lines 575--612
+Overfull \hbox (31.08566pt too wide) in paragraph at lines 580--617
 [][] 
  []
 
-<Use_Case_Diagrams/ViewTicketPlan.jpeg, id=213, 794.97pt x 397.485pt>
+<Use_Case_Diagrams/ViewTicketPlan.jpeg, id=233, 794.97pt x 397.485pt>
 File: Use_Case_Diagrams/ViewTicketPlan.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/ViewTicketPlan.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/ViewTicketPlan.jpeg  used on input l
-ine 614.
+ine 619.
 (pdftex.def)             Requested size: 512.1634pt x 455.26039pt.
 
-Overfull \hbox (29.86052pt too wide) in paragraph at lines 614--615
+Overfull \hbox (29.86052pt too wide) in paragraph at lines 619--620
 [][] 
  []
 
-[13
+[14
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 624--625
+Underfull \hbox (badness 10000) in paragraph at lines 629--630
 
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 677--678
+Underfull \hbox (badness 1755) in paragraph at lines 682--683
 []\OT1/cmr/m/n/12 System ex-its and dis-plays wel-come
  []
 
 
-Overfull \hbox (31.08566pt too wide) in paragraph at lines 626--683
+Overfull \hbox (31.08566pt too wide) in paragraph at lines 631--688
 [][] 
  []
 
-[14 <./Use_Case_Diagrams/ViewTicketPlan.jpeg>] [15]
-<Use_Case_Diagrams/BuyTicket.jpeg, id=233, 813.0375pt x 515.0442pt>
+[15 <./Use_Case_Diagrams/ViewTicketPlan.jpeg>] [16]
+<Use_Case_Diagrams/BuyTicket.jpeg, id=253, 813.0375pt x 515.0442pt>
 File: Use_Case_Diagrams/BuyTicket.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/BuyTicket.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/BuyTicket.jpeg  used on input line 6
-88.
+93.
 (pdftex.def)             Requested size: 512.16672pt x 455.2522pt.
 
-Overfull \hbox (29.86383pt too wide) in paragraph at lines 688--689
+Overfull \hbox (29.86383pt too wide) in paragraph at lines 693--694
  [][] 
  []
 
-[16 <./Use_Case_Diagrams/BuyTicket.jpeg>]
-<Use_Case_Diagrams/BuyTicket_AD.jpeg, id=238, 469.755pt x 587.3142pt>
+[17 <./Use_Case_Diagrams/BuyTicket.jpeg>]
+<Use_Case_Diagrams/BuyTicket_AD.jpeg, id=258, 469.755pt x 587.3142pt>
 File: Use_Case_Diagrams/BuyTicket_AD.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/BuyTicket_AD.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/BuyTicket_AD.jpeg  used on input lin
-e 696.
+e 701.
 (pdftex.def)             Requested size: 440.18959pt x 550.34581pt.
- [17 <./Use_Case_Diagrams/BuyTicket_AD.jpeg>]
-<Use_Case_Diagrams/BuyTicket_seq.jpeg, id=243, 840.9819pt x 491.436pt>
+ [18 <./Use_Case_Diagrams/BuyTicket_AD.jpeg>]
+<Use_Case_Diagrams/BuyTicket_seq.jpeg, id=264, 840.9819pt x 491.436pt>
 File: Use_Case_Diagrams/BuyTicket_seq.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/BuyTicket_seq.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/BuyTicket_seq.jpeg  used on input li
-ne 704.
+ne 709.
 (pdftex.def)             Requested size: 512.16412pt x 455.26855pt.
 
-Overfull \hbox (29.86124pt too wide) in paragraph at lines 704--705
+Overfull \hbox (29.86124pt too wide) in paragraph at lines 709--710
  [][] 
  []
 
 
-Underfull \hbox (badness 7851) in paragraph at lines 757--758
+Underfull \hbox (badness 7851) in paragraph at lines 762--763
 []\OT1/cmr/m/n/12 System cre-ate a trans-ac-tion and
  []
 
 
-Overfull \hbox (31.08566pt too wide) in paragraph at lines 716--765
+Overfull \hbox (31.08566pt too wide) in paragraph at lines 721--770
 [][] 
  []
 
-[18 <./Use_Case_Diagrams/BuyTicket_seq.jpeg>]
-<Use_Case_Diagrams/MakePayment.JPG, id=251, 680.5425pt x 546.54187pt>
+[19 <./Use_Case_Diagrams/BuyTicket_seq.jpeg>]
+<Use_Case_Diagrams/MakePayment.JPG, id=271, 680.5425pt x 546.54187pt>
 File: Use_Case_Diagrams/MakePayment.JPG Graphic file (type jpg)
 <use Use_Case_Diagrams/MakePayment.JPG>
 Package pdftex.def Info: Use_Case_Diagrams/MakePayment.JPG  used on input line 
-801.
+806.
 (pdftex.def)             Requested size: 489.10287pt x 392.80098pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 801--802
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 806--807
 [][] 
  []
 
-[19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 808--809
+[20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 813--814
 
  []
 
 
-Underfull \hbox (badness 7397) in paragraph at lines 839--840
+Underfull \hbox (badness 7397) in paragraph at lines 844--845
 []\OT1/cmr/m/n/12 System dis-plays dif-fer-ent recharge
  []
 
 
-Overfull \hbox (31.08566pt too wide) in paragraph at lines 810--868
+Overfull \hbox (31.08566pt too wide) in paragraph at lines 815--873
 [][] 
  []
 
-<Use_Case_Diagrams/ReloadCard.jpeg, id=262, 650.43pt x 469.755pt>
+<Use_Case_Diagrams/ReloadCard.jpeg, id=282, 650.43pt x 469.755pt>
 File: Use_Case_Diagrams/ReloadCard.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/ReloadCard.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/ReloadCard.jpeg  used on input line 
-871.
+876.
 (pdftex.def)             Requested size: 489.10287pt x 353.24721pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 871--872
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 876--877
 [][] 
  []
 
-[21 <./Use_Case_Diagrams/MakePayment.JPG>]
+[22 <./Use_Case_Diagrams/MakePayment.JPG>]
 Overfull \vbox (14.5622pt too high) has occurred while \output is active []
 
 
-[22] [23 <./Use_Case_Diagrams/ReloadCard.jpeg>]
-<Use_Case_Diagrams/ReloadCard_AD.jpeg, id=277, 108.405pt x 469.755pt>
+[23] [24 <./Use_Case_Diagrams/ReloadCard.jpeg>]
+<Use_Case_Diagrams/ReloadCard_AD.jpeg, id=298, 108.405pt x 469.755pt>
 File: Use_Case_Diagrams/ReloadCard_AD.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/ReloadCard_AD.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/ReloadCard_AD.jpeg  used on input li
-ne 877.
+ne 882.
 (pdftex.def)             Requested size: 341.52548pt x 597.5069pt.
- [24 <./Use_Case_Diagrams/ReloadCard_AD.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 884--885
+ [25 <./Use_Case_Diagrams/ReloadCard_AD.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 889--890
 
  []
 
 
-Overfull \hbox (31.08566pt too wide) in paragraph at lines 886--930
+Overfull \hbox (31.08566pt too wide) in paragraph at lines 891--935
 [][] 
  []
 
-<Use_Case_Diagrams/admin_system_seq.JPG, id=283, 436.12938pt x 359.3425pt>
+<Use_Case_Diagrams/admin_system_seq.JPG, id=303, 436.12938pt x 359.3425pt>
 File: Use_Case_Diagrams/admin_system_seq.JPG Graphic file (type jpg)
 <use Use_Case_Diagrams/admin_system_seq.JPG>
 Package pdftex.def Info: Use_Case_Diagrams/admin_system_seq.JPG  used on input 
-line 934.
+line 939.
 (pdftex.def)             Requested size: 489.10287pt x 402.98723pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 934--935
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 939--940
  [][] 
  []
 
-[25
+[26
 
-] [26 <./Use_Case_Diagrams/admin_system_seq.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 941--942
+] [27 <./Use_Case_Diagrams/admin_system_seq.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 946--947
 
  []
 
 
-Overfull \hbox (31.08566pt too wide) in paragraph at lines 944--989
+Overfull \hbox (31.08566pt too wide) in paragraph at lines 949--994
 [][] 
  []
 
-<Use_Case_Diagrams/CustomerRegistration.jpeg, id=295, 523.9575pt x 350.0277pt>
+<Use_Case_Diagrams/CustomerRegistration.jpeg, id=315, 523.9575pt x 350.0277pt>
 File: Use_Case_Diagrams/CustomerRegistration.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/CustomerRegistration.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/CustomerRegistration.jpeg  used on i
-nput line 992.
+nput line 997.
 (pdftex.def)             Requested size: 512.16368pt x 455.27629pt.
 
-Overfull \hbox (29.8608pt too wide) in paragraph at lines 992--993
+Overfull \hbox (29.8608pt too wide) in paragraph at lines 997--998
 [][] 
  []
 
-<Use_Case_Diagrams/Customer_Registration_AD.jpeg, id=296, 225.9642pt x 551.1792
+<Use_Case_Diagrams/Customer_Registration_AD.jpeg, id=316, 225.9642pt x 551.1792
 pt>
 File: Use_Case_Diagrams/Customer_Registration_AD.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/Customer_Registration_AD.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/Customer_Registration_AD.jpeg  used 
-on input line 999.
+on input line 1004.
 (pdftex.def)             Requested size: 341.46933pt x 569.10863pt.
-[27] [28 <./Use_Case_Diagrams/CustomerRegistration.jpeg>] [29 <./Use_Case_Diagr
+[28] [29 <./Use_Case_Diagrams/CustomerRegistration.jpeg>] [30 <./Use_Case_Diagr
 ams/Customer_Registration_AD.jpeg>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cite' on input line 1006.
-
-
-Underfull \hbox (badness 1325) in paragraph at lines 1037--1038
+Underfull \hbox (badness 1325) in paragraph at lines 1042--1043
 []\OT1/cmr/m/n/12 System de-cline unau-tho-rized ac-cess.
  []
 
 
-Overfull \hbox (13.46085pt too wide) in paragraph at lines 1008--1054
+Overfull \hbox (13.46085pt too wide) in paragraph at lines 1013--1059
 [] 
  []
 
-[30]
-<Use_Case_Diagrams/PasswordReset_UCD.jpeg, id=317, 736.25063pt x 404.26031pt>
+[31]
+<Use_Case_Diagrams/PasswordReset_UCD.jpeg, id=336, 736.25063pt x 404.26031pt>
 File: Use_Case_Diagrams/PasswordReset_UCD.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/PasswordReset_UCD.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/PasswordReset_UCD.jpeg  used on inpu
-t line 1062.
+t line 1067.
 (pdftex.def)             Requested size: 489.10287pt x 268.56448pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1062--1063
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1067--1068
 [][] 
  []
 
-<Use_Case_Diagrams/PasswordReset_AD.jpeg, id=318, 308.65312pt x 404.26031pt>
+<Use_Case_Diagrams/PasswordReset_AD.jpeg, id=337, 308.65312pt x 404.26031pt>
 File: Use_Case_Diagrams/PasswordReset_AD.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/PasswordReset_AD.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/PasswordReset_AD.jpeg  used on input
- line 1071.
+ line 1076.
 (pdftex.def)             Requested size: 489.10287pt x 640.66121pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1071--1072
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1076--1077
 [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 42.65767pt on input line 1073.
+LaTeX Warning: Float too large for page by 42.65767pt on input line 1078.
 
-[31 <./Use_Case_Diagrams/PasswordReset_UCD.jpeg>] [32 <./Use_Case_Diagrams/Pass
+[32 <./Use_Case_Diagrams/PasswordReset_UCD.jpeg>] [33 <./Use_Case_Diagrams/Pass
 wordReset_AD.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1078--1079
+Underfull \hbox (badness 10000) in paragraph at lines 1083--1084
 
  []
 
-<Use_Case_Diagrams/PaymentFraud_UCD.jpeg, id=331, 548.80031pt x 261.22594pt>
+<Use_Case_Diagrams/PaymentFraud_UCD.jpeg, id=350, 548.80031pt x 261.22594pt>
 File: Use_Case_Diagrams/PaymentFraud_UCD.jpeg Graphic file (type jpg)
 <use Use_Case_Diagrams/PaymentFraud_UCD.jpeg>
 Package pdftex.def Info: Use_Case_Diagrams/PaymentFraud_UCD.jpeg  used on input
- line 1081.
+ line 1086.
 (pdftex.def)             Requested size: 489.10287pt x 232.81718pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1081--1082
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1086--1087
 [][] 
  []
 
-[33 <./Use_Case_Diagrams/PaymentFraud_UCD.jpeg>] ("Deliverable 1.gls" [34
-
-])
-("Deliverable 1.acr" [35
-
-
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1098.
- [36
-
-
+("Deliverable 1.gls" [34 <./Use_Case_Diagrams/PaymentFraud_UCD.jpeg>])
+("Deliverable 1.acr")
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1110.
+ [35
 runsystem(makeindex -s "Deliverable 1".ist -t "Deliverable 1".glg -o "Deliverab
 le 1".gls "Deliverable 1".glo)...executed (allowed).
 
@@ -1377,39 +1353,46 @@ runsystem(makeindex -s "Deliverable 1".ist -t "Deliverable 1".alg -o "Deliverab
 le 1".acr "Deliverable 1".acn)...executed (allowed).
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1098.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1110.
  ("Deliverable 1.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1098.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1098.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1110.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1110.
 
-Package rerunfilecheck Info: File `"Deliverable 1".out' has not changed.
-(rerunfilecheck)             Checksum: A160391EC00D4ABC0D23F78722F2C894;1619.
 
+
+Package rerunfilecheck Warning: File `"Deliverable 1".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Deliverable 1".out':
+(rerunfilecheck)             Before: 98828E67107FE463DA9DAC2DF81E2529;1791
+(rerunfilecheck)             After:  FB4C195D267E11A3663EAA99E282D6FB;1786.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package logreq Info: Writing requests to '"Deliverable 1".run.xml'.
 \openout1 = `"Deliverable 1.run.xml"'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1098.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1110.
  ) 
 Here is how much of TeX's memory you used:
- 19495 strings out of 492895
- 348119 string characters out of 3119998
- 848211 words of memory out of 3000000
- 23049 multiletter control sequences out of 15000+200000
- 10430 words of font info for 37 fonts, out of 3000000 for 9000
+ 19596 strings out of 492895
+ 349663 string characters out of 3119998
+ 849670 words of memory out of 3000000
+ 23144 multiletter control sequences out of 15000+200000
+ 10599 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,8n,49p,2071b,2765s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,8n,46p,2071b,1643s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Sanchit Kumar/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Sanc
 hit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
-12.pfb>
-Output written on "Deliverable 1.pdf" (37 pages, 2240350 bytes).
+12.pfb><C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmtt12.pfb>
+Output written on "Deliverable 1.pdf" (36 pages, 2254028 bytes).
 PDF statistics:
- 401 PDF objects out of 1000 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
- 262 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 416 PDF objects out of 1000 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
+ 294 words of extra memory for PDF output out of 10000 (max. 10000000)
 
