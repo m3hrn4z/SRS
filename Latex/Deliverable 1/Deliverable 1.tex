@@ -10,6 +10,9 @@
 \usepackage{biblatex}
 \addbibresource{ref.bib}
 \usepackage[toc,page,header]{appendix}
+\usepackage{hhline,colortbl,color,booktabs}
+\usepackage{longtable}
+
 
 \newcommand{\TermName}{FALL 2019}
 \newcommand{\Course}{\textbf{SOEN-6481 \vspace{0.5cm} SOFTWARE SYSTEMS REQUIREMENTS SPECIFICATION}}
@@ -1190,6 +1193,96 @@ The Payment Fraud use case diagram shows how the payment authentication use case
 	\fbox{\includegraphics[width=1\textwidth]{Use_Case_Diagrams/PaymentFraud_UCD.jpeg}}
 	\caption{\label{fig: uc_payment_fraud } Use Case Diagram: Payment Fraud}	
 \end{figure}
+
+
+\chapter*{\centering Deliverable - 2}
+\section{Problem 5}
+
+\setlength\arrayrulewidth{2pt}
+\FloatBarrier
+\subsection{Use Stories}
+
+\begin{longtable}{!{\color{blue}\vrule width 5pt} p{0.4\linewidth} | p{0.15\linewidth} | p{0.2\linewidth} !{\color{blue}\vrule width 5pt} }
+	
+	
+	\noalign{\global\arrayrulewidth=1mm}
+	\arrayrulecolor{blue}\hline
+	\noalign{\global\arrayrulewidth=0.5mm}
+	\arrayrulecolor{black}\hline
+	%\arrayrulecolor{blue} \linethickness{3}  \hline \arrayrulecolor{black}
+	
+	\textbf{Title: Customer Login} & \textbf{Priority: } & \textbf{Estimate:} \\
+	\textbf{ID: TVM-01	} & High & 3 (story points) \\
+	\hline	
+	
+	%User story statement
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{As a} commuter} \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{I want to} login to the TVM system} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{So that I can} view my ticket plans} \\
+	\hline
+	
+	
+	%Constraint Section
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Constraints:} } \\ 
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1:} Login credential text boxes should be prominently visible on the screen} \\
+		
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-2:}As the user submits the login credentials, system should respond within 5 seconds} \\
+		
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth}!{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1:}TVM should be accessible by users with different backgrounds and abilities} \\
+		
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-2:} by using a screen reader for vision impaired users or people who cannot read or write.} \\ 
+		
+	\hline
+		
+	%Acceptance Criteria
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Acceptance criteria:} } \\ 
+		
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Given} a commuter interacting with TVM to view ticket plans} \\
+		
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{When} user select the button to login} \\
+		
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Then } system displays to select a language, and response time is less than 5 seconds} \\
+		
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+		
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test 1:} User should find the fields easily to enter credentials} \\
+		
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-2-Test 1:} User interacts with TVM with speed and ease-of-use. Response time should be acceptable (less than 5 seconds).} \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1-Test 1: }A user can hear the voice asking for TVM login} \\
+	
+	\hline
+	
+	
+	%Relevant Persona
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Relevant Persona(s) / User(s):}} \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{Unregistered Commuter, Registered Commuter includes: Regular User, Student, Senior Citizen, Negative user} \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Personas: }George Bell, Susan Kubrock, Sadie Taylor, Jean Davidson} \\
+	
+	\hline
+	
+	
+	
+	
+	\noalign{\global\arrayrulewidth=1mm}
+	\arrayrulecolor{blue}\hline
+	\noalign{\global\arrayrulewidth=0.5mm}
+	\arrayrulecolor{black}\hline	
+	
+\end{longtable}
+
+
+\newpage
+
 
 %=================================================================
 %
