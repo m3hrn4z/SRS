@@ -19,7 +19,6 @@
 \newcommand{\ProfessorName}{Dr. PANKAJ KAMTHAN}
 \setcounter{chapter}{1}
 
-
 %---------------------------------------------------------------------------------------
 %  GLOSSORY
 %---------------------------------------------------------------------------------------
@@ -109,11 +108,151 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 
 \chapter*{\centering Deliverable - 2}
 
-\section{Problem 5}
+\section{Problem 5: Personas}
+
+\FloatBarrier
+\subsection{Student}
+\begin{figure}[!htb]
+	\fbox{\includegraphics[width=18cm, height=20cm]{Personas/Student.png}}
+	\caption{\label{fig:persona_student}Persona: Student}	
+\end{figure}
+
+\FloatBarrier
+\subsection{Professional}
+\begin{figure}[!htb]
+	\fbox{\includegraphics[width=18cm, height=19cm]{Personas/WorkingProfessional.png}}
+	\caption{\label{fig:working_professional}Persona: Working Professional}	
+\end{figure}
+
+\FloatBarrier
+\subsection{Senior Citizen}
+\begin{figure}[!htb]
+	\fbox{\includegraphics[width=18cm, height=19cm]{Personas/SeniorCitizen.png}}
+	\caption{\label{fig:senior_citizen}Persona: Senior Citizen}	
+\end{figure}
+
+\FloatBarrier
+\subsection{Occasional traveller}
+\begin{figure}[!htb]
+	\fbox{\includegraphics[width=18cm, height=19cm]{Personas/OccasionalTraveller.png}}
+	\caption{\label{fig:occasional_traveller}Persona: Occasional Traveller}	
+\end{figure}
+
+\FloatBarrier
+\subsection{Frequent Traveller}
+\begin{figure}[!htb]
+	\fbox{\includegraphics[width=18cm, height=19cm]{Personas/FrequentTraveller.png}}
+	\caption{\label{fig:frequent_traveller}Persona: Frequent Traveller}	
+\end{figure}
+
+\FloatBarrier
+\subsection{Visually Impaired}
+\begin{figure}[!htb]
+	\fbox{\includegraphics[width=18cm, height=19cm]{Personas/VisuallyImpaired.png}}
+	\caption{\label{fig:visually_impaired}Persona: Visually Impaired}	
+\end{figure}
+
+\FloatBarrier
+\subsection{Differently Abled}
+\begin{figure}[!htb]
+	\fbox{\includegraphics[width=18cm, height=19cm]{Personas/DifferentlyAbled.png}}
+	\caption{\label{fig:differently_abled}Persona: Differently Abled}	
+\end{figure}
+
+\FloatBarrier
+\subsection{Negative User}
+\begin{figure}[!htb]
+	\fbox{\includegraphics[width=18cm, height=19cm]{Personas/NegativePersona1.png}}
+	\caption{\label{fig:negative_persona_1}Persona: Negative Persona 1}	
+\end{figure}
+
+\FloatBarrier
+\subsection{Negative User: Hacker}
+\begin{figure}[!htb]
+	\fbox{\includegraphics[width=18cm, height=19cm]{Personas/NegativePersona2.png}}
+	\caption{\label{fig:negative_persona_hacker}Persona: Negative Persona: Hacker}	
+\end{figure}
+
+
+
+
+\section{Problem 5: Global Constraints}
+
+\begin{longtable}{ | p{0.2\linewidth} | p{0.6\linewidth} | }
+	\hline
+	
+	 & \\ %Blank line
+	\centering \textbf{ID}  & \textbf{Constraint} \\
+	& \\ %Blank line
+	\hline
+	
+	
+	& \\ %Blank line
+	Performance-G-01 & From the time user selects to interact with the system, it takes less than or equal to 5 seconds on average for the system to display the result to that user. \\
+	& \\ %Blank line
+	\hline
+	
+	& \\ %Blank line
+	Usability-G-01 & User is able to go back to previous step and modify the request. \\
+		& \\ %Blank line
+	\hline
+	
+	& \\ %Blank line
+	Accessibility-G-01 & TVM is accessible by users with different backgrounds and abilities by using a screen reader for vision impaired users or people who cannot read/write. \\
+	& \\ %Blank line
+	\hline
+	
+	& \\ %Blank line
+	Maintainability-G-01: & Admin can modify system parameters and make changes later, without effecting current functionality of the system \\
+	& \\ %Blank line
+	\hline
+	
+	& \\ %Blank line
+	Security-G-01 & The server on which the system resides has its own security to prevent unauthorized read and wirte and delete access. \\
+	& \\ %Blank line
+	\hline
+	
+	& \\ %Blank line
+	Privacy-G-01 & The information regarding bank card is not saved on the server. \\
+	& \\ %Blank line
+	\hline
+	
+	& \\ %Blank line
+	Privacy-G-02 & Personal information of registered users is accessible only by authorized people. \\
+	& \\ %Blank line
+	\hline
+
+\end{longtable}
+
+
+\vspace{1cm}
+\section{Problem 5: User Stories}
+
+
+\textbf{Quality of User Stories} \\
+
+\textbf{Systematic scheme:} We have a framework for user stories within the team to describe the user stories. The user story framework gives details about the constraints to be followed, list of acceptance tests and also the inspired user roles and personas.\\
+
+
+\textbf{Characteristics of user stories considered:} \\ 
+\textbf{I-Investable —} User stories are written in such a way that a team should be able to invest their time and resources. \\
+\textbf{N-Negotiable —} Team members are able to discuss around its impacts, edge cases and expected behaviour. \\
+\textbf{V-Valuable —} User stories are with significant business/ technical value into the product. \\
+\textbf{E-Estimable —} User story points are assigned to each user stories based on their effort of development \\
+\textbf{S-Small —} user stories are small enough that a scrum team can deliver within a sprint length. \\
+\textbf{T-Testable —} written acceptance test cases for each user stories, which means they are testable \\
+
+
+\textbf{Individually as well as communally:} User stories are independent, we will be are able to implement user stories individually. They are communal, which means they are following the same format of description, they are having the same characteristics but different implementations. They are modular so that they can be integrated and very easy for maintenance.
+
+
+
+
+
+
 
 \setlength\arrayrulewidth{2pt}
 \FloatBarrier
-
 
 
 %==================================================================================
@@ -156,13 +295,11 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1:} Login credential text boxes should be prominently visible on the screen} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-2:}As the user submits the login credentials, system should respond within 5 seconds} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Performance-G-01, Usability-G-01, Accessibility-G-01, Maintainability-G-01, Security-G-01, Privacy-G-01, Privacy-G-02}} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth}!{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1:}TVM should be accessible by users with different backgrounds and abilities} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1:} Login credential text boxes should be prominently visible on the screen} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -183,13 +320,13 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test 1:} User should find the fields easily to enter credentials} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-Test-1:} User should find the fields easily to enter credentials} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-2-Test 1:} User interacts with TVM with speed and ease-of-use. Response time should be acceptable (less than 5 seconds).} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Performance-G-01-Test-1:} User interacts with TVM with speed and ease-of-use. Response time should be acceptable (less than 5 seconds). } \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1-Test 1: }A user can hear the voice asking for TVM login} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Accessibility-G-01-Test-1:} A user can hear the voice asking for TVM login } \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -261,17 +398,11 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Performance-G-01, Accessibility-G-01, Maintainability-G-01}} \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1:} User should be given list of language options to choose} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-2:} As the user selects the option, system should respond within 5 seconds} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth}!{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1:} TVM should be accessible by users with different backgrounds and abilities by using a screen reader for vision impaired users or people who cannot read/write.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1: } More number of languages can be added to the list.} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -292,17 +423,17 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test 1:} User should be able to easily select the option in the list} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test-1:} User should be able to easily select the option in the list} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-2-Test 1:} User interacts with TVM with speed and ease-of-use. Response time should be acceptable (less than 5 seconds).} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Performance-G-01-Test-1:} User interacts with TVM with speed and ease-of-use. Response time should be acceptable (less than 5 seconds).} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1-Test 1: }A user can hear the voice asking for language selection} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-G-01-Test-1: }A user can hear the voice asking for language selection} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1-Test 1: } A user should get the newly added language options to choose} \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-G-01-Test-1: } A user should get the newly added language options to choose} \\ 
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -375,17 +506,11 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Performance-G-01, Accessibility-G-01, Maintainability-G-01}} \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1:} All ticket types should be displayed on the screen at the same time} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-2:} From the time user enters the system, it takes less than or equal to 5 seconds on average for the system to display the ticket types for the user to select among them.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth}!{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1:} TVM should be accessible by users with different backgrounds and abilities by using a screen reader for vision impaired users or people who cannot read/write.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1: }More ticket types should be added to the system later, without effecting current design.} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -406,17 +531,17 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test 1:} A user enters the system and all ticket types will be displayed on the screen for the user to select among them} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test-1:} A user enters the system and all ticket types will be displayed on the screen for the user to select among them} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-2-Test 1:} A user enters the system and the ticket types will be displayed in less than or equal to 5 seconds for the user to select among them} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1-Test 1: }A user can hear the voice for each text displayed on the output device.} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Performance-G-01-Test-1:} A user enters the system and the ticket types will be displayed in less than or equal to 5 seconds for the user to select among them} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1-Test 1: } A system administrator adds a new ticket type without effecting the current functionality of the system} \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-G-01-Test-1: }A user can hear the voice for each text displayed on the output device.} \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-G-01-Test-1: } A system administrator adds a new ticket type without effecting the current functionality of the system} \\ 
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -490,19 +615,13 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Performance-G-01, Accessibility-G-01, Maintainability-G-01}} \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1:} All the plans should be displayed on the screen so that user can compare them together.} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-2:} From the time user selects to view ticket plans, it takes less than or equal to 5 seconds on average for the system to display the result to that user.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-3:} Information displayed on the screen should be sorted ascending according to fare.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth}!{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1:} TVM should be accessible by users with different backgrounds and abilities by using a screen reader for vision impaired users or people who cannot read/write.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1: }More plans should be added to the system later, without effecting current design} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-2:} Information displayed on the screen should be sorted ascending according to fare.} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -523,19 +642,21 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test 1:} A user select to view ticket plans and all plans will be displayed on the screen} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test-1:} A user select to view ticket plans and all plans will be displayed on the screen} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-2-Test 1:} A user select to view ticket plans and the result will be displayed in less than or equal to 5 seconds} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-3-Test 1:} A user select to view ticket plans and all plans will be displayed on the screen on ascending order according to ticket fares} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-2-Test-1:} A user select to view ticket plans and all plans will be displayed on the screen on ascending order according to ticket fares} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1-Test 1: }A user can hear the voice for each text displayed on the output device.} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Performance-G-01-Test-1:} A user select to view ticket plans and the result will be displayed in less than or equal to 5 seconds} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1-Test 1: } A system administrator adds a new ticket plan without effecting the current functionality of the system} \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-G-01-Test-1: }A user can hear the voice for each text displayed on the output device.} \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-G-01-Test-1: } A system administrator adds a new ticket plan without effecting the current functionality of the system} \\ 
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -609,19 +730,11 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Performance-G-01, Accessibility-G-01, Maintainability-G-01}} \\
+	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1:} All the plans should be displayed on the screen so that user can compare them together.} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-2:} From the time user selects to view ticket plans, it takes less than or equal to 5 seconds on average for the system to display the result to that user.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-3:} Information displayed on the screen should be sorted ascending according to fare.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth}!{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1:} TVM should be accessible by users with different backgrounds and abilities by using a screen reader for vision impaired users or people who cannot read/write.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1: }More plans should be added to the system later, without effecting current design} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-2:} Information displayed on the screen should be sorted ascending according to fare.} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -642,19 +755,19 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test 1:} A user select to view ticket plans and all plans will be displayed on the screen} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test-1:} A user select to view ticket plans and all plans will be displayed on the screen} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-2-Test 1:} A user select to view ticket plans and the result will be displayed in less than or equal to 5 seconds} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-2-Test-1:} A user select to view ticket plans and all plans will be displayed on the screen on ascending order according to ticket fares} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-3-Test 1:} A user select to view ticket plans and all plans will be displayed on the screen on ascending order according to ticket fares} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Performance-G-02-Test-1:} A user select to view ticket plans and the result will be displayed in less than or equal to 5 seconds} \\
+		
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-G-01-Test-1: }A user can hear the voice for each text displayed on the output device.} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1-Test 1: }A user can hear the voice for each text displayed on the output device.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1-Test 1: } A system administrator adds a new ticket plan without effecting the current functionality of the system} \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-G-01-Test-1: } A system administrator adds a new ticket plan without effecting the current functionality of the system} \\ 
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -729,21 +842,15 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1:} Both methods should be displayed on the screen so that user can choose according to his convenience.} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Performance-G-01, Accessibility-G-01, Maintainability-G-01}} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-2:} The system should display the step-wise procedure for the payment method chosen by the user in less than or equal to 5 seconds on average.} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1:} Both methods should be displayed on the screen so that user can choose according to his convenience.} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Security-1:} The payment should be secured and ask for authorization each time to make sure user’s card details are secured and not misused, in case of card payment.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth}!{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1:} TVM should be accessible by users with different backgrounds and abilities by using a screen reader for vision impaired users or people who cannot read/write.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1: }More number of methods can be added for the payment} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -764,19 +871,21 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test 1:} A user enters the system and both payment methods will be displayed on the screen for the user to select among them} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test-1:} A user enters the system and both payment methods will be displayed on the screen for the user to select among them} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-2-Test 1:} A user select the payment method and the result will be displayed in less than or equal to 5 seconds} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Security-1-Test 1:} A user select the card payment method and the system will secure it by asking for authorization each time, making sure the user’s card details are secured and not misused} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Security-1-Test-1:} A user select the card payment method and the system will secure it by asking for authorization each time, making sure the user’s card details are secured and not misused} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1-Test 1: } A user can hear the voice for each text displayed on the output device.} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Performance-G-02-Test-1:} A user select the payment method and the result will be displayed in less than or equal to 5 seconds} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1-Test 1: } A user should newly added methods to choose} \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-G-01-Test-1: } A user can hear the voice for each text displayed on the output device.} \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-G-01-Test-1: } A user should newly added methods to choose} \\ 
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -853,25 +962,19 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1:} System should display information on type of cash denomination accepted and how to enter cash.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-2:} The system should validate the denominations and cash user entered in less than or equal to 5 seconds on average.} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Performance-G-01, Accessibility-G-01, Maintainability-G-01}} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-3:} The system should dispense the cash back if ticket purchase fails.} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1:} System should display information on type of cash denomination accepted and how to enter cash.} \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-2:} The system should dispense the cash back if ticket purchase fails.} \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line	
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Security-1:} The payment should be secured and validation of currency and denomincations of the cash received should be done.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth}!{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1:} User can hear the step by step instructions on how to make a cash payment.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1: } System must accept different type of denominations and currency to make payment} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -892,21 +995,21 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test 1:} A user enters cash of correct currency and denomination using cash acceptor. System also displays information on how to make cash payment.} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test-1:} A user enters cash of correct currency and denomination using cash acceptor. System also displays information on how to make cash payment.} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-2-Test 1:} A user insert cash and the system validates the currency and denominations in less than or equal to 5 seconds} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-2-Test-1:} System dispenses the money back to user if the transaction fails.} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-3-Test 1:} System dispenses the money back to user if the transaction fails.} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Performance-G-01-Test-1:} A user insert cash and the system validates the currency and denominations in less than or equal to 5 seconds} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Security-1-Test 1:} System validates currency deposited by the user using cash acceptor. System also identifies the fake currency.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1-Test 1: } A user can hear the instructions on how to make a cash payment.} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Security-1-Test-1:} System validates currency deposited by the user using cash acceptor. System also identifies the fake currency.} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1-Test 1: } A system administrator adds functionality to process different types of denominations and currency.} \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-G-01-Test-1: } A user can hear the instructions on how to make a cash payment.} \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-G-01-Test-1: } A system administrator adds functionality to process different types of denominations and currency.} \\ 
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -981,21 +1084,13 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1:} System should display information on each step of a card payment.} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Performance-G-01, Accessibility-G-01, Maintainability-G-01}} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-2:} The system should authorize and process the payment in less than or equal to 5 seconds on average.} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1:} System should display information on each step of a card payment.} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Security-1:} The payment should be secured and ask for authorization each time to make sure user’s card details are secured and not misused, in case of card payment.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth}!{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1:} User can hear the step by step instructions on how to make a card payment.} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1: } System must accept different type of cards to make payment} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -1016,19 +1111,19 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test 1:} A user enters card and pin number and system should authenticate and process the payment and each steps information should be shown on the TVM.} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test-1:} A user enters card and pin number and system should authenticate and process the payment and each steps information should be shown on the TVM.} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-2-Test 1:} A user insert card and enter pin and the system authentication the payment in less than or equal to 5 seconds} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Performance-G-01-Test-1:} A user insert card and enter pin and the system authentication the payment in less than or equal to 5 seconds} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Security-1-Test 1:} A user insert the card and the system will security read the card details and ask for pin to authorize. Card information should be processed by system securely using encryption.} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1-Test 1: } A user can hear the instructions on how to make a card payment.} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility--G-01-Test-1: } A user can hear the instructions on how to make a card payment.} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1-Test 1: } A system administrator adds functionality to process different types of cards.} \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-G-01-Test-1: } A system administrator adds functionality to process different types of cards.} \\ 
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -1092,8 +1187,8 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	%User story statement
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{As a} commuter} \\ 
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{I want to} } \\
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{So that I can} } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{I want to} cancel the selected plan when I change my mind before payment processing} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{So that I am} not charged for cancelling the plan.} \\
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	\hline
 	
@@ -1105,25 +1200,15 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1:} } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Global Constraints}} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-2:} } \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-3:} } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{ Usability-G-01, Usability-G-02, Accessibility-G-01, Maintainability-G-01} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Security-1:} } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth}!{\color{blue}\vrule width 5pt}}{\textbf{Local Constraints}} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth}!{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1:} } \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1:} } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-01:} There should be a cancel button on the screen. } \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -1136,29 +1221,25 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Given} } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Given} a commuter interacting with TVM to select ticket and pay for the selected ticket. } \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{When} } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{When} user presses a cancel or go to previous menu just before payment processing} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Then } } \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test 1:} } \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-2-Test 1:} } \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-3-Test 1:} } \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Security-1-Test 1:} } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Then } system takes the user back o previous page without charging the user.} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1-Test 1: } } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test-1:} A user decides to buy another ticket then system should show a cancel or go to previous many button. } \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Performance-G-01-Test-1:} A user presses the cancel or go to previous menu it takes less than or equal to 5 seconds on average for the system to take user back to the previous menu or cancel the transaction.} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1-Test 1: } } \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-G-01-Test-1:}  A user can hear the voice for each text displayed on the output device.} \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-G-01-Test-1: } A system administrator adds a new ticket type without effecting the current functionality of the system } \\ 
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -1170,11 +1251,11 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Relevant Persona(s) / User(s):}} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{Unregistered Commuter, Registered Commuter includes: Regular User, Student, Senior Citizen, Negative user} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{Unregistered Commuter, Registered Commuter includes: Regular User, Student, Senior Citizen} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Personas: } George Bell, Susan Kubrock, Sadie Taylor, Jean Davidson} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Personas: } George Bell, Susan Kubrock, Sadie Taylor} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -1199,7 +1280,7 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 
 
 \vspace{1cm}
-\subsection{User Story : Print Payment Receipt}
+\subsection{User Story : Print Receipt}
 
 \begin{longtable}{!{\color{blue}\vrule width 5pt} p{0.4\linewidth} | p{0.15\linewidth} | p{0.2\linewidth} !{\color{blue}\vrule width 5pt} }
 	
@@ -1212,7 +1293,7 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	
 	& & \\
-	\textbf{Title: Print Payment Receipt} & \textbf{Priority: } & \textbf{Estimate:} \\
+	\textbf{Title: Print Receipt} & \textbf{Priority: } & \textbf{Estimate:} \\
 	& & \\
 	\textbf{ID: TVM-10	} & High & 5 (story points) \\
 	& & \\
@@ -1221,8 +1302,8 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	%User story statement
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{As a} commuter} \\ 
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{I want to} } \\
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{So that I can} } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{I want to} get a receipt printed after every transaction I complete } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{So that I} have a proof of the transaction with me. } \\
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	\hline
 	
@@ -1234,25 +1315,15 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1:} } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Global Constraints}} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-2:} } \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-3:} } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{ Usability-G-01, Usability-G-02, Accessibility-G-01, Maintainability-G-01} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Security-1:} } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth}!{\color{blue}\vrule width 5pt}}{\textbf{Local Constraints}} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth}!{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1:} } \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1:} } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-01:} There should be a print receipt button on the screen. } \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -1265,29 +1336,25 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Given} } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Given} a commuter has bought a ticket from the TVM} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{When} } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{When} gives command to get printed receipt for the transaction } \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Then } } \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test 1:} } \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-2-Test 1:} } \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-3-Test 1:} } \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Security-1-Test 1:} } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Then} system gives user a printed receipt.} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-1-Test 1: } } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test-1:} A user decides to get a printed receipt for competed transaction.} \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Performance-G-01-Test-1:} A user presses the print receipt button and it takes less than or equal to 5 seconds on average for the system to give user a printed ticket} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1-Test 1: } } \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Accessibility-G-01-Test-1: } A user can hear the voice for each text displayed on the output device.} \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-G-01-Test-1: } A system administrator adds a new ticket type without effecting the current functionality of the system } \\ 
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -1299,11 +1366,11 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Relevant Persona(s) / User(s):}} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{Unregistered Commuter, Registered Commuter includes: Regular User, Student, Senior Citizen, Negative user} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{Unregistered Commuter, Registered Commuter includes: Regular User, Student, Senior Citizen} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Personas: } George Bell, Susan Kubrock, Sadie Taylor, Jean Davidson} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Personas: } George Bell, Susan Kubrock, Sadie Taylor} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -1323,12 +1390,12 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 
 
 %==================================================================================
-%				Check for payment card authorization
+%				Card Payment Fraud
 %==================================================================================
 
 
 \vspace{1cm}
-\subsection{User Story : Check for payment card authorization}
+\subsection{User Story : Card Payment Fraud}
 
 \begin{longtable}{!{\color{blue}\vrule width 5pt} p{0.5\linewidth} | p{0.11\linewidth} | p{0.16\linewidth} !{\color{blue}\vrule width 5pt} }
 	
@@ -1349,9 +1416,9 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	%User story statement
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{As a} metro security officer} \\ 
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{I want} debit or credit cards used by commuters for payment should be authorized  } \\
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{So that} payments are safe } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{As a} fraud} \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{I want ot use} debit or credit cards with fake account and fake balance } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{So that} payments are accepted } \\
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	\hline
 	
@@ -1363,17 +1430,17 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Performance-G-01, Maintainability-G-01} } \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Security-1:} Card inserted to the TVM by the commuter should be checked for validity with the bank } \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Security-2:} Security Pin entered by the commuter should be checked whether it is valid with the bank database } \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1:} From the time user enters security pin, it takes less than or equal to 5 seconds on average for the system to display the result to that user. } \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1:} More security constraints can be added } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Usability-1-Test-1:} The payment approval should be within 10 seconds soon after the user enter the pin} \\ 
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -1394,17 +1461,17 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Security-1-Test 1:} User can see the message of payment authorization from the bank  } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Security-1-Test-1:} User can see the message of payment authorization from the bank  } \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Security-2-Test 1:} If the pin is correct the payment approval result will be displayed in less than or equal to 5 seconds } \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-1-Test 1:} The payment approval should be within 10 seconds soon after the user enter the pin } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Performance-G-01-Test-1:} If the pin is correct the payment approval result will be displayed in less than or equal to 5 seconds } \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1-Test 1:} A system administrator adds a new card payment constraint without affecting the current functionality of the system } \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Usability-1-Test-1:} The payment approval should be within 10 seconds soon after the user enter the pin } \\
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-G-01-Test-1:} A system administrator adds a new card payment constraint without affecting the current functionality of the system } \\ 
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -1442,12 +1509,12 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 
 
 %==================================================================================
-%				Secure admin login
+%				Hacking TVM admin login
 %==================================================================================
 
 
 \vspace{1cm}
-\subsection{User Story : Secure admin login}
+\subsection{User Story : Hacking TVM admin login}
 
 \begin{longtable}{!{\color{blue}\vrule width 5pt} p{0.4\linewidth} | p{0.15\linewidth} | p{0.2\linewidth} !{\color{blue}\vrule width 5pt} }
 	
@@ -1460,7 +1527,7 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	
 	& & \\
-	\textbf{Title: Secure admin login} & \textbf{Priority: } & \textbf{Estimate:} \\
+	\textbf{Title: Hacking TVM admin login} & \textbf{Priority: } & \textbf{Estimate:} \\
 	& & \\
 	\textbf{ID: TVM-12	} & High & 8 (story points) \\
 	& & \\
@@ -1468,9 +1535,9 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	%User story statement
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{As a} metro security admin} \\ 
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{I want} secure login to the TVM software but not from the TVM used by the commuters } \\
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{So that} admin rights are secured} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{As a} hacker} \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{I want} to be able to login as admin by stealing admin credentials } \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{So that} admin rights are hacked} \\
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	\hline
 	
@@ -1478,17 +1545,17 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	%Constraint Section
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Constraints:} } \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Mitigation Constraints:} } \\ 
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
+	
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-G-01:}} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Security-1:} The URL used for the admin login will be different} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Security-2:} The admin login will be with security questions before login} \\
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1:} More security constraints can be added } \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -1511,11 +1578,11 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Security-1-Test 1:} Admin login should not be found or linked with in any of the commuters TVM} \\
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Security-2-Test 1:} If the security questions are answered right the admin login page will be displayed in less than or equal to 5 seconds} \\
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 4pt}}{\textbf{Performance-G-01-Test-1:} If the security questions are answered right the admin login page will be displayed in less than or equal to 5 seconds} \\
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-1-Test 1:} Any constraints added to the admin login should be reflected during admin login } \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-G-01-Test-1:} Any constraints added to the admin login should be reflected during admin login } \\ 
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	

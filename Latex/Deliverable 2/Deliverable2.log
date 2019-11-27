@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  26 NOV 2019 02:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  27 NOV 2019 01:27
 entering extended mode
 **./Deliverable2.tex
 (Deliverable2.tex
@@ -813,19 +813,19 @@ Package glossaries Warning: Use of \makeglossary with glossaries.sty is
 (glossaries)                restore the former definition of \makeglossary) and
  
 (glossaries)                nomain (if the file extensions cause a conflict) on
- input line 34.
+ input line 33.
 
 \glswrite=\write4
 \glo@main@file=\write5
 \openout5 = `Deliverable2.glo'.
 
 Package glossaries Info: Writing glossary file Deliverable2.glo on input line 3
-4.
+3.
 \glo@acronym@file=\write6
 \openout6 = `Deliverable2.acn'.
 
 Package glossaries Info: Writing glossary file Deliverable2.acn on input line 3
-4.
+3.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -842,20 +842,20 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (Deliverable2.aux)
 \openout1 = `Deliverable2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -892,7 +892,7 @@ LaTeX Font Info:    ... okay on input line 36.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box36
-Package hyperref Info: Link coloring OFF on input line 36.
+Package hyperref Info: Link coloring OFF on input line 35.
 
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\n
 ameref.sty"
@@ -904,9 +904,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count341
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
  (Deliverable2.out) (Deliverable2.out)
 \@outlinefile=\write7
 \openout7 = `Deliverable2.out'.
@@ -950,17 +950,17 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Deliverable2.bbl' found.
  (Deliverable2.bbl)
-Package biblatex Info: Reference section=0 on input line 36.
-Package biblatex Info: Reference segment=0 on input line 36.
-<University_logo.jpg, id=63, 1724.4425pt x 530.98375pt>
+Package biblatex Info: Reference section=0 on input line 35.
+Package biblatex Info: Reference segment=0 on input line 35.
+<University_logo.jpg, id=107, 1724.4425pt x 530.98375pt>
 File: University_logo.jpg Graphic file (type jpg)
 <use University_logo.jpg>
-Package pdftex.def Info: University_logo.jpg  used on input line 48.
+Package pdftex.def Info: University_logo.jpg  used on input line 47.
 (pdftex.def)             Requested size: 172.45435pt x 53.10147pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 49.
+(Font)              using `OT1/cmr/bx/n' instead on input line 48.
 
 [1
 
@@ -975,77 +975,210 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.110 \chapter
+l.109 \chapter
               *{\centering Deliverable - 2} [1
 
 ]
-Underfull \vbox (badness 10000) detected at line 175
+<Personas/Student.png, id=147, 1043.9pt x 1167.36125pt>
+File: Personas/Student.png Graphic file (type png)
+<use Personas/Student.png>
+Package pdftex.def Info: Personas/Student.png  used on input line 116.
+(pdftex.def)             Requested size: 512.15262pt x 569.07297pt.
+
+Overfull \hbox (29.84973pt too wide) in paragraph at lines 116--117
+[][] 
  []
 
 [2
 
 ]
-Underfull \vbox (badness 10000) detected at line 277
+
+LaTeX Warning: Text page 3 contains only floats.
+
+[3 <./Personas/Student.png>]
+<Personas/WorkingProfessional.png, id=160, 1043.9pt x 1257.69875pt>
+File: Personas/WorkingProfessional.png Graphic file (type png)
+<use Personas/WorkingProfessional.png>
+Package pdftex.def Info: Personas/WorkingProfessional.png  used on input line 1
+23.
+(pdftex.def)             Requested size: 512.15262pt x 540.58882pt.
+
+Overfull \hbox (29.84973pt too wide) in paragraph at lines 123--124
+[][] 
  []
 
-[3]
-Underfull \vbox (badness 10000) detected at line 391
+<Personas/SeniorCitizen.png, id=161, 1043.9pt x 1197.47375pt>
+File: Personas/SeniorCitizen.png Graphic file (type png)
+<use Personas/SeniorCitizen.png>
+Package pdftex.def Info: Personas/SeniorCitizen.png  used on input line 130.
+(pdftex.def)             Requested size: 512.15262pt x 540.61232pt.
+
+Overfull \hbox (29.84973pt too wide) in paragraph at lines 130--131
+[][] 
  []
 
-[4]
-Underfull \hbox (badness 1635) in paragraph at lines 471--471
+[4 <./Personas/WorkingProfessional.png>]
+<Personas/OccasionalTraveller.png, id=168, 1043.9pt x 1287.81125pt>
+File: Personas/OccasionalTraveller.png Graphic file (type png)
+<use Personas/OccasionalTraveller.png>
+Package pdftex.def Info: Personas/OccasionalTraveller.png  used on input line 1
+37.
+(pdftex.def)             Requested size: 512.15262pt x 540.6216pt.
+
+Overfull \hbox (29.84973pt too wide) in paragraph at lines 137--138
+[][] 
+ []
+
+[5 <./Personas/SeniorCitizen.png>]
+<Personas/FrequentTraveller.png, id=175, 1043.9pt x 1287.81125pt>
+File: Personas/FrequentTraveller.png Graphic file (type png)
+<use Personas/FrequentTraveller.png>
+Package pdftex.def Info: Personas/FrequentTraveller.png  used on input line 144
+.
+(pdftex.def)             Requested size: 512.15262pt x 540.6216pt.
+
+Overfull \hbox (29.84973pt too wide) in paragraph at lines 144--145
+[][] 
+ []
+
+[6 <./Personas/OccasionalTraveller.png>]
+<Personas/VisuallyImpaired.png, id=183, 600.2425pt x 708.6475pt>
+File: Personas/VisuallyImpaired.png Graphic file (type png)
+<use Personas/VisuallyImpaired.png>
+Package pdftex.def Info: Personas/VisuallyImpaired.png  used on input line 151.
+
+(pdftex.def)             Requested size: 512.18686pt x 540.61057pt.
+
+Overfull \hbox (29.88397pt too wide) in paragraph at lines 151--152
+[][] 
+ []
+
+[7 <./Personas/FrequentTraveller.png>]
+<Personas/DifferentlyAbled.png, id=190, 644.4075pt x 702.625pt>
+File: Personas/DifferentlyAbled.png Graphic file (type png)
+<use Personas/DifferentlyAbled.png>
+Package pdftex.def Info: Personas/DifferentlyAbled.png  used on input line 158.
+
+(pdftex.def)             Requested size: 512.1737pt x 540.64767pt.
+
+Overfull \hbox (29.87082pt too wide) in paragraph at lines 158--159
+[][] 
+ []
+
+[8 <./Personas/VisuallyImpaired.png>]
+<Personas/NegativePersona1.png, id=197, 1043.9pt x 1257.69875pt>
+File: Personas/NegativePersona1.png Graphic file (type png)
+<use Personas/NegativePersona1.png>
+Package pdftex.def Info: Personas/NegativePersona1.png  used on input line 165.
+
+(pdftex.def)             Requested size: 512.15262pt x 540.58882pt.
+
+Overfull \hbox (29.84973pt too wide) in paragraph at lines 165--166
+[][] 
+ []
+
+[9 <./Personas/DifferentlyAbled.png>]
+<Personas/NegativePersona2.png, id=204, 1043.9pt x 1227.58624pt>
+File: Personas/NegativePersona2.png Graphic file (type png)
+<use Personas/NegativePersona2.png>
+Package pdftex.def Info: Personas/NegativePersona2.png  used on input line 172.
+
+(pdftex.def)             Requested size: 512.15262pt x 540.60791pt.
+
+Overfull \hbox (29.84973pt too wide) in paragraph at lines 172--173
+[][] 
+ []
+
+[10 <./Personas/NegativePersona1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
+[]|\OT1/cmr/m/n/12 Maintainability-G-
+ []
+
+[11 <./Personas/NegativePersona2.png>]
+Underfull \vbox (badness 10000) detected at line 217
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--244
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 314
+ []
+
+[13]
+Underfull \vbox (badness 10000) detected at line 417
+ []
+
+[14]
+Underfull \vbox (badness 10000) detected at line 525
+ []
+
+[15]
+Underfull \hbox (badness 1635) in paragraph at lines 596--596
 []|\OT1/cmr/bx/n/12 Title: View Ticket Plans for
  []
 
 
-Underfull \vbox (badness 10000) detected at line 506
+Underfull \vbox (badness 10000) detected at line 634
  []
 
-[5] [6]
-Underfull \vbox (badness 10000) detected at line 625
+[16] [17]
+Underfull \vbox (badness 10000) detected at line 749
  []
 
-[7]
-Underfull \vbox (badness 10000) detected at line 745
+[18]
+Underfull \vbox (badness 10000) detected at line 861
  []
 
-[8] [9]
-Underfull \vbox (badness 10000) detected at line 869
+[19]
+Underfull \vbox (badness 10000) detected at line 978
  []
 
-[10]
-Underfull \vbox (badness 10000) detected at line 997
+[20]
+Underfull \vbox (badness 10000) detected at line 1103
  []
 
-[11] [12]
-Underfull \vbox (badness 10000) detected at line 1121
+[21] [22]
+Underfull \vbox (badness 10000) detected at line 1219
  []
 
-[13]
-Underfull \vbox (badness 10000) detected at line 1250
+[23]
+Underfull \vbox (badness 10000) detected at line 1334
  []
 
-[14]
-Underfull \vbox (badness 10000) detected at line 1379
+[24]
+Underfull \vbox (badness 10000) detected at line 1446
  []
 
-[15]
-Underfull \vbox (badness 10000) detected at line 1501
+[25]
+Underfull \vbox (badness 10000) detected at line 1568
  []
 
-[16] [17] [18]
+[26] [27] [28]
 
-LaTeX Warning: Empty bibliography on input line 1570.
+LaTeX Warning: Empty bibliography on input line 1637.
 
 (Deliverable2.gls) (Deliverable2.acr)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1581.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1581.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1648.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1648.
  (Deliverable2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1581.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1581.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1648.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1648.
 
 Package rerunfilecheck Info: File `Deliverable2.out' has not changed.
-(rerunfilecheck)             Checksum: F2F83B88B6DC022A21E7F5BCC810AD5B;1258.
+(rerunfilecheck)             Checksum: 094F1022ABAD7F0AD60FD3C5DC76BEFF;2011.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1053,23 +1186,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package logreq Info: Writing requests to 'Deliverable2.run.xml'.
 \openout1 = `Deliverable2.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1581.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1648.
  ) 
 Here is how much of TeX's memory you used:
- 19139 strings out of 492895
- 337264 string characters out of 3119998
+ 19239 strings out of 492895
+ 339405 string characters out of 3119998
  857316 words of memory out of 3000000
- 22741 multiletter control sequences out of 15000+200000
+ 22799 multiletter control sequences out of 15000+200000
  10083 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,6n,46p,2068b,1641s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,7n,46p,2068b,1641s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Sanchit Kumar/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Deliverable2.pdf (19 pages, 170304 bytes).
+Output written on Deliverable2.pdf (29 pages, 2578230 bytes).
 PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 332 PDF objects out of 1000 (max. 8388607)
+ 79 named destinations out of 1000 (max. 500000)
+ 259 words of extra memory for PDF output out of 10000 (max. 10000000)
 
