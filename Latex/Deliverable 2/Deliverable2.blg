@@ -1,9 +1,9 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'Deliverable2.blg'
-[24] biber-MSWIN64:315> INFO - === 
-[50] Biber.pm:371> INFO - Reading 'Deliverable2.bcf'
-[125] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[131] Utils.pm:193> WARN - The file 'Deliverable2.bcf' does not contain any citations!
-[137] bbl.pm:636> INFO - Writing 'Deliverable2.bbl' with encoding 'UTF-8'
-[137] bbl.pm:739> INFO - Output to Deliverable2.bbl
-[138] Biber.pm:110> INFO - WARNINGS: 1
+[30] biber-MSWIN64:315> INFO - === 
+[87] Biber.pm:371> INFO - Reading 'Deliverable2.bcf'
+[165] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[171] Utils.pm:193> WARN - The file 'Deliverable2.bcf' does not contain any citations!
+[177] bbl.pm:636> INFO - Writing 'Deliverable2.bbl' with encoding 'UTF-8'
+[178] bbl.pm:739> INFO - Output to Deliverable2.bbl
+[179] Biber.pm:110> INFO - WARNINGS: 1
