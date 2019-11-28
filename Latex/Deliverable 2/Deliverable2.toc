@@ -1,54 +1,78 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Problem 5: Personas}{2}{section.1.1}% 
+\contentsline {section}{\numberline {1.1}Problem 5: Personas \cite {usermodelingkamthan}}{3}{section.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Student}{2}{subsection.1.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}Student}{3}{subsection.1.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Professional}{4}{subsection.1.1.2}% 
+\contentsline {subsection}{\numberline {1.1.2}Professional}{5}{subsection.1.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Senior Citizen}{5}{subsection.1.1.3}% 
+\contentsline {subsection}{\numberline {1.1.3}Senior Citizen}{6}{subsection.1.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.4}Occasional traveller}{6}{subsection.1.1.4}% 
+\contentsline {subsection}{\numberline {1.1.4}Occasional traveller}{7}{subsection.1.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.5}Frequent Traveller}{7}{subsection.1.1.5}% 
+\contentsline {subsection}{\numberline {1.1.5}Frequent Traveller}{8}{subsection.1.1.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.6}Visually Impaired}{8}{subsection.1.1.6}% 
+\contentsline {subsection}{\numberline {1.1.6}Visually Impaired}{9}{subsection.1.1.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.7}Differently Abled}{9}{subsection.1.1.7}% 
+\contentsline {subsection}{\numberline {1.1.7}Differently Abled}{10}{subsection.1.1.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.8}Negative User}{10}{subsection.1.1.8}% 
+\contentsline {subsection}{\numberline {1.1.8}Negative User}{11}{subsection.1.1.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.9}Negative User: Hacker}{11}{subsection.1.1.9}% 
+\contentsline {subsection}{\numberline {1.1.9}Negative User: Hacker}{12}{subsection.1.1.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Problem 5: Global Constraints}{12}{section.1.2}% 
+\contentsline {section}{\numberline {1.2}Problem 5: Global Constraints}{13}{section.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Problem 5: User Stories}{13}{section.1.3}% 
+\contentsline {section}{\numberline {1.3}Problem 5: User Stories \cite {userstorieskamthan}}{14}{section.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}User Story : Customer Login}{13}{subsection.1.3.1}% 
+\contentsline {subsection}{\numberline {1.3.1}User Story : Customer Login}{14}{subsection.1.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}User Story : Select Language}{14}{subsection.1.3.2}% 
+\contentsline {subsection}{\numberline {1.3.2}User Story : Select Language}{15}{subsection.1.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}User Story : Select Ticket Type}{15}{subsection.1.3.3}% 
+\contentsline {subsection}{\numberline {1.3.3}User Story : Select Ticket Type}{16}{subsection.1.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}User Story : View Ticket Plans for Rechargeable card}{16}{subsection.1.3.4}% 
+\contentsline {subsection}{\numberline {1.3.4}User Story : View Ticket Plans for Rechargeable card}{17}{subsection.1.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.5}User Story : View Ticket Plans for Non-Rechargeable card}{18}{subsection.1.3.5}% 
+\contentsline {subsection}{\numberline {1.3.5}User Story : View Ticket Plans for Non-Rechargeable card}{19}{subsection.1.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.6}User Story : Select Payment Method}{19}{subsection.1.3.6}% 
+\contentsline {subsection}{\numberline {1.3.6}User Story : Select Payment Method}{20}{subsection.1.3.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.7}User Story : Make Cash Payment}{20}{subsection.1.3.7}% 
+\contentsline {subsection}{\numberline {1.3.7}User Story : Make Cash Payment}{21}{subsection.1.3.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.8}User Story : Make Card Payment}{21}{subsection.1.3.8}% 
+\contentsline {subsection}{\numberline {1.3.8}User Story : Make Card Payment}{22}{subsection.1.3.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.9}User Story : Cancel Seleted Plan}{23}{subsection.1.3.9}% 
+\contentsline {subsection}{\numberline {1.3.9}User Story : Cancel Seleted Plan}{24}{subsection.1.3.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.10}User Story : Print Receipt}{24}{subsection.1.3.10}% 
+\contentsline {subsection}{\numberline {1.3.10}User Story : Print Receipt}{25}{subsection.1.3.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.11}User Story : Card Payment Fraud}{25}{subsection.1.3.11}% 
+\contentsline {subsection}{\numberline {1.3.11}User Story : Card Payment Fraud}{26}{subsection.1.3.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.12}User Story : Hacking TVM admin login}{26}{subsection.1.3.12}% 
+\contentsline {subsection}{\numberline {1.3.12}User Story : Hacking TVM admin login}{27}{subsection.1.3.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Problem 6}{28}{section.1.4}% 
+\contentsline {section}{\numberline {1.4}Problem 6: Traceability Matrix \cite {traceabilitykamthan}}{29}{section.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Traceability Matrix}{28}{subsection.1.4.1}% 
+\contentsline {subsection}{\numberline {1.4.1}Traceability Matrix}{29}{subsection.1.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.2}Traceability Matrix(Extended)}{32}{subsection.1.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.3}Traceability Matrix(Other Resources)}{33}{subsection.1.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Problem 7: Implementation Document}{34}{section.1.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.1}Implementations - User Story: TVM-US-01}{34}{subsection.1.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.2}Implementations - User Story: TVM-US-03}{36}{subsection.1.5.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.3}Implementations - User Story: TVM-US-05}{37}{subsection.1.5.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.4}Implementations - User Story: TVM-US-07}{39}{subsection.1.5.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.5}Implementations - User Story: TVM-US-09}{40}{subsection.1.5.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Glossary}{42}{section*.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Appendices}{42}{section*.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}Appendix}{42}{section.Alph0.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1}Interviews}{42}{subsection.Alph0.1.1}% 
