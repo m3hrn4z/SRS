@@ -1,5 +1,7 @@
 This is makeindex, version 2.15 [MiKTeX 2.9.7050 64-bit] (kpathsea + Thai support).
 Scanning style file ./Deliverable2.ist.............................done (29 attributes redefined, 0 ignored).
-Scanning input file Deliverable2.glo...done (0 entries accepted, 0 rejected).
-Nothing written in Deliverable2.gls.
+Scanning input file Deliverable2.glo....done (6 entries accepted, 0 rejected).
+Sorting entries....done (16 comparisons).
+Generating output file Deliverable2.gls....done (21 lines written, 0 warnings).
+Output written in Deliverable2.gls.
 Transcript written in Deliverable2.glg.

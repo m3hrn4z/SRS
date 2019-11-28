@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  27 NOV 2019 01:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.8)  27 NOV 2019 21:52
 entering extended mode
 **./Deliverable2.tex
 (Deliverable2.tex
@@ -813,19 +813,19 @@ Package glossaries Warning: Use of \makeglossary with glossaries.sty is
 (glossaries)                restore the former definition of \makeglossary) and
  
 (glossaries)                nomain (if the file extensions cause a conflict) on
- input line 33.
+ input line 101.
 
 \glswrite=\write4
 \glo@main@file=\write5
 \openout5 = `Deliverable2.glo'.
 
-Package glossaries Info: Writing glossary file Deliverable2.glo on input line 3
-3.
+Package glossaries Info: Writing glossary file Deliverable2.glo on input line 1
+01.
 \glo@acronym@file=\write6
 \openout6 = `Deliverable2.acn'.
 
-Package glossaries Info: Writing glossary file Deliverable2.acn on input line 3
-3.
+Package glossaries Info: Writing glossary file Deliverable2.acn on input line 1
+01.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -842,20 +842,20 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (Deliverable2.aux)
 \openout1 = `Deliverable2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -892,7 +892,7 @@ LaTeX Font Info:    ... okay on input line 35.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box36
-Package hyperref Info: Link coloring OFF on input line 35.
+Package hyperref Info: Link coloring OFF on input line 103.
 
 ("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\n
 ameref.sty"
@@ -904,9 +904,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count341
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 103.
+LaTeX Info: Redefining \pageref on input line 103.
+LaTeX Info: Redefining \nameref on input line 103.
  (Deliverable2.out) (Deliverable2.out)
 \@outlinefile=\write7
 \openout7 = `Deliverable2.out'.
@@ -950,235 +950,895 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Deliverable2.bbl' found.
  (Deliverable2.bbl)
-Package biblatex Info: Reference section=0 on input line 35.
-Package biblatex Info: Reference segment=0 on input line 35.
-<University_logo.jpg, id=107, 1724.4425pt x 530.98375pt>
+Package biblatex Info: Reference section=0 on input line 103.
+Package biblatex Info: Reference segment=0 on input line 103.
+<University_logo.jpg, id=155, 1724.4425pt x 530.98375pt>
 File: University_logo.jpg Graphic file (type jpg)
 <use University_logo.jpg>
-Package pdftex.def Info: University_logo.jpg  used on input line 47.
+Package pdftex.def Info: University_logo.jpg  used on input line 115.
 (pdftex.def)             Requested size: 172.45435pt x 53.10147pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 48.
+(Font)              using `OT1/cmr/bx/n' instead on input line 116.
 
 [1
 
 \openout4 = `Deliverable2.ist'.
 
 {C:/Users/Sanchit Kumar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./U
-niversity_logo.jpg>] (Deliverable2.toc)
+niversity_logo.jpg>] (Deliverable2.tocpdfTeX warning (ext4): destination with t
+he same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.74 ...line {section}{Appendices}{42}{section*.5}
+                                                  % [1
+
+])
 \tf@toc=\write8
 \openout8 = `Deliverable2.toc'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.109 \chapter
-              *{\centering Deliverable - 2} [1
+ [2]
 
-]
-<Personas/Student.png, id=147, 1043.9pt x 1167.36125pt>
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\cite' on input line 180.
+
+<Personas/Student.png, id=218, 1043.9pt x 1167.36125pt>
 File: Personas/Student.png Graphic file (type png)
 <use Personas/Student.png>
-Package pdftex.def Info: Personas/Student.png  used on input line 116.
+Package pdftex.def Info: Personas/Student.png  used on input line 185.
 (pdftex.def)             Requested size: 512.15262pt x 569.07297pt.
 
-Overfull \hbox (29.84973pt too wide) in paragraph at lines 116--117
+Overfull \hbox (29.84973pt too wide) in paragraph at lines 185--186
 [][] 
  []
 
-[2
+[3
 
 ]
 
-LaTeX Warning: Text page 3 contains only floats.
+LaTeX Warning: Text page 4 contains only floats.
 
-[3 <./Personas/Student.png>]
-<Personas/WorkingProfessional.png, id=160, 1043.9pt x 1257.69875pt>
+[4 <./Personas/Student.png>]
+<Personas/WorkingProfessional.png, id=231, 1043.9pt x 1257.69875pt>
 File: Personas/WorkingProfessional.png Graphic file (type png)
 <use Personas/WorkingProfessional.png>
 Package pdftex.def Info: Personas/WorkingProfessional.png  used on input line 1
-23.
+92.
 (pdftex.def)             Requested size: 512.15262pt x 540.58882pt.
 
-Overfull \hbox (29.84973pt too wide) in paragraph at lines 123--124
+Overfull \hbox (29.84973pt too wide) in paragraph at lines 192--193
 [][] 
  []
 
-<Personas/SeniorCitizen.png, id=161, 1043.9pt x 1197.47375pt>
+<Personas/SeniorCitizen.png, id=232, 1043.9pt x 1197.47375pt>
 File: Personas/SeniorCitizen.png Graphic file (type png)
 <use Personas/SeniorCitizen.png>
-Package pdftex.def Info: Personas/SeniorCitizen.png  used on input line 130.
+Package pdftex.def Info: Personas/SeniorCitizen.png  used on input line 199.
 (pdftex.def)             Requested size: 512.15262pt x 540.61232pt.
 
-Overfull \hbox (29.84973pt too wide) in paragraph at lines 130--131
+Overfull \hbox (29.84973pt too wide) in paragraph at lines 199--200
 [][] 
  []
 
-[4 <./Personas/WorkingProfessional.png>]
-<Personas/OccasionalTraveller.png, id=168, 1043.9pt x 1287.81125pt>
+[5 <./Personas/WorkingProfessional.png>]
+<Personas/OccasionalTraveller.png, id=239, 1043.9pt x 1287.81125pt>
 File: Personas/OccasionalTraveller.png Graphic file (type png)
 <use Personas/OccasionalTraveller.png>
-Package pdftex.def Info: Personas/OccasionalTraveller.png  used on input line 1
-37.
+Package pdftex.def Info: Personas/OccasionalTraveller.png  used on input line 2
+06.
 (pdftex.def)             Requested size: 512.15262pt x 540.6216pt.
 
-Overfull \hbox (29.84973pt too wide) in paragraph at lines 137--138
+Overfull \hbox (29.84973pt too wide) in paragraph at lines 206--207
 [][] 
  []
 
-[5 <./Personas/SeniorCitizen.png>]
-<Personas/FrequentTraveller.png, id=175, 1043.9pt x 1287.81125pt>
+[6 <./Personas/SeniorCitizen.png>]
+<Personas/FrequentTraveller.png, id=247, 1043.9pt x 1287.81125pt>
 File: Personas/FrequentTraveller.png Graphic file (type png)
 <use Personas/FrequentTraveller.png>
-Package pdftex.def Info: Personas/FrequentTraveller.png  used on input line 144
+Package pdftex.def Info: Personas/FrequentTraveller.png  used on input line 213
 .
 (pdftex.def)             Requested size: 512.15262pt x 540.6216pt.
 
-Overfull \hbox (29.84973pt too wide) in paragraph at lines 144--145
+Overfull \hbox (29.84973pt too wide) in paragraph at lines 213--214
 [][] 
  []
 
-[6 <./Personas/OccasionalTraveller.png>]
-<Personas/VisuallyImpaired.png, id=183, 600.2425pt x 708.6475pt>
+[7 <./Personas/OccasionalTraveller.png>]
+<Personas/VisuallyImpaired.png, id=254, 600.2425pt x 708.6475pt>
 File: Personas/VisuallyImpaired.png Graphic file (type png)
 <use Personas/VisuallyImpaired.png>
-Package pdftex.def Info: Personas/VisuallyImpaired.png  used on input line 151.
+Package pdftex.def Info: Personas/VisuallyImpaired.png  used on input line 220.
 
 (pdftex.def)             Requested size: 512.18686pt x 540.61057pt.
 
-Overfull \hbox (29.88397pt too wide) in paragraph at lines 151--152
+Overfull \hbox (29.88397pt too wide) in paragraph at lines 220--221
 [][] 
  []
 
-[7 <./Personas/FrequentTraveller.png>]
-<Personas/DifferentlyAbled.png, id=190, 644.4075pt x 702.625pt>
+[8 <./Personas/FrequentTraveller.png>]
+<Personas/DifferentlyAbled.png, id=261, 644.4075pt x 702.625pt>
 File: Personas/DifferentlyAbled.png Graphic file (type png)
 <use Personas/DifferentlyAbled.png>
-Package pdftex.def Info: Personas/DifferentlyAbled.png  used on input line 158.
+Package pdftex.def Info: Personas/DifferentlyAbled.png  used on input line 227.
 
 (pdftex.def)             Requested size: 512.1737pt x 540.64767pt.
 
-Overfull \hbox (29.87082pt too wide) in paragraph at lines 158--159
+Overfull \hbox (29.87082pt too wide) in paragraph at lines 227--228
 [][] 
  []
 
-[8 <./Personas/VisuallyImpaired.png>]
-<Personas/NegativePersona1.png, id=197, 1043.9pt x 1257.69875pt>
+[9 <./Personas/VisuallyImpaired.png>]
+<Personas/NegativePersona1.png, id=268, 1043.9pt x 1257.69875pt>
 File: Personas/NegativePersona1.png Graphic file (type png)
 <use Personas/NegativePersona1.png>
-Package pdftex.def Info: Personas/NegativePersona1.png  used on input line 165.
+Package pdftex.def Info: Personas/NegativePersona1.png  used on input line 234.
 
 (pdftex.def)             Requested size: 512.15262pt x 540.58882pt.
 
-Overfull \hbox (29.84973pt too wide) in paragraph at lines 165--166
+Overfull \hbox (29.84973pt too wide) in paragraph at lines 234--235
 [][] 
  []
 
-[9 <./Personas/DifferentlyAbled.png>]
-<Personas/NegativePersona2.png, id=204, 1043.9pt x 1227.58624pt>
+[10 <./Personas/DifferentlyAbled.png>]
+<Personas/NegativePersona2.png, id=275, 1043.9pt x 1227.58624pt>
 File: Personas/NegativePersona2.png Graphic file (type png)
 <use Personas/NegativePersona2.png>
-Package pdftex.def Info: Personas/NegativePersona2.png  used on input line 172.
+Package pdftex.def Info: Personas/NegativePersona2.png  used on input line 241.
 
 (pdftex.def)             Requested size: 512.15262pt x 540.60791pt.
 
-Overfull \hbox (29.84973pt too wide) in paragraph at lines 172--173
+Overfull \hbox (29.84973pt too wide) in paragraph at lines 241--242
 [][] 
  []
 
-[10 <./Personas/NegativePersona1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+[11 <./Personas/NegativePersona1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
 []|\OT1/cmr/m/n/12 Maintainability-G-
  []
 
-[11 <./Personas/NegativePersona2.png>]
-Underfull \vbox (badness 10000) detected at line 217
+[12 <./Personas/NegativePersona2.png>]
+Underfull \vbox (badness 10000) detected at line 286
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
-
- []
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
-
- []
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\cite' on input line 298.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--244
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 314
  []
 
 [13]
-Underfull \vbox (badness 10000) detected at line 417
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--313
+
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 383
  []
 
 [14]
-Underfull \vbox (badness 10000) detected at line 525
+Underfull \vbox (badness 10000) detected at line 486
  []
 
 [15]
-Underfull \hbox (badness 1635) in paragraph at lines 596--596
+Underfull \vbox (badness 10000) detected at line 594
+ []
+
+[16]
+Underfull \hbox (badness 1635) in paragraph at lines 665--665
 []|\OT1/cmr/bx/n/12 Title: View Ticket Plans for
  []
 
 
-Underfull \vbox (badness 10000) detected at line 634
+Underfull \vbox (badness 10000) detected at line 703
  []
 
-[16] [17]
-Underfull \vbox (badness 10000) detected at line 749
- []
-
-[18]
-Underfull \vbox (badness 10000) detected at line 861
+[17] [18]
+Underfull \vbox (badness 10000) detected at line 818
  []
 
 [19]
-Underfull \vbox (badness 10000) detected at line 978
+Underfull \vbox (badness 10000) detected at line 930
  []
 
 [20]
-Underfull \vbox (badness 10000) detected at line 1103
+Underfull \vbox (badness 10000) detected at line 1047
  []
 
-[21] [22]
-Underfull \vbox (badness 10000) detected at line 1219
+[21]
+Underfull \vbox (badness 10000) detected at line 1172
  []
 
-[23]
-Underfull \vbox (badness 10000) detected at line 1334
+[22] [23]
+Underfull \vbox (badness 10000) detected at line 1288
  []
 
 [24]
-Underfull \vbox (badness 10000) detected at line 1446
+Underfull \vbox (badness 10000) detected at line 1403
  []
 
 [25]
-Underfull \vbox (badness 10000) detected at line 1568
+Underfull \vbox (badness 10000) detected at line 1515
  []
 
-[26] [27] [28]
+[26]
+Underfull \vbox (badness 10000) detected at line 1637
+ []
 
-LaTeX Warning: Empty bibliography on input line 1637.
+[27] [28]
 
-(Deliverable2.gls) (Deliverable2.acr)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1648.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1648.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\cite' on input line 1688.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1701--1701
+[]|\OT1/cmr/m/n/12 TVM-
+ []
+
+
+Overfull \hbox (1.50206pt too wide) in paragraph at lines 1701--1701
+\OT1/cmr/m/n/12 UseCaseModel| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1701--1703
+[]|\OT1/cmr/m/n/12 "Performance-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1701--1703
+\OT1/cmr/m/n/12 Accessibility-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1701--1703
+\OT1/cmr/m/n/12 Maintainability-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1701--1703
+\OT1/cmr/m/n/12 Privacy-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1701--1703
+\OT1/cmr/m/n/12 Privacy-G-02
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1707--1707
+[]|\OT1/cmr/m/n/12 TVM-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1707--1707
+\OT1/cmr/m/n/12 UseCase-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1707--1707
+\OT1/cmr/m/n/12 1: Change
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1707--1708
+[]|\OT1/cmr/m/n/12 "Performance-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1707--1708
+\OT1/cmr/m/n/12 Accessibility-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1707--1708
+\OT1/cmr/m/n/12 Maintainability-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1707--1708
+\OT1/cmr/m/n/12 Privacy-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1707--1708
+\OT1/cmr/m/n/12 Privacy-G-02
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+[]|\OT1/cmr/m/n/12 TVM-
+ []
+
+
+Overfull \hbox (1.50206pt too wide) in paragraph at lines 1712--1712
+\OT1/cmr/m/n/12 UseCaseModel| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1713
+[]|\OT1/cmr/m/n/12 "Performance-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1713
+\OT1/cmr/m/n/12 Accessibility-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1713
+\OT1/cmr/m/n/12 Maintainability-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1713
+\OT1/cmr/m/n/12 Privacy-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1713
+\OT1/cmr/m/n/12 Privacy-G-02,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1717--1717
+\OT1/cmr/m/n/12 for Recharge-able
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1717--1717
+[]|\OT1/cmr/m/n/12 TVM-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1717--1717
+\OT1/cmr/m/n/12 UseCase-2:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1717--1717
+\OT1/cmr/m/n/12 View Ticket
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1717--1718
+[]|\OT1/cmr/m/n/12 "Performance-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1717--1718
+\OT1/cmr/m/n/12 Accessibility-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1717--1718
+\OT1/cmr/m/n/12 Maintainability-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1717--1718
+\OT1/cmr/m/n/12 Privacy-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1717--1718
+\OT1/cmr/m/n/12 Privacy-G-02,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1717--1718
+\OT1/cmr/m/n/12 Usability-1,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1723--1723
+[]|\OT1/cmr/m/n/12 View Ticket
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1723--1723
+\OT1/cmr/m/n/12 Plans for Non-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1723--1723
+[]|\OT1/cmr/m/n/12 TVM-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1723--1723
+\OT1/cmr/m/n/12 UseCase-2:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1723--1723
+\OT1/cmr/m/n/12 View Ticket
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1723--1724
+[]|\OT1/cmr/m/n/12 "Performance-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1723--1724
+\OT1/cmr/m/n/12 Accessibility-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1723--1724
+\OT1/cmr/m/n/12 Maintainability-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1723--1724
+\OT1/cmr/m/n/12 Privacy-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1723--1724
+\OT1/cmr/m/n/12 Privacy-G-02,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1723--1724
+\OT1/cmr/m/n/12 Usability-1,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1728--1728
+[]|\OT1/cmr/m/n/12 Select Pay-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1728--1728
+[]|\OT1/cmr/m/n/12 TVM-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1728--1728
+\OT1/cmr/m/n/12 UseCase-
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 1728--1728
+\OT1/cmr/m/n/12 4: Make a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1728--1729
+[]|\OT1/cmr/m/n/12 "Performance-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1728--1729
+\OT1/cmr/m/n/12 Accessibility-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1728--1729
+\OT1/cmr/m/n/12 Maintainability-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1728--1729
+\OT1/cmr/m/n/12 Privacy-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1728--1729
+\OT1/cmr/m/n/12 Privacy-G-02,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1728--1729
+\OT1/cmr/m/n/12 Usability-1,
+ []
+
+
+Overfull \hbox (19.61497pt too wide) in alignment at lines 1692--1729
+ [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1729
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1734--1734
+[]|\OT1/cmr/m/n/12 TVM-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1734--1734
+\OT1/cmr/m/n/12 UseCase-
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 1734--1734
+\OT1/cmr/m/n/12 4: Make a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1734--1735
+[]|\OT1/cmr/m/n/12 "Performance-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1734--1735
+\OT1/cmr/m/n/12 Accessibility-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1734--1735
+\OT1/cmr/m/n/12 Maintainability-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1734--1735
+\OT1/cmr/m/n/12 Privacy-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1734--1735
+\OT1/cmr/m/n/12 Privacy-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1734--1735
+\OT1/cmr/m/n/12 02, Usability-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1734--1735
+\OT1/cmr/m/n/12 1, Usability-2,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1740
+[]|\OT1/cmr/m/n/12 TVM-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1740
+\OT1/cmr/m/n/12 UseCase-
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 1740--1740
+\OT1/cmr/m/n/12 4: Make a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1741
+[]|\OT1/cmr/m/n/12 "Performance-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1741
+\OT1/cmr/m/n/12 Accessibility-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1741
+\OT1/cmr/m/n/12 Maintainability-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1741
+\OT1/cmr/m/n/12 Privacy-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1741
+\OT1/cmr/m/n/12 Privacy-G-02,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1741
+\OT1/cmr/m/n/12 Usability-1,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1746--1746
+[]|\OT1/cmr/m/n/12 Cancel Se-lected
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1746--1747
+[]|\OT1/cmr/m/n/12 "Performance-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1746--1747
+\OT1/cmr/m/n/12 Accessibility-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1746--1747
+\OT1/cmr/m/n/12 Maintainability-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1746--1747
+\OT1/cmr/m/n/12 Privacy-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1746--1747
+\OT1/cmr/m/n/12 Privacy-G-02,
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 1752--1752
+[]|\OT1/cmr/m/n/12 Print Ticket and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1752--1752
+[]|\OT1/cmr/m/n/12 TVM-US-07,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1752--1752
+[]|\OT1/cmr/m/n/12 TVM-
+ []
+
+
+Overfull \hbox (1.50206pt too wide) in paragraph at lines 1752--1752
+\OT1/cmr/m/n/12 UseCaseModel| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1752--1753
+[]|\OT1/cmr/m/n/12 "Performance-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1752--1753
+\OT1/cmr/m/n/12 Accessibility-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1752--1753
+\OT1/cmr/m/n/12 Maintainability-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1752--1753
+\OT1/cmr/m/n/12 Privacy-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1752--1753
+\OT1/cmr/m/n/12 Privacy-G-02,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1757--1757
+[]|\OT1/cmr/m/n/12 Card pay-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1757--1757
+[]|\OT1/cmr/m/n/12 TVM-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1757--1757
+\OT1/cmr/m/n/12 UseCase-
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 1757--1757
+\OT1/cmr/m/n/12 4: Make a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1757--1758
+[]|\OT1/cmr/m/n/12 "Performance-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1757--1758
+\OT1/cmr/m/n/12 Accessibility-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1757--1758
+\OT1/cmr/m/n/12 Maintainability-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1757--1758
+\OT1/cmr/m/n/12 Privacy-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1757--1758
+\OT1/cmr/m/n/12 Privacy-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1757--1758
+\OT1/cmr/m/n/12 02, Security-1,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1763--1763
+[]|\OT1/cmr/m/n/12 TVM-
+ []
+
+
+Overfull \hbox (1.50206pt too wide) in paragraph at lines 1763--1763
+\OT1/cmr/m/n/12 UseCaseModel| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1763--1764
+[]|\OT1/cmr/m/n/12 "Performance-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1763--1764
+\OT1/cmr/m/n/12 Accessibility-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1763--1764
+\OT1/cmr/m/n/12 Maintainability-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1763--1764
+\OT1/cmr/m/n/12 Privacy-G-01,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1763--1764
+\OT1/cmr/m/n/12 Privacy-G-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1763--1764
+\OT1/cmr/m/n/12 02, Security-1,
+ []
+
+
+Overfull \hbox (19.61497pt too wide) in alignment at lines 1729--1768
+ [] [] [] [] [] 
+ []
+
+[29] [30] [31]
+Overfull \hbox (17.23383pt too wide) in alignment at lines 1772--1809
+ [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1809
+ []
+
+
+Overfull \hbox (17.23383pt too wide) in alignment at lines 1809--1848
+ [] [] [] 
+ []
+
+[32]
+Overfull \hbox (3.81122pt too wide) in alignment at lines 1854--1891
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1891
+ []
+
+
+Overfull \hbox (3.81122pt too wide) in alignment at lines 1891--1909
+ [] [] 
+ []
+
+[33]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1932
+.
+
+("C:\Users\Sanchit Kumar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscm
+r.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1932.
+
+<Implementation/TVM01.png, id=408, 1335.99126pt x 752.8125pt>
+File: Implementation/TVM01.png Graphic file (type png)
+<use Implementation/TVM01.png>
+Package pdftex.def Info: Implementation/TVM01.png  used on input line 1941.
+(pdftex.def)             Requested size: 512.16678pt x 341.43895pt.
+
+Overfull \hbox (29.86389pt too wide) in paragraph at lines 1941--1942
+[][] 
+ []
+
+[34] [35 <./Implementation/TVM01.png>]
+<Implementation/TVM03_1.png, id=420, 694.09312pt x 370.38374pt>
+File: Implementation/TVM03_1.png Graphic file (type png)
+<use Implementation/TVM03_1.png>
+Package pdftex.def Info: Implementation/TVM03_1.png  used on input line 1976.
+(pdftex.def)             Requested size: 512.1699pt x 227.62357pt.
+
+Overfull \hbox (29.86702pt too wide) in paragraph at lines 1976--1977
+[][] 
+ []
+
+<Implementation/TVM03_2.png, id=421, 695.09688pt x 373.89688pt>
+File: Implementation/TVM03_2.png Graphic file (type png)
+<use Implementation/TVM03_2.png>
+Package pdftex.def Info: Implementation/TVM03_2.png  used on input line 1981.
+(pdftex.def)             Requested size: 512.16814pt x 227.62035pt.
+
+Overfull \hbox (29.86525pt too wide) in paragraph at lines 1981--1982
+[][] 
+ []
+
+[36 <./Implementation/TVM03_1.png>]
+<Implementation/TVM05.JPG, id=429, 387.94937pt x 415.5525pt>
+File: Implementation/TVM05.JPG Graphic file (type jpg)
+<use Implementation/TVM05.JPG>
+Package pdftex.def Info: Implementation/TVM05.JPG  used on input line 2026.
+(pdftex.def)             Requested size: 512.15987pt x 540.66838pt.
+
+Overfull \hbox (29.85698pt too wide) in paragraph at lines 2026--2027
+[][] 
+ []
+
+[37 <./Implementation/TVM03_2.png>] [38 <./Implementation/TVM05.JPG>]
+<Implementation/TVM07.png, id=441, 694.09312pt x 379.91937pt>
+File: Implementation/TVM07.png Graphic file (type png)
+<use Implementation/TVM07.png>
+Package pdftex.def Info: Implementation/TVM07.png  used on input line 2073.
+(pdftex.def)             Requested size: 512.1699pt x 284.53302pt.
+
+Overfull \hbox (29.86702pt too wide) in paragraph at lines 2073--2074
+[][] 
+ []
+
+[39] [40 <./Implementation/TVM07.png>]
+<Implementation/TVM09.PNG, id=451, 584.68437pt x 360.34625pt>
+File: Implementation/TVM09.PNG Graphic file (type png)
+<use Implementation/TVM09.PNG>
+Package pdftex.def Info: Implementation/TVM09.PNG  used on input line 2116.
+(pdftex.def)             Requested size: 512.19531pt x 284.52745pt.
+
+Overfull \hbox (29.89243pt too wide) in paragraph at lines 2116--2117
+[][] 
+ []
+
+[41 <./Implementation/TVM09.PNG>] (Deliverable2.gls) (Deliverable2.acr)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2157.
+
+[42
+runsystem(makeindex -s Deliverable2.ist -t Deliverable2.glg -o Deliverable2.gls
+ Deliverable2.glo)...executed (allowed).
+
+runsystem(makeindex -s Deliverable2.ist -t Deliverable2.alg -o Deliverable2.acr
+ Deliverable2.acn)...executed (allowed).
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2157.
  (Deliverable2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1648.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1648.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2157.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2157.
 
 Package rerunfilecheck Info: File `Deliverable2.out' has not changed.
-(rerunfilecheck)             Checksum: 094F1022ABAD7F0AD60FD3C5DC76BEFF;2011.
+(rerunfilecheck)             Checksum: 7141CED0C174117A9AEADEFE501F468C;3031.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1186,23 +1846,26 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package logreq Info: Writing requests to 'Deliverable2.run.xml'.
 \openout1 = `Deliverable2.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1648.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2157.
  ) 
 Here is how much of TeX's memory you used:
- 19239 strings out of 492895
- 339405 string characters out of 3119998
- 857316 words of memory out of 3000000
- 22799 multiletter control sequences out of 15000+200000
- 10083 words of font info for 36 fonts, out of 3000000 for 9000
+ 19950 strings out of 492895
+ 354766 string characters out of 3119998
+ 874823 words of memory out of 3000000
+ 23451 multiletter control sequences out of 15000+200000
+ 10430 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,7n,46p,2068b,1641s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,7n,47p,2068b,2761s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Sanchit Kumar/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Deliverable2.pdf (29 pages, 2578230 bytes).
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Sanc
+hit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Users/Sanchit Kumar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmti12.pfb>
+Output written on Deliverable2.pdf (43 pages, 3804195 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
- 79 named destinations out of 1000 (max. 500000)
- 259 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 519 PDF objects out of 1000 (max. 8388607)
+ 125 named destinations out of 1000 (max. 500000)
+ 385 words of extra memory for PDF output out of 10000 (max. 10000000)
 

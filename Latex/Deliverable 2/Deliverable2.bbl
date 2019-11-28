@@ -16,5 +16,100 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{qualitykamthan}{book}{}
+      \name{author}{1}{}{%
+        {{hash=68b280f0045863b3e369370ad1ccef44}{%
+           family={Kamthan},
+           familyi={K\bibinitperiod},
+           given={Pankaj},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{fullhash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{bibnamehash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{authorbibnamehash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{authornamehash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{authorfullhash}{68b280f0045863b3e369370ad1ccef44}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Software Product quality}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+    \entry{usermodelingkamthan}{book}{}
+      \name{author}{1}{}{%
+        {{hash=68b280f0045863b3e369370ad1ccef44}{%
+           family={Kamthan},
+           familyi={K\bibinitperiod},
+           given={Pankaj},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{fullhash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{bibnamehash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{authorbibnamehash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{authornamehash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{authorfullhash}{68b280f0045863b3e369370ad1ccef44}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to User Modeling}
+      \field{year}{2019}
+    \endentry
+    \entry{traceabilitykamthan}{book}{}
+      \name{author}{1}{}{%
+        {{hash=68b280f0045863b3e369370ad1ccef44}{%
+           family={Kamthan},
+           familyi={K\bibinitperiod},
+           given={Pankaj},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{fullhash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{bibnamehash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{authorbibnamehash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{authornamehash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{authorfullhash}{68b280f0045863b3e369370ad1ccef44}
+      \field{extraname}{3}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Traceability in Software Requirements}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+    \entry{userstorieskamthan}{book}{}
+      \name{author}{1}{}{%
+        {{hash=68b280f0045863b3e369370ad1ccef44}{%
+           family={Kamthan},
+           familyi={K\bibinitperiod},
+           given={Pankaj},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{fullhash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{bibnamehash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{authorbibnamehash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{authornamehash}{68b280f0045863b3e369370ad1ccef44}
+      \strng{authorfullhash}{68b280f0045863b3e369370ad1ccef44}
+      \field{extraname}{4}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{User Stories in Context}
+      \field{year}{2019}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

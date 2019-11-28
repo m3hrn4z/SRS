@@ -19,15 +19,83 @@
 \newcommand{\ProfessorName}{Dr. PANKAJ KAMTHAN}
 \setcounter{chapter}{1}
 
+
+
 %---------------------------------------------------------------------------------------
 %  GLOSSORY
 %---------------------------------------------------------------------------------------
 
-\newglossaryentry{igo}
+\newglossaryentry{US}
 {
-	name=iGo,
-	description={The online Ticket Vending Machine Web Application integrating with STM system}
+	name=User Story,
+	description={User Story}
 }
+\newglossaryentry{tvm}
+{
+	name=Ticket Vending Machine,
+	description={Ticket Vending Machine}
+}
+\newglossaryentry{iGO}
+{
+	name=iGO,
+	description={Name of the TVM}
+}
+\newglossaryentry{Administrator}
+{
+	name=Administrator,
+	description={Electronic Method of Payment}
+}
+\newglossaryentry{Commuter}
+{
+	name=Quality Commuter,
+	description={Someone who is using the transport service to travel}
+}
+\newglossaryentry{Rational_User}
+{
+	name=Rational User,
+	description={A practical User}
+}
+\newglossaryentry{Idealist_User}
+{
+	name=Idealist User,
+	description={person guided by principles or hopes rather than by practicality.}
+}
+\newglossaryentry{competitor}
+{
+	name=Competitors,
+	description={Type of negative stakeholders, this category consist of an organisation or an individual that can be compitition for the developers of iGo}
+}
+\newglossaryentry{modular_system_design}
+{
+	name=Modular,
+	description={Is a approach that subdivides a system into smaller parts called modules}
+}
+\newglossaryentry{security_vulnerability}
+{
+	name=Security Vulnerability,
+	description={In computer security, a vulnerability is a weakness which can be exploited by a threat actor, such as an attacker, to perform unauthorized actions within a computer system.}
+}
+\newglossaryentry{concession}
+{
+	name=Concession,
+	description={A preferential allowance on the ticket.}
+}
+\newglossaryentry{TMIGO}
+{
+	name=TMIGO,
+	description={Traceability Matrix for iGO.}
+}
+\newglossaryentry{rechargable_card}
+{
+	name=Rechargable Card,
+	description={A card that can be recharged to be used monthly, weekly.}
+}
+\newglossaryentry{non_rechargable_card}
+{
+	name=Non-Rechargable Card,
+	description={One time use and throw card.}
+}
+
 \newacronym{stm}{STM}{Société de transport de Montréal}
 
 \makeglossary
@@ -108,7 +176,8 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 
 \chapter*{\centering Deliverable - 2}
 
-\section{Problem 5: Personas}
+\vspace{1cm}
+\section{Problem 5: Personas \cite{usermodelingkamthan}}
 
 \FloatBarrier
 \subsection{Student}
@@ -198,7 +267,7 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	\hline
 	
 	& \\ %Blank line
-	Accessibility-G-01 & TVM is accessible by users with different backgrounds and abilities by using a screen reader for vision impaired users or people who cannot read/write. \\
+	Accessibility-G-01 & \gls{tvm} is accessible by users with different backgrounds and abilities by using a screen reader for vision impaired users or people who cannot read/write. \\
 	& \\ %Blank line
 	\hline
 	
@@ -226,10 +295,10 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 
 
 \vspace{1cm}
-\section{Problem 5: User Stories}
+\section{Problem 5: User Stories \cite{userstorieskamthan}}
 
 
-\textbf{Quality of User Stories} \\
+\textbf{Quality of User Stories \cite{qualitykamthan}} \\
 
 \textbf{Systematic scheme:} We have a framework for user stories within the team to describe the user stories. The user story framework gives details about the constraints to be followed, list of acceptance tests and also the inspired user roles and personas.\\
 
@@ -243,7 +312,7 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 \textbf{T-Testable —} written acceptance test cases for each user stories, which means they are testable \\
 
 
-\textbf{Individually as well as communally:} User stories are independent, we will be are able to implement user stories individually. They are communal, which means they are following the same format of description, they are having the same characteristics but different implementations. They are modular so that they can be integrated and very easy for maintenance.
+\textbf{Individually as well as communally:} User stories are independent, we will be are able to implement user stories individually. They are communal, which means they are following the same format of description, they are having the same characteristics but different implementations. They are \gls{modular_system_design} so that they can be integrated and very easy for maintenance.
 
 
 
@@ -281,7 +350,7 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	%User story statement
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{As a} commuter} \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{As a} \gls{Commuter}} \\ 
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{I want to} login to the TVM system} \\
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} l !{\color{blue}\vrule width 5pt}}{\textbf{So that I can} view my ticket plans} \\
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
@@ -541,7 +610,7 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
-	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-G-01-Test-1: } A system administrator adds a new ticket type without effecting the current functionality of the system} \\ 
+	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\textbf{Maintainability-G-01-Test-1: } A system \gls{Administrator} adds a new ticket type without effecting the current functionality of the system} \\ 
 	
 	\multicolumn{3}{!{\color{blue}\vrule width 5pt} p{0.9\linewidth} !{\color{blue}\vrule width 5pt}}{\space} \\ %Blank line
 	
@@ -1616,16 +1685,454 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 
 \newpage
 
-\section{Problem 6}
+\section{Problem 6: Traceability Matrix \cite{traceabilitykamthan}}
 
 
 \subsection{Traceability Matrix}
+\begin{longtable}{ | p{0.2\linewidth} | p{0.2\linewidth} | p{0.15\linewidth} | p{0.15\linewidth} | p{0.2\linewidth} | }
+	\hline
+	
+	& & & & \\
+	\textbf{User Story ID} & \textbf{User Story Title} & \textbf{User Story} & \textbf{Use Case} & \textbf{Constraint} \\
+	& & & & \\
+	\hline
+	
+	& & & & \\
+	TVM-US-01 & Login to TVM & TVM-US-12 & TVM-UseCaseModel	& "Performance-G-01, Usability-G-01, Accessibility-G-01, Maintainability-G-01, Security-G-01, Privacy-G-01, Privacy-G-02
+	Usability-1"\\ 
+	& & & & \\
+	\hline
+	
+	& & & & \\
+	TVM-US-02 &	Select Language	 &  & TVM-UseCase-1: Change Language & "Performance-G-01, Usability-G-01, Accessibility-G-01, Maintainability-G-01, Security-G-01, Privacy-G-01, Privacy-G-02 Usability-1" \\
+	& & & & \\
+	\hline
+	
+	& & & & \\
+	TVM-US-03 & Select Ticket Type &  & TVM-UseCaseModel & "Performance-G-01, Usability-G-01, Accessibility-G-01, Maintainability-G-01, Security-G-01, Privacy-G-01, Privacy-G-02,	Usability-1" \\
+	& & & & \\
+	\hline
+	
+	& & & & \\
+	TVM-US-04 & View Ticket Plans for Rechargeable card & TVM-US-03 & TVM-UseCase-2: View Ticket Plans & "Performance-G-01, Usability-G-01, Accessibility-G-01, Maintainability-G-01, Security-G-01, Privacy-G-01, Privacy-G-02, Usability-1, Usability-2" \\
+	& & & & \\
+	\hline
+	
+	
+	& & & & \\
+	TVM-US-05 & View Ticket Plans for Non-rechargeable ticket & TVM-US-03 & TVM-UseCase-2: View Ticket Plans & "Performance-G-01, Usability-G-01, Accessibility-G-01, Maintainability-G-01, Security-G-01, Privacy-G-01, Privacy-G-02, Usability-1, Usability-2" \\
+	& & & & \\
+	\hline
+	
+	& & & & \\
+	TVM-US-06 & Select Payment Method &  & TVM-UseCase-4: Make a payment & "Performance-G-01, Usability-G-01, Accessibility-G-01, Maintainability-G-01, Security-G-01, Privacy-G-01, Privacy-G-02, Usability-1, Security-1" \\
+	& & & & \\
+	\hline
+	
+	
+	& & & & \\
+	TVM-US-07 & Make a Cash Payment & TVM-US-06 & TVM-UseCase-4: Make a payment & "Performance-G-01, Usability-G-01, Accessibility-G-01, Maintainability-G-01, Security-G-01, Privacy-G-01, Privacy-G-02, Usability-1, Usability-2, Security-1" \\
+	& & & & \\
+	\hline
+	
+	
+	& & & & \\
+	TVM-US-08 & Make a Card Payment & TVM-US-06 & TVM-UseCase-4: Make a payment & "Performance-G-01, Usability-G-01, Accessibility-G-01, Maintainability-G-01, Security-G-01, Privacy-G-01, Privacy-G-02, Usability-1, Security-1" \\
+	& & & & \\
+	\hline
+	
+
+	& & & & \\
+	TVM-US-09 & Cancel Selected Plan & "TVM-US-03 & TVM-US-11" & "Performance-G-01, Usability-G-01, Accessibility-G-01, Maintainability-G-01, Security-G-01, Privacy-G-01, Privacy-G-02, Usability-1" \\
+	& & & & \\
+	\hline
+	
+	
+	& & & & \\
+	TVM-US-10 & Print Ticket and Receipt & TVM-US-07, TVM-US-08 & TVM-UseCaseModel & "Performance-G-01, Usability-G-01, Accessibility-G-01, Maintainability-G-01, Security-G-01, Privacy-G-01, Privacy-G-02, Usability-1" \\
+	& & & & \\
+	\hline
+	
+	& & & & \\
+	TVM-US-11 & Card payment fraud & TVM-US-03 & TVM-UseCase-4: Make a payment & "Performance-G-01, Usability-G-01, Accessibility-G-01, Maintainability-G-01, Security-G-01, Privacy-G-01, Privacy-G-02, Security-1, Security-2" \\
+	& & & & \\
+	\hline
+	
+	
+	& & & & \\
+	TVM-US-12 & Hacking TVM admin login & TVM-US-01 & TVM-UseCaseModel & "Performance-G-01, Usability-G-01, Accessibility-G-01, Maintainability-G-01, Security-G-01, Privacy-G-01, Privacy-G-02, Security-1, Security-2" \\
+	& & & & \\
+	\hline
+	
+	
+\end{longtable}
+
+\vspace{1cm}
+\subsection{Traceability Matrix(Extended)}
+\begin{longtable}{ | p{0.2\linewidth} | p{0.3\linewidth} | p{0.45\linewidth} |}
+	\hline
+
+	%Table Header
+	& & \\
+	\textbf{User Story ID} & \textbf{Domain Model} & \textbf{Interview} \\
+	& & \\
+	\hline
+	
+	& & \\
+	TVM-US-01 & Registered Commuter & "Neerajpreet Kaur - Q6, Smitha Patil - Q6, Sahana Anatha - Q6" \\
+	& & \\
+	\hline
+	
+	& & \\
+	TVM-US-02 & Language & Smitha Patil - Q3 \\
+	& & \\ 
+	\hline
+	
+	& & \\ 
+	TVM-US-03 & "Ticket: \gls{rechargable_card}, \gls{non_rechargable_card}" & \\
+	& & \\ 
+	\hline
+	
+	& & \\ 
+	TVM-US-04 & Fare: Regular, Reduced &  \\
+	& & \\ 
+	\hline
+	
+	& & \\ 
+	TVM-US-05 & Fare: Regular, Reduced &  \\
+	& & \\ 
+	\hline
+	
+	
+	& & \\ 
+	TVM-US-06 & Payment: Cash, BankCard & "Neerajpreet Kaur - Q7, Smitha Patil - Q7, Sahana Anatha - Q7" \\
+	& & \\ 
+	\hline
+	
+	
+	& & \\ 
+	TVM-US-07 & Cash & Sahana Anatha - Q7 \\
+	& & \\ 
+	\hline
+	
+	
+	& & \\ 
+	TVM-US-08 & BankCard & "Neerajpreet Kaur - Q7, Smitha Patil - Q7, Sahana Anatha - Q7, Amandeep Kaur - Q3" \\
+	& & \\ 
+	\hline
+	
+	& & \\ 
+	TVM-US-09 &  & "Neerajpreet Kaur - Q4, Q5, Q12, Smitha Patil - Q12, Sahana Anatha - Q11, Q12" \\
+	& & \\ 
+	\hline
+	
+	
+	& & \\ 
+	TVM-US-10 & Printer, NonRechargeableTicket, Receipt, PaperReceipt & Amandeep Kaur - Q4 \\
+	& & \\ 
+	\hline
+	
+	
+	& & \\ 
+	TVM-US-11 & BankCard &  \\
+	& & \\ 
+	\hline
+	
+	
+	& & \\ 
+	TVM-US-12 & Registered Commuter &  \\
+	& & \\ 
+	\hline
+	
+	
+\end{longtable}
+
+
+
+\vspace{1cm}
+\subsection{Traceability Matrix(Other Resources)}
+\begin{longtable}{ | p{0.2\linewidth} | p{0.75\linewidth} |}
+	\hline
+	
+	
+	%Table Header
+	& \\
+	\textbf{User Story ID} & \textbf{Other Systems} \\
+	& \\
+	\hline
+	
+	& \\
+	TVM-US-01 & Current STM System "http://www.stm.info/en/info/fares/opus-cards-and-other-fare-media/registered-opus-card" \\
+	& \\
+	\hline
+	
+	& \\
+	TVM-US-02 & "Current STM System http://www.stm.info" \\ 
+	& \\
+	\hline
+	
+	& \\
+	TVM-US-03 & "Current STM System http://www.stm.info/en/info/fares" \\ 
+	& \\
+	\hline
+	
+	& \\
+	TVM-US-04 & "Current STM System http://www.stm.info/en/info/fares" \\ 
+	& \\
+	\hline
+	
+	& \\
+	TVM-US-05 & "Current STM System http://www.stm.info/en/info/fares" \\ 
+	& \\
+	\hline
+	
+	& \\
+	TVM-US-06 & "Current STM System http://www.stm.info" \\ 
+	& \\
+	\hline
+	
+	& \\
+	TVM-US-07 & "Current STM System http://www.stm.info" \\ 
+	& \\
+	\hline
+	
+	& \\
+	TVM-US-08 & "Current STM System http://www.stm.info" \\ 
+	& \\
+	\hline
+	
+	& \\
+	TVM-US-10 & "Current STM System http://www.stm.info" \\ 
+	& \\
+	\hline
+	
+\end{longtable}
+
+
+
+\vspace{2cm}
+\FloatBarrier
+\section{Problem 7: Implementation Document}
+
+
+%======================================================================
+%				User Story: TVM-US-01
+%======================================================================
+\vspace{1cm}
+\FloatBarrier
+\subsection{Implementations - User Story: TVM-US-01}
+As a Commuter, I want to be able to Login to TVM to buy a ticket.
+
+\begin{flushleft}
+	\textbf{Implementation} \\
+	
+	\vspace{0.5cm}
+	\textbf{Instructions of Use}
+	\begin{itemize}
+		\item Extract the Zip folder.
+		\item Click on the Login.html page
+		\item It will take you to the login page.
+		\item Since we don’t have a database access so the user can enter any name and password, but cannot leave them empty
+		\item So please use any name and password to login.
+		\item After logging in, it will take you to the Welcome Page.
+	\end{itemize}
+	
+	\begin{figure}[!htb]
+		\fbox{\includegraphics[width=18cm, height=12cm]{Implementation/TVM01.png}}
+		\caption{\label{fig:tvm01}User Story: TVM-US-01}	
+	\end{figure}
+	
+	\vspace{0.5cm}
+	\textbf{DOM:} The implementation is done using the document object model of various HTMl elements. Elements are logically connected with each other and pass the values to verify the sequential alignment of all the elements and their corresponding functions.\\
+	
+	\vspace{0.5cm}
+	\textbf{Data Structures: }The user is able to login into the system with a given username and password  Since we are not considering any database for the TVM application back end. The user will be able to login with a one user name and password only.\\
+	
+	\vspace{0.5cm}
+	\textbf{Programming Platform: } HTML 5 and Javascript \\
+	\textbf{User Interface:} Textual \\
+	\textbf{Constraints covered:} Usability-G-01 \\
+	
+\end{flushleft}
+
+
+
+%======================================================================
+%				User Story: TVM-US-03
+%======================================================================
+\vspace{0.5cm}
+\FloatBarrier
+\subsection{Implementations - User Story: TVM-US-03}
+As a Commuter, I want to be able to select ticket types (Rechargeable card or Non-rechargeable ticket), so that I can either reload Non-rechargeable card or buy a Rechargeable ticket.
+
+\begin{flushleft}
+	\textbf{Implementation}
+	
+	\vspace{0.5cm}
+	\textbf{Instructions of Use}
+	The TVM simulator for selecting ticket type will begin with the login and the displaying the ticket plans. Then the user is asked to select ticket types (Rechargeable card or Non-rechargeable ticket). If user inputs 1, Rechargable card is selected, if user selects 2 a Non-Rechargable ticket is selected.
+	
+	\begin{figure}[!htb]
+		\fbox{\includegraphics[width=18cm, height=8cm]{Implementation/TVM03_1.png}}
+		\caption{\label{fig:tvm03_1}User Story: TVM-US-03}	
+	\end{figure}
+
+	\begin{figure}[!htb]
+		\fbox{\includegraphics[width=18cm, height=8cm]{Implementation/TVM03_2.png}}
+		\caption{\label{fig:tvm03_2}User Story: TVM-US-03}	
+	\end{figure}
+	
+	\vspace{0.5cm}
+	\textbf{DOM:} Since we are not considering any database for the TVM application back end. Basic data structures available in Java are taken. Ticket types are stored in an ArrayList.\\
+	
+	\vspace{0.5cm}
+	\textbf{Data Structures: }The user is able to login into the system with a given username and password  Since we are not considering any database for the TVM application back end. The user will be able to login with a one user name and password only.\\
+	
+	\vspace{0.5cm}
+	\textbf{Programming Platform: } Java Enterprise Edition \\
+	\textbf{User Interface:} Textual \\
+	\textbf{Constraints covered:} Performance-G-01 \\
+	
+	\vspace{0.5cm}
+	\textbf{User Error Protection:} It will be made sure that user provides the right input in required format. \\
+	\textbf{Maintainability: } Data structures selections are in such a way that any changes to the ticket types can be done. \\
+	\textbf{Learnability: } New users will get to know that there are two types of tickets available i.e Rechargeable card or Non-rechargeable ticket
+	
+\end{flushleft}
 
 
 
 
 
-\newpage
+
+%======================================================================
+%				User Story: TVM-US-05
+%======================================================================
+\FloatBarrier
+\vspace{0.5cm}
+\subsection{Implementations - User Story: TVM-US-05}
+As a Commuter, I want to be able to view ticket plans on selecting Non-rechargeable ticket with details and prices, so that I can decide what plan is suitable for me to buy.
+
+This user story is implemented using Java with textual user interface. Since there is not a database so that system can read ticket information from a DB, a HashMap data structure is used to save the information about different ticket plans. Using console input/output user can communicate with the system.
+
+\begin{flushleft}
+	\textbf{Instruction of Use}
+	This program is a Ticket Vending Machine simulator and displays ticket plans with details and fares to TVM user upon selecting Non-rechargeable ticket plans.
+	When user selects the ticket type as "Non-rechargeable ticket" and selects to view ticket plans, this program displays the ticket plans and details to the user.
+	First, the program description and the instruction are displayed to the user, then the list of ticket types is displayed to the user as shown in \ref{fig:tvm05} \\
+	
+	
+	\begin{figure}[!htb]
+		\fbox{\includegraphics[width=18cm, height=19cm]{Implementation/TVM05.JPG}}
+		\caption{\label{fig:tvm05}User Story: TVM-US-05}	
+	\end{figure}
+	
+	\vspace{0.5cm}
+	\textbf{Quality Attribute Constraints \cite{qualitykamthan}}
+	
+	\vspace{0.5cm}
+	\textbf{Usability:} To increase user satisfaction usability quality attribute is considered as follow.\\
+	
+	\vspace{0.5cm}
+	\textbf{Data Structures: }The user is able to login into the system with a given username and password  Since we are not considering any database for the TVM application back end. The user will be able to login with a one user name and password only.\\
+	
+	\vspace{0.5cm}
+	\textbf{Programming Platform: } Java Enterprise Edition \\
+	\textbf{User Interface:} Textual \\
+	\textbf{Constraints covered:} Performance-G-01 \\
+	
+	\vspace{0.5cm}
+	\textbf{User Error Protection:} The input is validated and if it is not a number an error message is displayed to user to correct the input. Also the input is verified to be in the correct range which is between 1 and 10, and if it is not in the valid range, an error message is displayed to the user as follow and user is asked to re-enter the input. \\
+	\textbf{Usability:} To increase user satisfaction usability quality attribute is considered as follow.\\
+	\textbf{Maintainability: } To increase maintainability, a HashMap data structure is dened which saves different ticket types and fares and details. With this implementation, if new plan needs to be added later, it can be added to the data structure with minimal modication. \\
+	\textbf{Learnability: } At the beginning of the program, the type of program and its purpose is	displayed to the user and a user manual about how to use the system is 	displayed as well. \\
+	\textbf{Operability: }To make the system operable, system keeps running until user enter "Q" to quite the program. Otherwise user can return to the main menu and view 	the detail for different ticket types. Also, to make the system understandable for the user, after showing the result of his/her request, the system freezes so that user can see the result. User asked to press enter to continue and return to the main menu. \\
+	\textbf{Accessiblity: } In this project it is not possible to implement accessibility constraint which is using a screen reader as it needs hardware equipment which is not possible to prepare. \\
+	
+\end{flushleft}
+
+
+
+
+%======================================================================
+%				User Story: TVM-US-07
+%======================================================================
+\FloatBarrier
+\vspace{0.5cm}
+\subsection{Implementations - User Story: TVM-US-07}
+As a commuter, I want to be able to make a payment using cash, So that I can purchase ticket and get confirmation receipt.
+
+\begin{flushleft}
+	\textbf{Implementation}
+	The user story is implemented by using primitive types in which bill is displayed on the screen and user is asked to enter the amount for the cash. Then the user is requested to collect the balance and receipt. \\
+	
+	\textbf{Instructions of Use}
+	The TVM simulator for payment by cash begins with displaying the bill. Then the user is asked to enter the amount for the payment. After the successful payment, the user is again asked to collect the balance and if he needs the transaction receipt. The receipt is printed based on the response of the user.
+	
+	\begin{figure}[!htb]
+		\fbox{\includegraphics[width=18cm, height=10cm]{Implementation/TVM07.png}}
+		\caption{\label{fig:tvm07}User Story: TVM-US-07}	
+	\end{figure} 
+	
+	\vspace{0.5cm}
+	\textbf{Programming Platform: } Java Enterprise Edition \\
+	\textbf{User Interface:} Textual \\
+	\textbf{Constraints covered:} Performance-G-01 \\
+	
+	\vspace{0.5cm}
+	\textbf{User Error Protection:} It will be made sure that user provides the right input in required format. \\
+	\textbf{Accessiblity: } In this project it is not possible to implement accessibility constraint which is using a screen reader as it needs hardware equipment which is not possible to prepare. \\
+	
+\end{flushleft}
+
+
+
+
+
+%======================================================================
+%				User Story: TVM-US-09
+%======================================================================
+\FloatBarrier
+\vspace{0.5cm}
+\subsection{Implementations - User Story: TVM-US-09}
+As a commuter, I want to be able to cancel selected plan, So that I won't get charged and I can make changes later if I want in my purchase.
+
+\begin{flushleft}
+	\textbf{Implementation}
+	The user story is implemented by using primitive types in which user selected plan is displayed to the user with options to "make a payment" or "cancel" the current transaction. Make a payment directs the user to the making a cash or card payment page while the cancel button directs user to homepage. \\ 
+	
+	\vspace{0.5cm}
+	\textbf{Instructions of Use}
+	\begin{itemize}
+		\item Extract the Zip folder.
+		\item Click on the PaymentPage.html file and open the file in browser.
+		\item It will open a webpage for cancel functionality.
+		\item The page will display two buttons – “cancel” and “make payment”.
+		\item To make a payment for your selected plan click on “make payment” button and it will take you to the payment mode selection page
+		\item To cancel a payment, click on “Cancel” button which will take you to the homepage of TVM.
+	\end{itemize}
+	
+	\begin{figure}[!htb]
+		\fbox{\includegraphics[width=18cm, height=10cm]{Implementation/TVM09.PNG}}
+		\caption{\label{fig:tvm09}User Story: TVM-US-09}	
+	\end{figure}
+	
+	\vspace{0.5cm}
+	\textbf{Programming Platform: } HTML, CSS, Bootstrap \\
+	\textbf{User Interface:} Textual, Graphical \\
+	\textbf{Constraints covered:} Performance-G-01 \\
+	
+	
+	\vspace{0.5cm}
+	\textbf{Quality Attribute Constraints}
+	
+	\vspace{0.5cm}
+	\textbf{User Error Protection:} It will be made sure that user provides the right input. At this screen the system has only 2 active buttons on the GUI that is either move to payment screen or cancel the transaction. No other input from user will be considered. \\
+	\textbf{Maintainability: } The system does not depend on other modules for data and can easily me modified as per the future requirements. \\
+	\textbf{Learnability: } User will be displayed only the necessary interaction components on the GUI. By hiding irrelevant details on payment selection screen makes it easier for user to navigate to the other steps. \\
+	\textbf{Acessiblity: } In this project it is not possible to implement accessibility constraint which is using a screen reader. Also there will be a 3.5mm jack provided on the tvm for the visually impaired users which is also not possible to demonstrate here as it is hardware dependent. \\
+	
+\end{flushleft}
 
 
 %=================================================================
@@ -1641,7 +2148,9 @@ GitHub - \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 \appendix
 \addcontentsline{toc}{section}{Appendices}
 \renewcommand{\thesection}{\Alph{section}}
-
+\section{Appendix}
+\subsection{Interviews}
+Users are Interviewed and the results are accessable at: \href{https://github.com/m3hrn4z/SRS}{https://github.com/m3hrn4z/SRS}
 
 
 
